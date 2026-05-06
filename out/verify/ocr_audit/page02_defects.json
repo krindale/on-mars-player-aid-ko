@@ -1,0 +1,241 @@
+{
+  "page": 2,
+  "in_image": [
+    {
+      "text": "290800",
+      "bbox": [
+        687,
+        235,
+        993,
+        1304
+      ],
+      "conf": 75.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_022"
+    },
+    {
+      "text": "8.",
+      "bbox": [
+        922,
+        1504,
+        946,
+        1527
+      ],
+      "conf": 96.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_041"
+    },
+    {
+      "text": "HYDROPONIC",
+      "bbox": [
+        952,
+        1494,
+        1155,
+        1531
+      ],
+      "src": "both",
+      "vtext": "HYDROPONIC",
+      "verdict": "in_image",
+      "region_id": "p2_img_043"
+    },
+    {
+      "text": "FARM",
+      "bbox": [
+        1169,
+        1494,
+        1249,
+        1531
+      ],
+      "src": "both",
+      "vtext": "FARM",
+      "verdict": "in_image",
+      "region_id": "p2_img_045"
+    },
+    {
+      "text": "+",
+      "bbox": [
+        1357,
+        1503,
+        1368,
+        1520
+      ],
+      "conf": 59.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_039"
+    },
+    {
+      "text": "§Gain",
+      "bbox": [
+        926,
+        1531,
+        1011,
+        1563
+      ],
+      "src": "both",
+      "vtext": "Gain",
+      "verdict": "in_image",
+      "region_id": "p2_img_048"
+    },
+    {
+      "text": "Plant",
+      "bbox": [
+        1045,
+        1531,
+        1124,
+        1561
+      ],
+      "src": "both",
+      "vtext": "Plant",
+      "verdict": "in_image",
+      "region_id": "p2_img_050"
+    },
+    {
+      "text": "<a",
+      "bbox": [
+        1325,
+        1510,
+        1395,
+        1567
+      ],
+      "conf": 44.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_039"
+    },
+    {
+      "text": "Greenhouse",
+      "bbox": [
+        1404,
+        1531,
+        1593,
+        1561
+      ],
+      "src": "both",
+      "vtext": "Greenhouse",
+      "verdict": "in_image",
+      "region_id": "p2_img_053"
+    },
+    {
+      "text": "()",
+      "bbox": [
+        1781,
+        1533,
+        1799,
+        1564
+      ],
+      "conf": 74.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_054"
+    },
+    {
+      "text": "Biochemist",
+      "bbox": [
+        1800,
+        1531,
+        1984,
+        1561
+      ],
+      "src": "both",
+      "vtext": "Biochemist",
+      "verdict": "in_image",
+      "region_id": "p2_img_046"
+    },
+    {
+      "text": "to",
+      "bbox": [
+        3369,
+        1195,
+        3405,
+        1232
+      ],
+      "src": "both",
+      "vtext": "to",
+      "verdict": "in_image",
+      "region_id": "p2_img_033"
+    },
+    {
+      "text": "Tile,",
+      "bbox": [
+        3620,
+        1567,
+        3692,
+        1605
+      ],
+      "src": "both",
+      "vtext": "Tile,",
+      "verdict": "in_image",
+      "region_id": "p2_img_058"
+    },
+    {
+      "text": "fulfil",
+      "bbox": [
+        3698,
+        1567,
+        3793,
+        1604
+      ],
+      "src": "both",
+      "vtext": "fulfil",
+      "verdict": "in_image",
+      "region_id": "p2_img_059"
+    },
+    {
+      "text": "Contract",
+      "bbox": [
+        3780,
+        1567,
+        3923,
+        1604
+      ],
+      "src": "both",
+      "vtext": "Contract",
+      "verdict": "in_image",
+      "region_id": "p2_img_060"
+    },
+    {
+      "text": "1₺3",
+      "bbox": [
+        1596,
+        152,
+        1670,
+        189
+      ],
+      "conf": 100.0,
+      "src": "vision-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_001"
+    },
+    {
+      "text": "4",
+      "bbox": [
+        921,
+        1531,
+        935,
+        1561
+      ],
+      "conf": 100.0,
+      "src": "vision-only",
+      "verdict": "in_image",
+      "region_id": "p2_img_047"
+    }
+  ],
+  "no_region": [
+    {
+      "text": "1",
+      "bbox": [
+        1022,
+        1531,
+        1036,
+        1561
+      ],
+      "src": "both",
+      "vtext": "1",
+      "verdict": "no_region",
+      "region_id": null
+    }
+  ]
+}

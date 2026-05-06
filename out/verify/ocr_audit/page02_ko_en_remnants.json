@@ -1,0 +1,3434 @@
+[
+  {
+    "text": "X}7|",
+    "bbox": [
+      306,
+      506,
+      354,
+      532
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SHS",
+    "bbox": [
+      365,
+      506,
+      441,
+      532
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AlcH",
+    "bbox": [
+      450,
+      506,
+      499,
+      532
+    ],
+    "conf": 31.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EE",
+    "bbox": [
+      365,
+      550,
+      415,
+      575
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "GIS",
+    "bbox": [
+      425,
+      549,
+      474,
+      575
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "IHS.",
+    "bbox": [
+      543,
+      549,
+      598,
+      575
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AAP",
+    "bbox": [
+      307,
+      631,
+      381,
+      657
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "aS,",
+    "bbox": [
+      454,
+      631,
+      491,
+      657
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SIC}",
+    "bbox": [
+      392,
+      1002,
+      439,
+      1028
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ASO",
+    "bbox": [
+      500,
+      1002,
+      574,
+      1028
+    ],
+    "conf": 62.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AP|",
+    "bbox": [
+      585,
+      1002,
+      633,
+      1028
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "RS",
+    "bbox": [
+      646,
+      1003,
+      691,
+      1028
+    ],
+    "conf": 76.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ASE",
+    "bbox": [
+      484,
+      1045,
+      560,
+      1071
+    ],
+    "conf": 77.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HIS:",
+    "bbox": [
+      293,
+      1085,
+      363,
+      1153
+    ],
+    "src": "both",
+    "vtext": "Ne"
+  },
+  {
+    "text": "SAA",
+    "bbox": [
+      307,
+      1160,
+      406,
+      1186
+    ],
+    "conf": 32.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Are!",
+    "bbox": [
+      417,
+      1160,
+      465,
+      1186
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "1S",
+    "bbox": [
+      477,
+      1160,
+      516,
+      1184
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SS",
+    "bbox": [
+      443,
+      1837,
+      493,
+      1863
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "O|",
+    "bbox": [
+      307,
+      1940,
+      328,
+      1966
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "S34",
+    "bbox": [
+      332,
+      1940,
+      380,
+      1966
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SICH",
+    "bbox": [
+      391,
+      1940,
+      440,
+      1966
+    ],
+    "conf": 36.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "RS",
+    "bbox": [
+      644,
+      1941,
+      694,
+      1966
+    ],
+    "conf": 90.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "O|S.",
+    "bbox": [
+      307,
+      1983,
+      362,
+      2009
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ASE",
+    "bbox": [
+      484,
+      1983,
+      560,
+      2009
+    ],
+    "conf": 82.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Be",
+    "bbox": [
+      306,
+      2088,
+      357,
+      2114
+    ],
+    "conf": 75.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS",
+    "bbox": [
+      477,
+      2088,
+      526,
+      2114
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ea",
+    "bbox": [
+      700,
+      2088,
+      749,
+      2114
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "7hs.",
+    "bbox": [
+      365,
+      2131,
+      421,
+      2157
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Ae",
+    "bbox": [
+      544,
+      2131,
+      593,
+      2157
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "+e.",
+    "bbox": [
+      443,
+      2174,
+      499,
+      2200
+    ],
+    "conf": 65.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "S15.",
+    "bbox": [
+      599,
+      2257,
+      655,
+      2283
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ET}",
+    "bbox": [
+      535,
+      2300,
+      586,
+      2326
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "te",
+    "bbox": [
+      818,
+      1458,
+      827,
+      1466
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Q",
+    "bbox": [
+      778,
+      775,
+      903,
+      919
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "is",
+    "bbox": [
+      855,
+      1458,
+      863,
+      1466
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SAE",
+    "bbox": [
+      1293,
+      154,
+      1383,
+      186
+    ],
+    "conf": 36.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "aS",
+    "bbox": [
+      1395,
+      154,
+      1454,
+      186
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ant",
+    "bbox": [
+      1403,
+      259,
+      1454,
+      285
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HS",
+    "bbox": [
+      1278,
+      322,
+      1324,
+      348
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BIS",
+    "bbox": [
+      1500,
+      322,
+      1546,
+      348
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS",
+    "bbox": [
+      1558,
+      322,
+      1605,
+      348
+    ],
+    "conf": 73.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "T",
+    "bbox": [
+      1694,
+      339,
+      1698,
+      348
+    ],
+    "conf": 92.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "GIS",
+    "bbox": [
+      1692,
+      483,
+      1738,
+      509
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SAEOICE",
+    "bbox": [
+      1817,
+      483,
+      1952,
+      509
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "o|",
+    "bbox": [
+      1964,
+      483,
+      1985,
+      509
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Fue",
+    "bbox": [
+      926,
+      622,
+      1022,
+      651
+    ],
+    "conf": 36.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "12S",
+    "bbox": [
+      1053,
+      622,
+      1103,
+      650
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "R&D",
+    "bbox": [
+      1781,
+      622,
+      1870,
+      652
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "He",
+    "bbox": [
+      921,
+      666,
+      971,
+      691
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "US",
+    "bbox": [
+      981,
+      665,
+      1030,
+      691
+    ],
+    "conf": 81.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AM:",
+    "bbox": [
+      1039,
+      665,
+      1096,
+      691
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "St",
+    "bbox": [
+      1006,
+      708,
+      1031,
+      734
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HH",
+    "bbox": [
+      1040,
+      708,
+      1061,
+      734
+    ],
+    "conf": 64.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "CY",
+    "bbox": [
+      1073,
+      708,
+      1094,
+      734
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "At.",
+    "bbox": [
+      1105,
+      708,
+      1161,
+      734
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "QR&D",
+    "bbox": [
+      1781,
+      804,
+      1870,
+      834
+    ],
+    "conf": 85.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "De",
+    "bbox": [
+      921,
+      848,
+      971,
+      873
+    ],
+    "conf": 64.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Us",
+    "bbox": [
+      987,
+      847,
+      1026,
+      873
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AM:",
+    "bbox": [
+      1039,
+      847,
+      1190,
+      873
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Stat",
+    "bbox": [
+      1615,
+      847,
+      1649,
+      865
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A]",
+    "bbox": [
+      1688,
+      847,
+      1706,
+      873
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Be.",
+    "bbox": [
+      1786,
+      847,
+      1832,
+      871
+    ],
+    "conf": 69.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WA",
+    "bbox": [
+      2034,
+      841,
+      2073,
+      883
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Hao)",
+    "bbox": [
+      921,
+      890,
+      995,
+      916
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ES",
+    "bbox": [
+      1007,
+      890,
+      1056,
+      916
+    ],
+    "conf": 65.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "<B>",
+    "bbox": [
+      1329,
+      975,
+      1395,
+      1017
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SRUAGI+",
+    "bbox": [
+      1491,
+      1009,
+      1652,
+      1065
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "3g",
+    "bbox": [
+      1916,
+      1009,
+      1949,
+      1065
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HAs.",
+    "bbox": [
+      1972,
+      1030,
+      2049,
+      1056
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Al",
+    "bbox": [
+      1281,
+      1047,
+      1299,
+      1056
+    ],
+    "conf": 81.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AO",
+    "bbox": [
+      999,
+      1124,
+      1031,
+      1158
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "axel",
+    "bbox": [
+      1403,
+      1150,
+      1478,
+      1196
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ANS",
+    "bbox": [
+      1279,
+      1212,
+      1351,
+      1238
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SSAA",
+    "bbox": [
+      1532,
+      1212,
+      1633,
+      1238
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Be.",
+    "bbox": [
+      1862,
+      1212,
+      1917,
+      1238
+    ],
+    "conf": 71.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "a0",
+    "bbox": [
+      1713,
+      1229,
+      1757,
+      1238
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "for",
+    "bbox": [
+      1001,
+      1169,
+      1018,
+      1187
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Shae",
+    "bbox": [
+      921,
+      1127,
+      972,
+      1281
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "jo",
+    "bbox": [
+      1013,
+      1257,
+      1035,
+      1281
+    ],
+    "conf": 70.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Mo",
+    "bbox": [
+      1005,
+      1189,
+      1030,
+      1238
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A:",
+    "bbox": [
+      1065,
+      1394,
+      1096,
+      1414
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BDO",
+    "bbox": [
+      1108,
+      1394,
+      1207,
+      1420
+    ],
+    "conf": 31.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BAAS",
+    "bbox": [
+      1220,
+      1394,
+      1321,
+      1420
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EE",
+    "bbox": [
+      1349,
+      1395,
+      1397,
+      1420
+    ],
+    "conf": 66.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "11S,",
+    "bbox": [
+      1483,
+      1394,
+      1539,
+      1420
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "APS!",
+    "bbox": [
+      1807,
+      1394,
+      1855,
+      1420
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EE",
+    "bbox": [
+      1866,
+      1395,
+      1916,
+      1420
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "OW",
+    "bbox": [
+      947,
+      1395,
+      971,
+      1420
+    ],
+    "conf": 63.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "oe",
+    "bbox": [
+      980,
+      1437,
+      1002,
+      1463
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "pS",
+    "bbox": [
+      981,
+      1394,
+      1003,
+      1420
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "MH",
+    "bbox": [
+      974,
+      1353,
+      998,
+      1378
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "mo",
+    "bbox": [
+      1006,
+      1395,
+      1030,
+      1420
+    ],
+    "conf": 65.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "N",
+    "bbox": [
+      948,
+      1440,
+      961,
+      1458
+    ],
+    "conf": 88.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "for",
+    "bbox": [
+      1027,
+      1534,
+      1049,
+      1553
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "din",
+    "bbox": [
+      1053,
+      1536,
+      1077,
+      1562
+    ],
+    "conf": 92.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "o",
+    "bbox": [
+      1039,
+      1579,
+      1051,
+      1591
+    ],
+    "conf": 80.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "I",
+    "bbox": [
+      1031,
+      1554,
+      1049,
+      1561
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ie",
+    "bbox": [
+      1053,
+      1577,
+      1062,
+      1593
+    ],
+    "conf": 31.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "fiend",
+    "bbox": [
+      1065,
+      1577,
+      1088,
+      1603
+    ],
+    "conf": 40.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "St",
+    "bbox": [
+      1677,
+      1577,
+      1728,
+      1595
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A)",
+    "bbox": [
+      1736,
+      1577,
+      1758,
+      1603
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HE.",
+    "bbox": [
+      1770,
+      1577,
+      1884,
+      1603
+    ],
+    "conf": 32.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "a0",
+    "bbox": [
+      1680,
+      1594,
+      1724,
+      1603
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "d:",
+    "bbox": [
+      1043,
+      1594,
+      1062,
+      1603
+    ],
+    "conf": 68.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "mM!",
+    "bbox": [
+      922,
+      1620,
+      943,
+      1646
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "mw",
+    "bbox": [
+      948,
+      1620,
+      970,
+      1646
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "GW",
+    "bbox": [
+      947,
+      1578,
+      971,
+      1603
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "py",
+    "bbox": [
+      981,
+      1577,
+      1003,
+      1603
+    ],
+    "conf": 78.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "io",
+    "bbox": [
+      974,
+      1537,
+      998,
+      1561
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "rau",
+    "bbox": [
+      1006,
+      1578,
+      1050,
+      1646
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "on",
+    "bbox": [
+      1000,
+      1488,
+      1029,
+      1523
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      1042,
+      1489,
+      1074,
+      1523
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "oz",
+    "bbox": [
+      1076,
+      1488,
+      1108,
+      1523
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "aa)",
+    "bbox": [
+      1066,
+      1621,
+      1082,
+      1645
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "rm",
+    "bbox": [
+      965,
+      1670,
+      997,
+      1705
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "b>",
+    "bbox": [
+      999,
+      1672,
+      1031,
+      1701
+    ],
+    "conf": 70.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "kh",
+    "bbox": [
+      921,
+      1782,
+      945,
+      1803
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ow",
+    "bbox": [
+      922,
+      1674,
+      942,
+      1745
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "th",
+    "bbox": [
+      947,
+      1781,
+      971,
+      1806
+    ],
+    "conf": 40.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "b>",
+    "bbox": [
+      974,
+      1718,
+      998,
+      1740
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Jot",
+    "bbox": [
+      1027,
+      1716,
+      1049,
+      1743
+    ],
+    "conf": 70.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "din",
+    "bbox": [
+      1053,
+      1718,
+      1077,
+      1744
+    ],
+    "conf": 92.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ro)",
+    "bbox": [
+      922,
+      1856,
+      961,
+      1884
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "“OW",
+    "bbox": [
+      984,
+      1853,
+      1016,
+      1923
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "or",
+    "bbox": [
+      1014,
+      1895,
+      1058,
+      1917
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "din",
+    "bbox": [
+      1053,
+      1900,
+      1077,
+      1926
+    ],
+    "conf": 91.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Be.",
+    "bbox": [
+      1836,
+      1941,
+      1891,
+      1967
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "o|",
+    "bbox": [
+      2049,
+      1941,
+      2070,
+      1967
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "o",
+    "bbox": [
+      1039,
+      1943,
+      1051,
+      1955
+    ],
+    "conf": 82.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "I",
+    "bbox": [
+      1031,
+      1918,
+      1049,
+      1925
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "iS",
+    "bbox": [
+      1053,
+      1941,
+      1062,
+      1957
+    ],
+    "conf": 36.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "wz",
+    "bbox": [
+      948,
+      1984,
+      970,
+      2010
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "OW",
+    "bbox": [
+      947,
+      1942,
+      971,
+      1967
+    ],
+    "conf": 69.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "re",
+    "bbox": [
+      948,
+      1903,
+      973,
+      1925
+    ],
+    "conf": 63.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Mm",
+    "bbox": [
+      922,
+      1984,
+      943,
+      2010
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "bw",
+    "bbox": [
+      921,
+      1898,
+      945,
+      1964
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "to",
+    "bbox": [
+      1032,
+      1984,
+      1054,
+      2010
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "hw",
+    "bbox": [
+      921,
+      2080,
+      945,
+      2168
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "IS.",
+    "bbox": [
+      1654,
+      2145,
+      1699,
+      2171
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "De",
+    "bbox": [
+      921,
+      2307,
+      971,
+      2332
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AB",
+    "bbox": [
+      981,
+      2306,
+      1030,
+      2332
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WM:",
+    "bbox": [
+      1039,
+      2306,
+      1096,
+      2333
+    ],
+    "conf": 68.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BA",
+    "bbox": [
+      1108,
+      2306,
+      1158,
+      2332
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "MEY",
+    "bbox": [
+      1277,
+      2306,
+      1325,
+      2332
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A,",
+    "bbox": [
+      1355,
+      2306,
+      1410,
+      2332
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SHE",
+    "bbox": [
+      1589,
+      2306,
+      1650,
+      2322
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Ale",
+    "bbox": [
+      1658,
+      2306,
+      1738,
+      2332
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HE.",
+    "bbox": [
+      1751,
+      2306,
+      1806,
+      2330
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "eS",
+    "bbox": [
+      1823,
+      1780,
+      1869,
+      1806
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EPS",
+    "bbox": [
+      1882,
+      1780,
+      1929,
+      1806
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "S15.",
+    "bbox": [
+      2019,
+      1780,
+      2073,
+      1806
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Q",
+    "bbox": [
+      3118,
+      439,
+      3137,
+      466
+    ],
+    "conf": 73.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Bat",
+    "bbox": [
+      2634,
+      505,
+      2684,
+      531
+    ],
+    "conf": 70.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AI",
+    "bbox": [
+      2803,
+      505,
+      2853,
+      531
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ANF",
+    "bbox": [
+      2863,
+      505,
+      2912,
+      531
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SIS,",
+    "bbox": [
+      2939,
+      505,
+      2995,
+      531
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "es",
+    "bbox": [
+      2666,
+      609,
+      2732,
+      648
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "US",
+    "bbox": [
+      2318,
+      665,
+      2367,
+      691
+    ],
+    "conf": 77.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WM:",
+    "bbox": [
+      2376,
+      665,
+      2433,
+      692
+    ],
+    "conf": 83.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EFA}",
+    "bbox": [
+      2445,
+      665,
+      2495,
+      691
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WIZ",
+    "bbox": [
+      2563,
+      665,
+      2610,
+      691
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "12S",
+    "bbox": [
+      2714,
+      665,
+      2774,
+      691
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "O|",
+    "bbox": [
+      2784,
+      665,
+      2805,
+      691
+    ],
+    "conf": 36.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SCH.",
+    "bbox": [
+      2934,
+      665,
+      2990,
+      691
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "LAS",
+    "bbox": [
+      3122,
+      665,
+      3221,
+      691
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AA",
+    "bbox": [
+      3230,
+      665,
+      3278,
+      691
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ss.",
+    "bbox": [
+      3289,
+      665,
+      3345,
+      691
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "P-L",
+    "bbox": [
+      2403,
+      708,
+      2476,
+      734
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WMS",
+    "bbox": [
+      2487,
+      708,
+      2560,
+      734
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "YAS",
+    "bbox": [
+      2608,
+      708,
+      2704,
+      734
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "CHA",
+    "bbox": [
+      2717,
+      708,
+      2764,
+      734
+    ],
+    "conf": 64.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HO]",
+    "bbox": [
+      2887,
+      708,
+      2934,
+      734
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Al600",
+    "bbox": [
+      2475,
+      756,
+      2589,
+      793
+    ],
+    "src": "both",
+    "vtext": "A"
+  },
+  {
+    "text": "il}",
+    "bbox": [
+      2284,
+      871,
+      2308,
+      896
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "CE",
+    "bbox": [
+      2478,
+      870,
+      2553,
+      896
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS",
+    "bbox": [
+      2563,
+      870,
+      2609,
+      896
+    ],
+    "conf": 90.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SAS",
+    "bbox": [
+      2983,
+      870,
+      3064,
+      896
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BS",
+    "bbox": [
+      2666,
+      975,
+      2732,
+      1012
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A]",
+    "bbox": [
+      2614,
+      1029,
+      2662,
+      1055
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SS",
+    "bbox": [
+      2674,
+      1029,
+      2720,
+      1055
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "1g",
+    "bbox": [
+      2792,
+      1029,
+      2826,
+      1053
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AICH",
+    "bbox": [
+      2836,
+      1029,
+      2883,
+      1055
+    ],
+    "conf": 66.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BHM",
+    "bbox": [
+      2945,
+      1029,
+      2993,
+      1055
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EE",
+    "bbox": [
+      3005,
+      1030,
+      3053,
+      1055
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "27H",
+    "bbox": [
+      3063,
+      1029,
+      3101,
+      1055
+    ],
+    "conf": 63.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EIS",
+    "bbox": [
+      3113,
+      1029,
+      3159,
+      1055
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Efe!",
+    "bbox": [
+      3172,
+      1029,
+      3219,
+      1055
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HS",
+    "bbox": [
+      2575,
+      1072,
+      2624,
+      1098
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "CW",
+    "bbox": [
+      2284,
+      1030,
+      2308,
+      1055
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "mo.",
+    "bbox": [
+      2285,
+      968,
+      2309,
+      1009
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "V.",
+    "bbox": [
+      2693,
+      1138,
+      2704,
+      1155
+    ],
+    "conf": 32.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ABO",
+    "bbox": [
+      2503,
+      1226,
+      2629,
+      1252
+    ],
+    "conf": 40.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "O15.",
+    "bbox": [
+      3024,
+      1226,
+      3079,
+      1252
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "How",
+    "bbox": [
+      2258,
+      1169,
+      2282,
+      1249
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "OW",
+    "bbox": [
+      2284,
+      1227,
+      2308,
+      1252
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "mo",
+    "bbox": [
+      2285,
+      1167,
+      2309,
+      1192
+    ],
+    "conf": 56.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "wa",
+    "bbox": [
+      2339,
+      1357,
+      2399,
+      1377
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "(ll",
+    "bbox": [
+      2258,
+      1302,
+      2399,
+      1342
+    ],
+    "src": "both",
+    "vtext": "19"
+  },
+  {
+    "text": "JIN",
+    "bbox": [
+      2390,
+      1350,
+      2414,
+      1376
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "pu",
+    "bbox": [
+      2398,
+      1306,
+      2425,
+      1341
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "by",
+    "bbox": [
+      2430,
+      1305,
+      2495,
+      1342
+    ],
+    "src": "both",
+    "vtext": "E"
+  },
+  {
+    "text": "Im",
+    "bbox": [
+      2464,
+      1309,
+      2496,
+      1337
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "OHM",
+    "bbox": [
+      2529,
+      1395,
+      2577,
+      1421
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SSUAS",
+    "bbox": [
+      2956,
+      1395,
+      3027,
+      1421
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "UH",
+    "bbox": [
+      3040,
+      1395,
+      3086,
+      1421
+    ],
+    "conf": 66.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EL",
+    "bbox": [
+      3100,
+      1396,
+      3145,
+      1421
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Hs",
+    "bbox": [
+      3158,
+      1395,
+      3230,
+      1421
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "MHD",
+    "bbox": [
+      2306,
+      1350,
+      2348,
+      1375
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "nH",
+    "bbox": [
+      2343,
+      1396,
+      2367,
+      1421
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "wt",
+    "bbox": [
+      2368,
+      1368,
+      2399,
+      1422
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "hw",
+    "bbox": [
+      2258,
+      1310,
+      2282,
+      1418
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "din",
+    "bbox": [
+      2390,
+      1531,
+      2414,
+      1557
+    ],
+    "conf": 92.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "pS",
+    "bbox": [
+      2318,
+      1578,
+      2340,
+      1604
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "THO",
+    "bbox": [
+      2311,
+      1531,
+      2335,
+      1556
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "an",
+    "bbox": [
+      2343,
+      1622,
+      2367,
+      1647
+    ],
+    "conf": 32.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "THO",
+    "bbox": [
+      2343,
+      1579,
+      2367,
+      1604
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "r",
+    "bbox": [
+      2407,
+      1596,
+      2425,
+      1604
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "iat",
+    "bbox": [
+      2318,
+      1668,
+      2348,
+      1709
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AA",
+    "bbox": [
+      3023,
+      1578,
+      3066,
+      1604
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "FASO:",
+    "bbox": [
+      3173,
+      1578,
+      3308,
+      1604
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "APB",
+    "bbox": [
+      3319,
+      1578,
+      3367,
+      1604
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "a5",
+    "bbox": [
+      3110,
+      1597,
+      3153,
+      1604
+    ],
+    "conf": 40.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Are!",
+    "bbox": [
+      2640,
+      1578,
+      2688,
+      1604
+    ],
+    "conf": 57.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Al",
+    "bbox": [
+      2717,
+      1578,
+      2739,
+      1604
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "wh",
+    "bbox": [
+      2259,
+      1496,
+      2278,
+      1559
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Sm",
+    "bbox": [
+      2284,
+      1547,
+      2309,
+      1647
+    ],
+    "conf": 69.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "V.",
+    "bbox": [
+      2693,
+      1691,
+      2704,
+      1708
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "<b",
+    "bbox": [
+      2666,
+      1703,
+      2732,
+      1742
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AA",
+    "bbox": [
+      2740,
+      1713,
+      2790,
+      1739
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SII",
+    "bbox": [
+      2799,
+      1713,
+      2873,
+      1739
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "2S",
+    "bbox": [
+      2589,
+      1758,
+      2626,
+      1781
+    ],
+    "conf": 78.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Ap]",
+    "bbox": [
+      2723,
+      1757,
+      2771,
+      1783
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BSS",
+    "bbox": [
+      2784,
+      1757,
+      2856,
+      1783
+    ],
+    "conf": 68.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SHAR",
+    "bbox": [
+      2894,
+      1757,
+      2967,
+      1783
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Aa",
+    "bbox": [
+      2740,
+      1895,
+      2790,
+      1921
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "CHAS",
+    "bbox": [
+      2615,
+      1941,
+      2663,
+      1967
+    ],
+    "conf": 44.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ASS",
+    "bbox": [
+      2758,
+      1941,
+      2805,
+      1967
+    ],
+    "conf": 75.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ol",
+    "bbox": [
+      2911,
+      1941,
+      2958,
+      1967
+    ],
+    "conf": 35.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HA",
+    "bbox": [
+      2969,
+      1941,
+      3017,
+      1965
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "TW",
+    "bbox": [
+      2284,
+      1758,
+      2308,
+      1783
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "re",
+    "bbox": [
+      2252,
+      1672,
+      2423,
+      1745
+    ],
+    "src": "both",
+    "vtext": "·AA195"
+  },
+  {
+    "text": "rye",
+    "bbox": [
+      2318,
+      1757,
+      2340,
+      1783
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "be",
+    "bbox": [
+      2311,
+      1714,
+      2335,
+      1736
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "N",
+    "bbox": [
+      2282,
+      1856,
+      2301,
+      1884
+    ],
+    "conf": 68.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ot",
+    "bbox": [
+      2284,
+      1984,
+      2306,
+      2010
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "IW",
+    "bbox": [
+      2284,
+      1942,
+      2308,
+      1965
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "re",
+    "bbox": [
+      2285,
+      1895,
+      2310,
+      1921
+    ],
+    "conf": 64.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "~w",
+    "bbox": [
+      2254,
+      2082,
+      2285,
+      2111
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ND",
+    "bbox": [
+      2252,
+      2031,
+      2325,
+      2068
+    ],
+    "src": "both",
+    "vtext": "23."
+  },
+  {
+    "text": "Ju",
+    "bbox": [
+      2285,
+      2080,
+      2309,
+      2101
+    ],
+    "conf": 59.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "sy",
+    "bbox": [
+      2666,
+      2052,
+      2733,
+      2117
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BS.",
+    "bbox": [
+      2931,
+      2146,
+      2978,
+      2172
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "qh",
+    "bbox": [
+      2284,
+      2147,
+      2308,
+      2172
+    ],
+    "conf": 40.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ae",
+    "bbox": [
+      2744,
+      2260,
+      2788,
+      2287
+    ],
+    "conf": 49.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "H",
+    "bbox": [
+      2674,
+      2306,
+      2695,
+      2332
+    ],
+    "conf": 75.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BS",
+    "bbox": [
+      2707,
+      2306,
+      2753,
+      2332
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SHS",
+    "bbox": [
+      3021,
+      2306,
+      3042,
+      2332
+    ],
+    "conf": 76.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Zt",
+    "bbox": [
+      3078,
+      2302,
+      3104,
+      2345
+    ],
+    "conf": 52.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SH",
+    "bbox": [
+      2258,
+      2308,
+      2282,
+      2375
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "of",
+    "bbox": [
+      2284,
+      2350,
+      2314,
+      2375
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "TH",
+    "bbox": [
+      2284,
+      2307,
+      2308,
+      2332
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "tz",
+    "bbox": [
+      3720,
+      169,
+      3779,
+      201
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "7st",
+    "bbox": [
+      3711,
+      297,
+      3788,
+      323
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "R&D",
+    "bbox": [
+      3878,
+      465,
+      3937,
+      487
+    ],
+    "conf": 93.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "UM,",
+    "bbox": [
+      3691,
+      751,
+      3746,
+      779
+    ],
+    "conf": 38.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SABI",
+    "bbox": [
+      3757,
+      751,
+      3832,
+      777
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SIS,",
+    "bbox": [
+      3842,
+      751,
+      3898,
+      779
+    ],
+    "conf": 63.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS",
+    "bbox": [
+      3843,
+      794,
+      3892,
+      820
+    ],
+    "conf": 65.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Y",
+    "bbox": [
+      3901,
+      794,
+      3923,
+      820
+    ],
+    "conf": 78.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS.",
+    "bbox": [
+      3768,
+      837,
+      3824,
+      863
+    ],
+    "conf": 65.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SIAL",
+    "bbox": [
+      3836,
+      837,
+      3885,
+      863
+    ],
+    "conf": 37.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ES",
+    "bbox": [
+      3606,
+      880,
+      3655,
+      906
+    ],
+    "conf": 48.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EPS",
+    "bbox": [
+      3665,
+      880,
+      3713,
+      906
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "20H,",
+    "bbox": [
+      3723,
+      880,
+      3779,
+      908
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "US,",
+    "bbox": [
+      3750,
+      1667,
+      3805,
+      1695
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BAe",
+    "bbox": [
+      3816,
+      1667,
+      3891,
+      1693
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS,",
+    "bbox": [
+      3750,
+      1700,
+      3805,
+      1728
+    ],
+    "conf": 43.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "S",
+    "bbox": [
+      3875,
+      1744,
+      3899,
+      1769
+    ],
+    "conf": 78.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Ae,",
+    "bbox": [
+      3758,
+      1786,
+      3813,
+      1814
+    ],
+    "conf": 39.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "aS",
+    "bbox": [
+      3825,
+      1786,
+      3874,
+      1812
+    ],
+    "conf": 34.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AS.",
+    "bbox": [
+      3801,
+      1829,
+      3857,
+      1855
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "IS",
+    "bbox": [
+      3869,
+      1829,
+      3918,
+      1855
+    ],
+    "conf": 46.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "HOLS,",
+    "bbox": [
+      3668,
+      1872,
+      3739,
+      1900
+    ],
+    "conf": 61.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Eat",
+    "bbox": [
+      3810,
+      1872,
+      3858,
+      1898
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "lof",
+    "bbox": [
+      3935,
+      1872,
+      3986,
+      1898
+    ],
+    "conf": 45.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ld",
+    "bbox": [
+      3631,
+      1875,
+      3655,
+      1895
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Of",
+    "bbox": [
+      3631,
+      1786,
+      3655,
+      1812
+    ],
+    "conf": 33.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Park",
+    "bbox": [
+      3631,
+      1701,
+      3655,
+      1769
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "b",
+    "bbox": [
+      3631,
+      1668,
+      3655,
+      1690
+    ],
+    "conf": 80.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "im",
+    "bbox": [
+      3658,
+      1875,
+      3670,
+      1892
+    ],
+    "conf": 53.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "a",
+    "bbox": [
+      3605,
+      1872,
+      3627,
+      1886
+    ],
+    "conf": 67.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "LSS",
+    "bbox": [
+      3732,
+      2047,
+      3783,
+      2069
+    ],
+    "conf": 91.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "BLA,",
+    "bbox": [
+      3793,
+      2045,
+      3875,
+      2073
+    ],
+    "conf": 71.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "MARI",
+    "bbox": [
+      3886,
+      2045,
+      3961,
+      2071
+    ],
+    "conf": 32.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "Bol",
+    "bbox": [
+      3605,
+      2079,
+      3655,
+      2114
+    ],
+    "conf": 54.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "WE,",
+    "bbox": [
+      3664,
+      2079,
+      3720,
+      2116
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ESS",
+    "bbox": [
+      3737,
+      2075,
+      3780,
+      2126
+    ],
+    "conf": 55.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AOU,",
+    "bbox": [
+      3605,
+      2122,
+      3720,
+      2150
+    ],
+    "conf": 31.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "SIX",
+    "bbox": [
+      3790,
+      2122,
+      3846,
+      2150
+    ],
+    "conf": 31.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "eS",
+    "bbox": [
+      3984,
+      2122,
+      4033,
+      2148
+    ],
+    "conf": 41.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "UA,",
+    "bbox": [
+      3742,
+      2165,
+      3824,
+      2193
+    ],
+    "conf": 51.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "aS",
+    "bbox": [
+      3835,
+      2165,
+      3885,
+      2191
+    ],
+    "conf": 30.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A]",
+    "bbox": [
+      3953,
+      2165,
+      3975,
+      2191
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "MEY",
+    "bbox": [
+      3986,
+      2165,
+      4034,
+      2191
+    ],
+    "conf": 63.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ALE]",
+    "bbox": [
+      3605,
+      2251,
+      3653,
+      2277
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EA",
+    "bbox": [
+      3732,
+      2251,
+      3781,
+      2277
+    ],
+    "conf": 42.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "AHL,",
+    "bbox": [
+      3716,
+      2294,
+      3772,
+      2320
+    ],
+    "conf": 50.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ES",
+    "bbox": [
+      3784,
+      2294,
+      3833,
+      2320
+    ],
+    "conf": 58.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "EFS!",
+    "bbox": [
+      3606,
+      2337,
+      3654,
+      2363
+    ],
+    "conf": 60.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "ay,",
+    "bbox": [
+      3664,
+      2337,
+      3720,
+      2365
+    ],
+    "conf": 47.0,
+    "src": "tess-only"
+  },
+  {
+    "text": "A",
+    "bbox": [
+      2130,
+      1348,
+      2173,
+      1403
+    ],
+    "conf": 100.0,
+    "src": "vision-only"
+  },
+  {
+    "text": "EN1",
+    "bbox": [
+      2349,
+      2031,
+      2422,
+      2068
+    ],
+    "conf": 30.000001192092896,
+    "src": "vision-only"
+  }
+]

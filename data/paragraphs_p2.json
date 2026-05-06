@@ -1,0 +1,4373 @@
+{
+  "_comment": "페이지 별 region 정의. 좌표는 300 DPI 픽셀 기준 (4200×2550 좌표계). bbox = [x0, y0, x1, y1]. text region: 영문 마스킹 + 한글 그리기 영역. image region: 영문 그대로 보존되는 일러스트/아이콘 영역. 각 region 의 'note' 필드는 사람용 설명 (편집 시 참고).",
+  "_field_guide": {
+    "text": {
+      "id": "고유 식별자",
+      "type": "'text'",
+      "mask_bbox": "[x0, y0, x1, y1]  영문 글자를 흰색으로 마스킹할 영역",
+      "text_bbox": "[x0, y0, x1, y1]  한글 텍스트 그릴 영역 (보통 mask_bbox 안)",
+      "text": "한글 번역 본문",
+      "style": "font_map.json 의 스타일 키",
+      "align": "'left' | 'center' | 'right'",
+      "note": "사람용 설명 (자동 생성, 자유 편집)"
+    },
+    "image": {
+      "id": "고유 식별자",
+      "type": "'image'",
+      "bbox": "[x0, y0, x1, y1]  영문 픽셀 그대로 보존할 영역",
+      "note": "사람용 설명 (자동 생성, 자유 편집)"
+    }
+  },
+  "image_size": [
+    4200,
+    2550
+  ],
+  "pdf_size_pt": [
+    1008,
+    612
+  ],
+  "dpi": 300,
+  "page": 2,
+  "regions": [
+    {
+      "id": "p2_exec_01",
+      "mask_bbox": [
+        232,
+        146,
+        657,
+        195
+      ],
+      "text_bbox": [
+        232,
+        146,
+        657,
+        195
+      ],
+      "text": "추가 액션",
+      "style": "bp_title",
+      "align": "center",
+      "type": "text",
+      "note": "[EXEC] title [split: title]"
+    },
+    {
+      "id": "p2_exec_01_body",
+      "mask_bbox": [
+        134,
+        195,
+        746,
+        304
+      ],
+      "text_bbox": [
+        134,
+        195,
+        746,
+        304
+      ],
+      "text": "한 턴에 한 번, 메인 액션 전 또는 후에 추가 액션 1회를 할 수 있다.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC] intro body [split: content]"
+    },
+    {
+      "id": "p2_exec_02b",
+      "mask_bbox": [
+        305,
+        333,
+        746,
+        455
+      ],
+      "text_bbox": [
+        305,
+        333,
+        746,
+        455
+      ],
+      "text": "비용: 크리스탈 4\n비용 없이 테크 1회 발전.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC] Cost 4 #1 [split 2/3]"
+    },
+    {
+      "id": "p2_exec_02c",
+      "mask_bbox": [
+        305,
+        455,
+        746,
+        580
+      ],
+      "text_bbox": [
+        305,
+        455,
+        746,
+        580
+      ],
+      "text": "비용: 크리스탈 4\n자기 로버를 최대 2칸 이동. 크리스탈 지불 또는 테크 사용 가능.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC] Cost 4 #2 [split 3/3]"
+    },
+    {
+      "id": "p2_exec_03",
+      "mask_bbox": [
+        305,
+        580,
+        746,
+        703
+      ],
+      "text_bbox": [
+        305,
+        580,
+        746,
+        703
+      ],
+      "text": "비용: 크리스탈 3\n청사진 1장 획득.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC/LAB column] 한글: '비용: 크리스탈 3 — 청사진 1.'"
+    },
+    {
+      "id": "p2_exec_04",
+      "mask_bbox": [
+        305,
+        703,
+        746,
+        826
+      ],
+      "text_bbox": [
+        305,
+        703,
+        746,
+        826
+      ],
+      "text": "비용: 크리스탈 3\n건물 타일 1개 업그레이드.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC] [split 1/2]"
+    },
+    {
+      "id": "p2_exec_04b",
+      "mask_bbox": [
+        305,
+        826,
+        746,
+        951
+      ],
+      "text_bbox": [
+        305,
+        826,
+        746,
+        951
+      ],
+      "text": "비용: 크리스탈 3\n광물 1 획득.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC] [split 2/2]"
+    },
+    {
+      "id": "p2_exec_05",
+      "mask_bbox": [
+        305,
+        951,
+        746,
+        1108
+      ],
+      "text_bbox": [
+        305,
+        951,
+        746,
+        1108
+      ],
+      "text": "비용: 크리스탈 2\n이동력 최대 2를 사용해 자기 봇들 이동. 크리스탈 지불로 추가 이동력 획득 가능.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC/LAB column] 한글: '비용: 크리스탈 2 — 봇들 이동력 최대 2(크리스탈로 추가).'"
+    },
+    {
+      "id": "p2_exec_06",
+      "mask_bbox": [
+        305,
+        1109,
+        746,
+        1232
+      ],
+      "text_bbox": [
+        305,
+        1109,
+        746,
+        1232
+      ],
+      "text": "비용: 크리스탈 2\n창고에서 자원 1 획득.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC/LAB column] 한글: '비용: 크리스탈 2 — 창고에서 자원 1.'"
+    },
+    {
+      "id": "p2_exec_08",
+      "mask_bbox": [
+        305,
+        1202,
+        746,
+        1320
+      ],
+      "text_bbox": [
+        305,
+        1202,
+        746,
+        1320
+      ],
+      "text": "비용: 크리스탈 2 또는 일치하는 과학자\n고급 건물 액션 사용.",
+      "style": "exec_card",
+      "align": "left",
+      "type": "text",
+      "note": "[EXEC/LAB column] 한글: '비용: 크리스탈 2 또는 일치 과학자 — 고급 건물 액션 사용.'"
+    },
+    {
+      "id": "p2_exec_09",
+      "mask_bbox": [
+        200,
+        1342,
+        688,
+        1396
+      ],
+      "text_bbox": [
+        200,
+        1342,
+        688,
+        1396
+      ],
+      "text": "연구소 효과",
+      "style": "bp_title",
+      "align": "center",
+      "type": "text",
+      "note": "[EXEC/LAB column] 한글: '연구소 효과'"
+    },
+    {
+      "id": "p2_lab_intro",
+      "type": "text",
+      "mask_bbox": [
+        134,
+        1391,
+        756,
+        1476
+      ],
+      "text_bbox": [
+        134,
+        1391,
+        756,
+        1476
+      ],
+      "text": "테크 타일로 칸을 덮을 때 그 칸의 효과를 받는다.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] intro body"
+    },
+    {
+      "id": "p2_bp1_01",
+      "mask_bbox": [
+        1166,
+        147,
+        1605,
+        193
+      ],
+      "text_bbox": [
+        1166,
+        147,
+        1605,
+        193
+      ],
+      "text": "청사진 레벨 1",
+      "style": "bp_title",
+      "align": "center",
+      "type": "text",
+      "note": "[BLUEPRINTS LEVEL 1] 한글: '청사진 레벨 1'"
+    },
+    {
+      "id": "p2_bp3_01",
+      "mask_bbox": [
+        2509,
+        146,
+        2949,
+        195
+      ],
+      "text_bbox": [
+        2509,
+        146,
+        2949,
+        195
+      ],
+      "text": "청사진 레벨 3",
+      "style": "bp_title",
+      "align": "center",
+      "type": "text",
+      "note": "[BLUEPRINTS LEVEL 3] 한글: '청사진 레벨 3'"
+    },
+    {
+      "id": "p2_res_01",
+      "mask_bbox": [
+        3493,
+        151,
+        4007,
+        220
+      ],
+      "text_bbox": [
+        3493,
+        151,
+        4007,
+        220
+      ],
+      "text": "자원",
+      "style": "bp_title",
+      "align": "center",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '자원'"
+    },
+    {
+      "id": "p2_res_02",
+      "mask_bbox": [
+        3604,
+        338,
+        4060,
+        615
+      ],
+      "text_bbox": [
+        3604,
+        338,
+        4060,
+        615
+      ],
+      "text": "광산 건설, 청사진 획득, LSS 보상, 테크 업그레이드, 추가 액션. 발전기 건설, 건물 업그레이드, R&D 엔지니어 채용. 크리스탈을 제외한 다른 자원처럼 사용 가능, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '자원을 어떻게 얻고 어디에 사용하는가?'",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_04",
+      "mask_bbox": [
+        3604,
+        694,
+        4060,
+        964
+      ],
+      "text_bbox": [
+        3604,
+        694,
+        4060,
+        964
+      ],
+      "text": "발전기 건설, 청사진 획득, 창고 액션. 수자원 추출기 건설, 건물 업그레이드, 수경재배학자 채용. 테크 업그레이드, 테크 타일 구매, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[광물] 광산 건설, 청사진, LSS 보상, 테크 업그레이드, 이그제큐티'",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_05",
+      "mask_bbox": [
+        3604,
+        1016,
+        4060,
+        1287
+      ],
+      "text_bbox": [
+        3604,
+        1016,
+        4060,
+        1287
+      ],
+      "text": "수자원 추출기 건설, 청사진 획득, 창고 액션. 그린하우스 건설, 우주선 환영, 턴 순서 칸 4, 생화학자 채용. 테크 업그레이드, 테크 타일 구매, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[배터리] 발전기 건설·업그레이드, 청사진·창고 액션, R&D 엔지니어 '",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_06",
+      "mask_bbox": [
+        3604,
+        1338,
+        4060,
+        1603
+      ],
+      "text_bbox": [
+        3604,
+        1338,
+        4060,
+        1603
+      ],
+      "text": "그린하우스 건설, 청사진 획득, 창고 액션. 산소 응축기 건설, 우주선 환영, 턴 순서 칸 4, 지화학자 채용. 테크 업그레이드, 테크 타일 구매, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[물] 수자원 추출기 건설, 청사진·창고 액션, 그린하우스 건설, 우주선'",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_08",
+      "mask_bbox": [
+        3604,
+        1664,
+        4060,
+        1935
+      ],
+      "text_bbox": [
+        3604,
+        1664,
+        4060,
+        1935
+      ],
+      "text": "산소 응축기 건설, 청사진 획득, 창고 액션, 자기 테크가 다른 플레이어에 사용됨. 셸터 건설, 테크 업그레이드, 시스템 엔지니어 채용. 테크 업그레이드, 테크 타일 구매, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[식물] 그린하우스 건설, 청사진·창고 액션, 산소 응축기 건설, 우주선'",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_09",
+      "mask_bbox": [
+        3604,
+        2020,
+        4060,
+        2140
+      ],
+      "text_bbox": [
+        3604,
+        2020,
+        4060,
+        2140
+      ],
+      "text": "셸터 건설, LSS 보너스, 청사진 획득, 창고 액션, 로버 회수, 미션 기여,",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[산소] 산소 응축기 건설, 청사진·창고 액션, 봇·셸터 건설, 시스템 '",
+      "valign": "top"
+    },
+    {
+      "id": "p2_res_10",
+      "mask_bbox": [
+        3604,
+        2020,
+        4060,
+        2424
+      ],
+      "text_bbox": [
+        3604,
+        2020,
+        4060,
+        2424
+      ],
+      "text": "셸터 건설, LSS 보너스, 청사진 획득, 창고 액션, 로버 회수, 미션 기여, 테크 업그레이드 보너스, 궤도 이동 시 셸터 생산.\n셸터 건설, 테크 업그레이드, 시스템 엔지니어 채용. 테크 업그레이드, 테크 타일 구매, 계약 이행.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[RESOURCES column] 한글: '[크리스탈] 셸터 건설, LSS 보너스, 자원·로버 회수, 콤플렉스 기여'",
+      "valign": "top"
+    },
+    {
+      "id": "p2_img_001",
+      "type": "image",
+      "bbox": [
+        1605,
+        140,
+        1771,
+        199
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_002",
+      "type": "image",
+      "bbox": [
+        2952,
+        135,
+        3117,
+        200
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_003",
+      "type": "image",
+      "bbox": [
+        1084,
+        151,
+        1160,
+        188
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_004",
+      "type": "image",
+      "bbox": [
+        773,
+        223,
+        907,
+        373
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_005",
+      "type": "image",
+      "bbox": [
+        2110,
+        223,
+        2244,
+        358
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_006",
+      "type": "image",
+      "bbox": [
+        141,
+        333,
+        305,
+        453
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_007",
+      "type": "image",
+      "bbox": [
+        3448,
+        336,
+        3604,
+        492
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_008",
+      "type": "image",
+      "bbox": [
+        773,
+        405,
+        907,
+        555
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_009",
+      "type": "image",
+      "bbox": [
+        2110,
+        405,
+        2244,
+        540
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_010",
+      "type": "image",
+      "bbox": [
+        2151,
+        445,
+        2206,
+        501
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_011",
+      "type": "image",
+      "bbox": [
+        141,
+        455,
+        305,
+        578
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_013",
+      "type": "image",
+      "bbox": [
+        141,
+        580,
+        305,
+        700
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_014",
+      "type": "image",
+      "bbox": [
+        773,
+        587,
+        907,
+        738
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_015",
+      "type": "image",
+      "bbox": [
+        2110,
+        587,
+        2244,
+        722
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_017",
+      "type": "image",
+      "bbox": [
+        2148,
+        625,
+        2207,
+        684
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_018",
+      "type": "image",
+      "bbox": [
+        3448,
+        692,
+        3604,
+        848
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_019",
+      "type": "image",
+      "bbox": [
+        141,
+        703,
+        305,
+        823
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_022",
+      "type": "image",
+      "bbox": [
+        773,
+        769,
+        907,
+        920
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_023",
+      "type": "image",
+      "bbox": [
+        2110,
+        770,
+        2244,
+        905
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_024",
+      "type": "image",
+      "bbox": [
+        141,
+        826,
+        305,
+        946
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_025",
+      "type": "image",
+      "bbox": [
+        2110,
+        936,
+        2244,
+        1102
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_026",
+      "type": "image",
+      "bbox": [
+        141,
+        951,
+        305,
+        1073
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_027",
+      "type": "image",
+      "bbox": [
+        773,
+        952,
+        907,
+        1102
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_028",
+      "type": "image",
+      "bbox": [
+        3448,
+        1014,
+        3604,
+        1170
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_029",
+      "type": "image",
+      "bbox": [
+        141,
+        1079,
+        305,
+        1199
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_030",
+      "type": "image",
+      "bbox": [
+        2110,
+        1119,
+        2244,
+        1269
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_031",
+      "type": "image",
+      "bbox": [
+        773,
+        1134,
+        907,
+        1285
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_032",
+      "type": "image",
+      "bbox": [
+        142,
+        1202,
+        305,
+        1320
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_034",
+      "type": "image",
+      "bbox": [
+        2110,
+        1302,
+        2244,
+        1452
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_035",
+      "type": "image",
+      "bbox": [
+        773,
+        1316,
+        907,
+        1467
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_036",
+      "type": "image",
+      "bbox": [
+        3448,
+        1339,
+        3604,
+        1490
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_038",
+      "type": "image",
+      "bbox": [
+        138,
+        1489,
+        305,
+        1624
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_039",
+      "type": "image",
+      "bbox": [
+        1324,
+        1500,
+        1400,
+        1558
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_040",
+      "type": "image",
+      "bbox": [
+        773,
+        1499,
+        907,
+        1649
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_047",
+      "type": "image",
+      "bbox": [
+        921,
+        1528,
+        945,
+        1568
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_054",
+      "type": "image",
+      "bbox": [
+        1775,
+        1528,
+        1804,
+        1568
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_061",
+      "type": "image",
+      "bbox": [
+        138,
+        1636,
+        305,
+        1771
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_062",
+      "type": "image",
+      "bbox": [
+        3448,
+        1665,
+        3604,
+        1816
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_063",
+      "type": "image",
+      "bbox": [
+        773,
+        1681,
+        907,
+        1831
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_064",
+      "type": "image",
+      "bbox": [
+        138,
+        1783,
+        305,
+        1917
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_066",
+      "type": "image",
+      "bbox": [
+        773,
+        1863,
+        907,
+        2014
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_067",
+      "type": "image",
+      "bbox": [
+        2110,
+        1863,
+        2244,
+        1999
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_068",
+      "type": "image",
+      "bbox": [
+        138,
+        1929,
+        305,
+        2064
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_069",
+      "type": "image",
+      "bbox": [
+        3448,
+        2019,
+        3604,
+        2214
+      ],
+      "note": "[RESOURCES column] image region"
+    },
+    {
+      "id": "p2_img_070",
+      "type": "image",
+      "bbox": [
+        773,
+        2046,
+        907,
+        2196
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_071",
+      "type": "image",
+      "bbox": [
+        2110,
+        2046,
+        2244,
+        2196
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_072",
+      "type": "image",
+      "bbox": [
+        138,
+        2077,
+        305,
+        2211
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_074",
+      "type": "image",
+      "bbox": [
+        2159,
+        2081,
+        2197,
+        2119
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_img_075",
+      "type": "image",
+      "bbox": [
+        138,
+        2224,
+        305,
+        2359
+      ],
+      "note": "[EXEC/LAB column] image region"
+    },
+    {
+      "id": "p2_img_076",
+      "type": "image",
+      "bbox": [
+        773,
+        2228,
+        907,
+        2378
+      ],
+      "note": "[BLUEPRINTS LEVEL 1] image region"
+    },
+    {
+      "id": "p2_img_077",
+      "type": "image",
+      "bbox": [
+        2110,
+        2228,
+        2244,
+        2382
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] image region"
+    },
+    {
+      "id": "p2_bp3_r08_main_added",
+      "type": "image",
+      "bbox": [
+        2110,
+        1503,
+        2244,
+        1653
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] #20 TRADE MARKET main illustration (manually added)"
+    },
+    {
+      "id": "p2_bp3_r09_main_added",
+      "type": "image",
+      "bbox": [
+        2110,
+        1678,
+        2244,
+        1828
+      ],
+      "note": "[BLUEPRINTS LEVEL 3] #21 RECYCLING BOTS main illustration (manually added)"
+    },
+    {
+      "id": "p2_lab_card1",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        1489,
+        756,
+        1624
+      ],
+      "text_bbox": [
+        305,
+        1489,
+        756,
+        1624
+      ],
+      "text": "창고에서 크리스탈 1 또는 자원 1 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_lab_card2",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        1636,
+        756,
+        1771
+      ],
+      "text_bbox": [
+        305,
+        1636,
+        756,
+        1771
+      ],
+      "text": "공급처에서 크리스탈 1 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_lab_card3",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        1783,
+        756,
+        1917
+      ],
+      "text_bbox": [
+        305,
+        1783,
+        756,
+        1917
+      ],
+      "text": "공급처에서 광물 1 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_lab_card4",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        1929,
+        756,
+        2064
+      ],
+      "text_bbox": [
+        305,
+        1929,
+        756,
+        2064
+      ],
+      "text": "이동력 최대 2를 사용해 자기 봇들 이동. 크리스탈 지불로 추가 이동력 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_lab_card5",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        2077,
+        756,
+        2211
+      ],
+      "text_bbox": [
+        305,
+        2077,
+        756,
+        2211
+      ],
+      "text": "정상 규칙대로 건물 1 업그레이드. 테크 사용 가능. 작업장에 일꾼 보내 추가 업그레이드 수행.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_lab_card6",
+      "type": "text",
+      "mask_bbox": [
+        305,
+        2224,
+        756,
+        2359
+      ],
+      "text_bbox": [
+        305,
+        2224,
+        756,
+        2359
+      ],
+      "text": "디스플레이에서 청사진 1 획득. 작업장에 일꾼 보내 추가 청사진 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "[LAB] card"
+    },
+    {
+      "id": "p2_bp1_02_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        252,
+        945,
+        292
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_02_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        230,
+        1400,
+        288
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_02_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        252,
+        1804,
+        292
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_03_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        434,
+        945,
+        474
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_03_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        412,
+        1400,
+        470
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_03_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        434,
+        1804,
+        474
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_04_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        616,
+        945,
+        656
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_04_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        594,
+        1400,
+        652
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_04_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        616,
+        1804,
+        656
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_05_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        798,
+        945,
+        838
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_05_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        776,
+        1400,
+        834
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_05_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        798,
+        1804,
+        838
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_06_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        981,
+        945,
+        1021
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_06_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        959,
+        1400,
+        1017
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_06_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        981,
+        1804,
+        1021
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_07_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        1163,
+        945,
+        1203
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_07_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        1139,
+        1400,
+        1197
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_07_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        1163,
+        1804,
+        1203
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_08_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        1345,
+        945,
+        1385
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_08_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        1317,
+        1400,
+        1375
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_08_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        1345,
+        1804,
+        1385
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_11_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        1710,
+        945,
+        1750
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_11_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        1687,
+        1400,
+        1745
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_11_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        1710,
+        1804,
+        1750
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_12_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        1892,
+        945,
+        1932
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_12_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        1869,
+        1400,
+        1927
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_12_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        1892,
+        1804,
+        1932
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_13_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        2075,
+        945,
+        2115
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_13_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        2052,
+        1400,
+        2110
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_13_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        2075,
+        1804,
+        2115
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp1_14_resource",
+      "type": "image",
+      "bbox": [
+        921,
+        2257,
+        945,
+        2297
+      ],
+      "note": "[BP1] inline resource icon"
+    },
+    {
+      "id": "p2_bp1_14_building",
+      "type": "image",
+      "bbox": [
+        1324,
+        2229,
+        1400,
+        2287
+      ],
+      "note": "[BP1] inline building icon"
+    },
+    {
+      "id": "p2_bp1_14_engineer",
+      "type": "image",
+      "bbox": [
+        1775,
+        2257,
+        1804,
+        2297
+      ],
+      "note": "[BP1] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_02_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        252,
+        2282,
+        292
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_02_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        230,
+        2737,
+        288
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_02_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        252,
+        3141,
+        292
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_03_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        434,
+        2282,
+        474
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_03_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        412,
+        2737,
+        470
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_03_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        434,
+        3141,
+        474
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_04_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        616,
+        2282,
+        656
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_04_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        594,
+        2737,
+        652
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_04_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        616,
+        3141,
+        656
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_05_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        799,
+        2282,
+        839
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_05_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        777,
+        2737,
+        835
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_05_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        799,
+        3141,
+        839
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_06_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        980,
+        2282,
+        1020
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_06_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        958,
+        2737,
+        1016
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_06_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        980,
+        3141,
+        1020
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_06b_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        1163,
+        2282,
+        1203
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_06b_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        1141,
+        2737,
+        1199
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_06b_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        1163,
+        3141,
+        1203
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_07_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        1346,
+        2282,
+        1386
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_07_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        1324,
+        2737,
+        1382
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_07_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        1346,
+        3141,
+        1386
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_08_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        1527,
+        2282,
+        1567
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_08_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        1505,
+        2737,
+        1563
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_08_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        1527,
+        3141,
+        1567
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_08b_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        1710,
+        2282,
+        1750
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_08b_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        1688,
+        2737,
+        1746
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_08b_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        1710,
+        3141,
+        1750
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_09_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        1892,
+        2282,
+        1932
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_09_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        1870,
+        2737,
+        1928
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_09_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        1892,
+        3141,
+        1932
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_10_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        2075,
+        2282,
+        2115
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_10_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        2053,
+        2737,
+        2111
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_10_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        2075,
+        3141,
+        2115
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_11_resource",
+      "type": "image",
+      "bbox": [
+        2258,
+        2257,
+        2282,
+        2297
+      ],
+      "note": "[BP3] inline resource icon"
+    },
+    {
+      "id": "p2_bp3_11_building",
+      "type": "image",
+      "bbox": [
+        2661,
+        2235,
+        2737,
+        2293
+      ],
+      "note": "[BP3] inline building icon"
+    },
+    {
+      "id": "p2_bp3_11_engineer",
+      "type": "image",
+      "bbox": [
+        3112,
+        2257,
+        3141,
+        2297
+      ],
+      "note": "[BP3] inline engineer icon"
+    },
+    {
+      "id": "p2_bp3_left_img",
+      "type": "image",
+      "bbox": [
+        2425,
+        125,
+        2495,
+        210
+      ],
+      "note": "[BP3] title left image (3-diamond stack)"
+    },
+    {
+      "id": "p2_bp1_02_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        208,
+        1324,
+        253
+      ],
+      "text_bbox": [
+        920,
+        208,
+        1324,
+        253
+      ],
+      "text": "1. 건설 야적장",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_02_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        256,
+        1320,
+        288
+      ],
+      "text_bbox": [
+        947,
+        256,
+        1320,
+        288
+      ],
+      "text": "  광물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_02_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        256,
+        1770,
+        288
+      ],
+      "text_bbox": [
+        1402,
+        256,
+        1770,
+        288
+      ],
+      "text": "  광산",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_02_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        256,
+        2080,
+        288
+      ],
+      "text_bbox": [
+        1806,
+        256,
+        2080,
+        288
+      ],
+      "text": "  지질학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_02_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        288,
+        2080,
+        383
+      ],
+      "text_bbox": [
+        920,
+        288,
+        2080,
+        383
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 건물 1 업그레이드. 테크 사용 가능. 부스트마다: 추가 1회 업그레이드.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_03_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        390,
+        1324,
+        435
+      ],
+      "text_bbox": [
+        920,
+        390,
+        1324,
+        435
+      ],
+      "text": "2. 광물 매장지",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_03_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        438,
+        1320,
+        470
+      ],
+      "text_bbox": [
+        947,
+        438,
+        1320,
+        470
+      ],
+      "text": "  광물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_03_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        438,
+        1770,
+        470
+      ],
+      "text_bbox": [
+        1402,
+        438,
+        1770,
+        470
+      ],
+      "text": "  광산",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_03_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        438,
+        2080,
+        470
+      ],
+      "text_bbox": [
+        1806,
+        438,
+        2080,
+        470
+      ],
+      "text": "  지질학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_03_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        470,
+        2080,
+        565
+      ],
+      "text_bbox": [
+        920,
+        470,
+        2080,
+        565
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 광산 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_04_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        572,
+        1324,
+        617
+      ],
+      "text_bbox": [
+        920,
+        572,
+        1324,
+        617
+      ],
+      "text": "3. 자동 생산",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_04_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        620,
+        1320,
+        652
+      ],
+      "text_bbox": [
+        947,
+        620,
+        1320,
+        652
+      ],
+      "text": "  배터리 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_04_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        620,
+        1770,
+        652
+      ],
+      "text_bbox": [
+        1402,
+        620,
+        1770,
+        652
+      ],
+      "text": "  발전기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_04_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        620,
+        2080,
+        652
+      ],
+      "text_bbox": [
+        1806,
+        620,
+        2080,
+        652
+      ],
+      "text": "  R&D 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_04_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        652,
+        2080,
+        747
+      ],
+      "text_bbox": [
+        920,
+        652,
+        2080,
+        747
+      ],
+      "text": "고급 건물 액션: 자기 광산/고급 건물 각각이 일치하는 자원/크리스탈 1을 생산. 부스트마다: 그 중 하나가 한 번 더 생산.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_05_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        754,
+        1324,
+        799
+      ],
+      "text_bbox": [
+        920,
+        754,
+        1324,
+        799
+      ],
+      "text": "4. 풍력 터빈",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_05_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        802,
+        1320,
+        834
+      ],
+      "text_bbox": [
+        947,
+        802,
+        1320,
+        834
+      ],
+      "text": "  배터리 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_05_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        802,
+        1770,
+        834
+      ],
+      "text_bbox": [
+        1402,
+        802,
+        1770,
+        834
+      ],
+      "text": "  발전기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_05_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        802,
+        2080,
+        834
+      ],
+      "text_bbox": [
+        1806,
+        802,
+        2080,
+        834
+      ],
+      "text": "  R&D 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_05_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        834,
+        2080,
+        929
+      ],
+      "text_bbox": [
+        920,
+        834,
+        2080,
+        929
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 발전기 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_06_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        937,
+        1324,
+        982
+      ],
+      "text_bbox": [
+        920,
+        937,
+        1324,
+        982
+      ],
+      "text": "5. 개인 우주선",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_06_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        985,
+        1320,
+        1017
+      ],
+      "text_bbox": [
+        947,
+        985,
+        1320,
+        1017
+      ],
+      "text": "  물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_06_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        985,
+        1770,
+        1017
+      ],
+      "text_bbox": [
+        1402,
+        985,
+        1770,
+        1017
+      ],
+      "text": "  수자원 추출기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_06_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        985,
+        2080,
+        1017
+      ],
+      "text_bbox": [
+        1806,
+        985,
+        2080,
+        1017
+      ],
+      "text": "  수경재배학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_06_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1017,
+        2080,
+        1112
+      ],
+      "text_bbox": [
+        920,
+        1017,
+        2080,
+        1112
+      ],
+      "text": "고급 건물 액션: 우주선 1 환영. 식물 1·물 1 비용. 콜로니스트 2 + 봇 1 또는 콜로니스트 3을 데려옴. 부스트마다: 같은 비용·보상으로 추가 우주선 1 환영.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_07_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1119,
+        1324,
+        1164
+      ],
+      "text_bbox": [
+        920,
+        1119,
+        1324,
+        1164
+      ],
+      "text": "6. 수분 증발기",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_07_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        1167,
+        1320,
+        1199
+      ],
+      "text_bbox": [
+        947,
+        1167,
+        1320,
+        1199
+      ],
+      "text": "  물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_07_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        1167,
+        1770,
+        1199
+      ],
+      "text_bbox": [
+        1402,
+        1167,
+        1770,
+        1199
+      ],
+      "text": "  수자원 추출기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_07_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        1167,
+        2080,
+        1199
+      ],
+      "text_bbox": [
+        1806,
+        1167,
+        2080,
+        1199
+      ],
+      "text": "  수경재배학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_07_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1199,
+        2080,
+        1294
+      ],
+      "text_bbox": [
+        920,
+        1199,
+        2080,
+        1294
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 수자원 추출기 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_08_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1301,
+        1324,
+        1346
+      ],
+      "text_bbox": [
+        920,
+        1301,
+        1324,
+        1346
+      ],
+      "text": "7. 바이오마켓",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_08_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        1349,
+        1320,
+        1381
+      ],
+      "text_bbox": [
+        947,
+        1349,
+        1320,
+        1381
+      ],
+      "text": "  식물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_08_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        1349,
+        1770,
+        1381
+      ],
+      "text_bbox": [
+        1402,
+        1349,
+        1770,
+        1381
+      ],
+      "text": "  그린하우스",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_08_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        1349,
+        2080,
+        1381
+      ],
+      "text_bbox": [
+        1806,
+        1349,
+        2080,
+        1381
+      ],
+      "text": "  생화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_08_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1381,
+        2080,
+        1476
+      ],
+      "text_bbox": [
+        920,
+        1381,
+        2080,
+        1476
+      ],
+      "text": "고급 건물 액션: 창고에서 크리스탈 1 또는 자원 1 획득. 부스트마다: 창고에서 자원 또는 크리스탈 1 추가 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_10_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1484,
+        1324,
+        1529
+      ],
+      "text_bbox": [
+        920,
+        1484,
+        1324,
+        1529
+      ],
+      "text": "8. 수경 농장",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_10_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        1532,
+        1320,
+        1564
+      ],
+      "text_bbox": [
+        947,
+        1532,
+        1320,
+        1564
+      ],
+      "text": "  식물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_10_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        1532,
+        1770,
+        1564
+      ],
+      "text_bbox": [
+        1402,
+        1532,
+        1770,
+        1564
+      ],
+      "text": "  그린하우스",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_10_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        1532,
+        2080,
+        1564
+      ],
+      "text_bbox": [
+        1806,
+        1532,
+        2080,
+        1564
+      ],
+      "text": "  생화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_10_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1564,
+        2080,
+        1659
+      ],
+      "text_bbox": [
+        920,
+        1564,
+        2080,
+        1659
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 그린하우스 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_11_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1666,
+        1324,
+        1711
+      ],
+      "text_bbox": [
+        920,
+        1666,
+        1324,
+        1711
+      ],
+      "text": "9. 산소 탱크",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_11_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        1714,
+        1320,
+        1746
+      ],
+      "text_bbox": [
+        947,
+        1714,
+        1320,
+        1746
+      ],
+      "text": "  산소 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_11_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        1714,
+        1770,
+        1746
+      ],
+      "text_bbox": [
+        1402,
+        1714,
+        1770,
+        1746
+      ],
+      "text": "  산소 응축기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_11_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        1714,
+        2080,
+        1746
+      ],
+      "text_bbox": [
+        1806,
+        1714,
+        2080,
+        1746
+      ],
+      "text": "  지화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_11_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1746,
+        2080,
+        1841
+      ],
+      "text_bbox": [
+        920,
+        1746,
+        2080,
+        1841
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 테크 그리드에서 테크 타일 1 획득. 부스트마다: 테크 타일 1 추가 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_12_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1848,
+        1324,
+        1893
+      ],
+      "text_bbox": [
+        920,
+        1848,
+        1324,
+        1893
+      ],
+      "text": "10. 농축기",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_12_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        1896,
+        1320,
+        1928
+      ],
+      "text_bbox": [
+        947,
+        1896,
+        1320,
+        1928
+      ],
+      "text": "  산소 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_12_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        1896,
+        1770,
+        1928
+      ],
+      "text_bbox": [
+        1402,
+        1896,
+        1770,
+        1928
+      ],
+      "text": "  산소 응축기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_12_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        1896,
+        2080,
+        1928
+      ],
+      "text_bbox": [
+        1806,
+        1896,
+        2080,
+        1928
+      ],
+      "text": "  지화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_12_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        1928,
+        2080,
+        2023
+      ],
+      "text_bbox": [
+        920,
+        1928,
+        2080,
+        2023
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 산소 응축기 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_13_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        2031,
+        1324,
+        2076
+      ],
+      "text_bbox": [
+        920,
+        2031,
+        1324,
+        2076
+      ],
+      "text": "11. 카지노",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_13_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        2079,
+        1320,
+        2111
+      ],
+      "text_bbox": [
+        947,
+        2079,
+        1320,
+        2111
+      ],
+      "text": "  크리스탈 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_13_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        2079,
+        1770,
+        2111
+      ],
+      "text_bbox": [
+        1402,
+        2079,
+        1770,
+        2111
+      ],
+      "text": "  셸터",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_13_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        2079,
+        2080,
+        2111
+      ],
+      "text_bbox": [
+        1806,
+        2079,
+        2080,
+        2111
+      ],
+      "text": "  시스템 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_13_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        2111,
+        2080,
+        2206
+      ],
+      "text_bbox": [
+        920,
+        2111,
+        2080,
+        2206
+      ],
+      "text": "고급 건물 액션: 크리스탈 2 획득. 부스트마다: 크리스탈 1 추가 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp1_14_title",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        2213,
+        1324,
+        2258
+      ],
+      "text_bbox": [
+        920,
+        2213,
+        1324,
+        2258
+      ],
+      "text": "12. 체육관",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP1] title"
+    },
+    {
+      "id": "p2_bp1_14_res_label",
+      "type": "text",
+      "mask_bbox": [
+        947,
+        2261,
+        1320,
+        2293
+      ],
+      "text_bbox": [
+        947,
+        2261,
+        1320,
+        2293
+      ],
+      "text": "  크리스탈 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] resource label"
+    },
+    {
+      "id": "p2_bp1_14_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        1402,
+        2261,
+        1770,
+        2293
+      ],
+      "text_bbox": [
+        1402,
+        2261,
+        1770,
+        2293
+      ],
+      "text": "  셸터",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] building label"
+    },
+    {
+      "id": "p2_bp1_14_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        1806,
+        2261,
+        2080,
+        2293
+      ],
+      "text_bbox": [
+        1806,
+        2261,
+        2080,
+        2293
+      ],
+      "text": "  시스템 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP1] engineer label"
+    },
+    {
+      "id": "p2_bp1_14_body",
+      "type": "text",
+      "mask_bbox": [
+        920,
+        2293,
+        2080,
+        2388
+      ],
+      "text_bbox": [
+        920,
+        2293,
+        2080,
+        2388
+      ],
+      "text": "고급 건물 액션: 정상 규칙대로 셸터 1 건설. 콤플렉스 생성·확장 시 테크 필요. 부스트마다: 이 건설 액션의 테크 레벨 +1.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP1] body"
+    },
+    {
+      "id": "p2_bp3_02_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        208,
+        2661,
+        253
+      ],
+      "text_bbox": [
+        2257,
+        208,
+        2661,
+        253
+      ],
+      "text": "13. 광물 광산",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_02_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        252,
+        2657,
+        284
+      ],
+      "text_bbox": [
+        2284,
+        252,
+        2657,
+        284
+      ],
+      "text": "  광물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_02_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        252,
+        3107,
+        284
+      ],
+      "text_bbox": [
+        2739,
+        252,
+        3107,
+        284
+      ],
+      "text": "  광산",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_02_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        252,
+        3417,
+        284
+      ],
+      "text_bbox": [
+        3143,
+        252,
+        3417,
+        284
+      ],
+      "text": "  지질학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_02_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        284,
+        3421,
+        388
+      ],
+      "text_bbox": [
+        2257,
+        284,
+        3421,
+        388
+      ],
+      "text": "고급 건물 액션: OP 2 점수 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_03_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        390,
+        2661,
+        435
+      ],
+      "text_bbox": [
+        2257,
+        390,
+        2661,
+        435
+      ],
+      "text": "14. 바이오 연구소",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_03_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        434,
+        2657,
+        466
+      ],
+      "text_bbox": [
+        2284,
+        434,
+        2657,
+        466
+      ],
+      "text": "  광물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_03_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        434,
+        3107,
+        466
+      ],
+      "text_bbox": [
+        2739,
+        434,
+        3107,
+        466
+      ],
+      "text": "  광산",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_03_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        434,
+        3417,
+        466
+      ],
+      "text_bbox": [
+        3143,
+        434,
+        3417,
+        466
+      ],
+      "text": "  지질학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_03_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        466,
+        3421,
+        570
+      ],
+      "text_bbox": [
+        2257,
+        466,
+        3421,
+        570
+      ],
+      "text": "고급 건물 액션: 디스플레이에서 정상 비용으로 지구 계약 1 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_04_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        572,
+        2661,
+        617
+      ],
+      "text_bbox": [
+        2257,
+        572,
+        2661,
+        617
+      ],
+      "text": "15. 레이더",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_04_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        616,
+        2657,
+        648
+      ],
+      "text_bbox": [
+        2284,
+        616,
+        2657,
+        648
+      ],
+      "text": "  배터리 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_04_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        616,
+        3107,
+        648
+      ],
+      "text_bbox": [
+        2739,
+        616,
+        3107,
+        648
+      ],
+      "text": "  발전기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_04_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        616,
+        3417,
+        648
+      ],
+      "text_bbox": [
+        3143,
+        616,
+        3417,
+        648
+      ],
+      "text": "  R&D 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_04_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        648,
+        3421,
+        752
+      ],
+      "text_bbox": [
+        2257,
+        648,
+        3421,
+        752
+      ],
+      "text": "고급 건물 액션: 탐사 칸의 발견 타일 중 1장을 이 카드 위에 둔다. 그 타일의 보너스를 즉시 획득. 게임 종료까지 이 카드의 액션은 그 보너스를 다시 획득하는 것이 된다.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_05_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        755,
+        2661,
+        800
+      ],
+      "text_bbox": [
+        2257,
+        755,
+        2661,
+        800
+      ],
+      "text": "16. 빌더 드론 AI600",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_05_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        799,
+        2657,
+        831
+      ],
+      "text_bbox": [
+        2284,
+        799,
+        2657,
+        831
+      ],
+      "text": "  배터리 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_05_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        799,
+        3107,
+        831
+      ],
+      "text_bbox": [
+        2739,
+        799,
+        3107,
+        831
+      ],
+      "text": "  발전기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_05_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        799,
+        3417,
+        831
+      ],
+      "text_bbox": [
+        3143,
+        799,
+        3417,
+        831
+      ],
+      "text": "  R&D 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_05_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        831,
+        3421,
+        935
+      ],
+      "text_bbox": [
+        2257,
+        831,
+        3421,
+        935
+      ],
+      "text": "고급 건물 액션: 맵 어디든 건물 1 업그레이드(이 액션에선 자기 봇 건설 구역 무관).",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_06_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        936,
+        2661,
+        981
+      ],
+      "text_bbox": [
+        2257,
+        936,
+        2661,
+        981
+      ],
+      "text": "17. 연구소",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_06_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        980,
+        2657,
+        1012
+      ],
+      "text_bbox": [
+        2284,
+        980,
+        2657,
+        1012
+      ],
+      "text": "  물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_06_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        980,
+        3107,
+        1012
+      ],
+      "text_bbox": [
+        2739,
+        980,
+        3107,
+        1012
+      ],
+      "text": "  수자원 추출기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_06_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        980,
+        3417,
+        1012
+      ],
+      "text_bbox": [
+        3143,
+        980,
+        3417,
+        1012
+      ],
+      "text": "  수경재배학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_06_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1012,
+        3421,
+        1116
+      ],
+      "text_bbox": [
+        2257,
+        1012,
+        3421,
+        1116
+      ],
+      "text": "고급 건물 액션: 정상 비용으로 자기 테크 타일 1을 최대 2회 발전 또는 2개 테크 타일 각 1회 발전. 부스트마다: 정상 비용으로 테크 1회 추가 발전.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_06b_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1119,
+        2661,
+        1164
+      ],
+      "text_bbox": [
+        2257,
+        1119,
+        2661,
+        1164
+      ],
+      "text": "18. 수도교",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_06b_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        1163,
+        2657,
+        1195
+      ],
+      "text_bbox": [
+        2284,
+        1163,
+        2657,
+        1195
+      ],
+      "text": "  물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_06b_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        1163,
+        3107,
+        1195
+      ],
+      "text_bbox": [
+        2739,
+        1163,
+        3107,
+        1195
+      ],
+      "text": "  수자원 추출기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_06b_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        1163,
+        3417,
+        1195
+      ],
+      "text_bbox": [
+        3143,
+        1163,
+        3417,
+        1195
+      ],
+      "text": "  수경재배학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_06b_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1195,
+        3421,
+        1284
+      ],
+      "text_bbox": [
+        2257,
+        1195,
+        3421,
+        1284
+      ],
+      "text": "고급 건물 액션: 자기 작업장에서 거주구역으로 콜로니스트 최대 2 이동.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_07_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1302,
+        2661,
+        1347
+      ],
+      "text_bbox": [
+        2257,
+        1302,
+        2661,
+        1347
+      ],
+      "text": "19. 에코 리조트",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_07_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        1346,
+        2657,
+        1378
+      ],
+      "text_bbox": [
+        2284,
+        1346,
+        2657,
+        1378
+      ],
+      "text": "  식물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_07_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        1346,
+        3107,
+        1378
+      ],
+      "text_bbox": [
+        2739,
+        1346,
+        3107,
+        1378
+      ],
+      "text": "  그린하우스",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_07_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        1346,
+        3417,
+        1378
+      ],
+      "text_bbox": [
+        3143,
+        1346,
+        3417,
+        1378
+      ],
+      "text": "  생화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_07_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1378,
+        3421,
+        1482
+      ],
+      "text_bbox": [
+        2257,
+        1378,
+        3421,
+        1482
+      ],
+      "text": "고급 건물 액션: 궤도의 액션 칸이나 콜로니에 있는 자기 콜로니스트 일부 또는 전부를 거주구역으로 회수.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_08_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1488,
+        2661,
+        1533
+      ],
+      "text_bbox": [
+        2257,
+        1488,
+        2661,
+        1533
+      ],
+      "text": "20. 무역 시장",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_08_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        1527,
+        2657,
+        1559
+      ],
+      "text_bbox": [
+        2284,
+        1527,
+        2657,
+        1559
+      ],
+      "text": "  식물 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_08_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        1527,
+        3107,
+        1559
+      ],
+      "text_bbox": [
+        2739,
+        1527,
+        3107,
+        1559
+      ],
+      "text": "  그린하우스",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_08_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        1527,
+        3417,
+        1559
+      ],
+      "text_bbox": [
+        3143,
+        1527,
+        3417,
+        1559
+      ],
+      "text": "  생화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_08_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1559,
+        3421,
+        1668
+      ],
+      "text_bbox": [
+        2257,
+        1559,
+        3421,
+        1668
+      ],
+      "text": "고급 건물 액션: 자기 저장고에서 자원 1 지불, 공급처에서 비-광물 자원 2 획득. 부스트마다: 자원 1 추가 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_08b_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1663,
+        2661,
+        1708
+      ],
+      "text_bbox": [
+        2257,
+        1663,
+        2661,
+        1708
+      ],
+      "text": "21. 재활용 봇",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_08b_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        1710,
+        2657,
+        1742
+      ],
+      "text_bbox": [
+        2284,
+        1710,
+        2657,
+        1742
+      ],
+      "text": "  산소 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_08b_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        1710,
+        3107,
+        1742
+      ],
+      "text_bbox": [
+        2739,
+        1710,
+        3107,
+        1742
+      ],
+      "text": "  산소 응축기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_08b_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        1710,
+        3417,
+        1742
+      ],
+      "text_bbox": [
+        3143,
+        1710,
+        3417,
+        1742
+      ],
+      "text": "  지화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_08b_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1742,
+        3421,
+        1843
+      ],
+      "text_bbox": [
+        2257,
+        1742,
+        3421,
+        1843
+      ],
+      "text": "고급 건물 액션: 이동력 최대 2를 사용해 자기 봇들을 로버처럼 이동(크리스탈, 연구 타일, 발견 타일 회수). 부스트마다: 이동력 1 추가.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_09_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1848,
+        2661,
+        1893
+      ],
+      "text_bbox": [
+        2257,
+        1848,
+        2661,
+        1893
+      ],
+      "text": "22. 공중 엘리베이터",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_09_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        1892,
+        2657,
+        1924
+      ],
+      "text_bbox": [
+        2284,
+        1892,
+        2657,
+        1924
+      ],
+      "text": "  산소 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_09_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        1892,
+        3107,
+        1924
+      ],
+      "text_bbox": [
+        2739,
+        1892,
+        3107,
+        1924
+      ],
+      "text": "  산소 응축기",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_09_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        1892,
+        3417,
+        1924
+      ],
+      "text_bbox": [
+        3143,
+        1892,
+        3417,
+        1924
+      ],
+      "text": "  지화학자",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_09_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        1924,
+        3421,
+        2028
+      ],
+      "text_bbox": [
+        2257,
+        1924,
+        3421,
+        2028
+      ],
+      "text": "고급 건물 액션: 정상대로 이동 단계를 거쳐 궤도로 이동. 메인 액션 전이라면 메인 액션을 궤도에서 수행.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_10_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        2031,
+        2661,
+        2076
+      ],
+      "text_bbox": [
+        2257,
+        2031,
+        2661,
+        2076
+      ],
+      "text": "23. 도서관",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_10_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        2075,
+        2657,
+        2107
+      ],
+      "text_bbox": [
+        2284,
+        2075,
+        2657,
+        2107
+      ],
+      "text": "  크리스탈 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_10_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        2075,
+        3107,
+        2107
+      ],
+      "text_bbox": [
+        2739,
+        2075,
+        3107,
+        2107
+      ],
+      "text": "  셸터",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_10_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        2075,
+        3417,
+        2107
+      ],
+      "text_bbox": [
+        3143,
+        2075,
+        3417,
+        2107
+      ],
+      "text": "  시스템 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_10_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        2107,
+        3421,
+        2211
+      ],
+      "text_bbox": [
+        2257,
+        2107,
+        3421,
+        2211
+      ],
+      "text": "고급 건물 액션: 청사진 1 획득. 부스트마다: 청사진 1 추가 획득.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_bp3_11_title",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        2213,
+        2661,
+        2258
+      ],
+      "text_bbox": [
+        2257,
+        2213,
+        2661,
+        2258
+      ],
+      "text": "24. 사령부",
+      "style": "bp_card_title",
+      "align": "left",
+      "note": "[BP3] title"
+    },
+    {
+      "id": "p2_bp3_11_res_label",
+      "type": "text",
+      "mask_bbox": [
+        2284,
+        2257,
+        2657,
+        2289
+      ],
+      "text_bbox": [
+        2284,
+        2257,
+        2657,
+        2289
+      ],
+      "text": "  크리스탈 1 획득",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] resource label"
+    },
+    {
+      "id": "p2_bp3_11_bld_label",
+      "type": "text",
+      "mask_bbox": [
+        2739,
+        2257,
+        3107,
+        2289
+      ],
+      "text_bbox": [
+        2739,
+        2257,
+        3107,
+        2289
+      ],
+      "text": "  셸터",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] building label"
+    },
+    {
+      "id": "p2_bp3_11_eng_label",
+      "type": "text",
+      "mask_bbox": [
+        3143,
+        2257,
+        3417,
+        2289
+      ],
+      "text_bbox": [
+        3143,
+        2257,
+        3417,
+        2289
+      ],
+      "text": "  시스템 엔지니어",
+      "style": "body_smb",
+      "align": "left",
+      "note": "[BP3] engineer label"
+    },
+    {
+      "id": "p2_bp3_11_body",
+      "type": "text",
+      "mask_bbox": [
+        2257,
+        2289,
+        3421,
+        2393
+      ],
+      "text_bbox": [
+        2257,
+        2289,
+        3421,
+        2393
+      ],
+      "text": "고급 건물 액션: 현재 보드의 자기 로버 테크 최고 레벨만큼 자기 로버를 칸 이동. 부스트마다: 1칸 추가 이동.",
+      "style": "bp_body",
+      "align": "left",
+      "note": "[BP3] body"
+    },
+    {
+      "id": "p2_res_intro",
+      "type": "text",
+      "mask_bbox": [
+        3493,
+        220,
+        4007,
+        315
+      ],
+      "text_bbox": [
+        3493,
+        220,
+        4007,
+        315
+      ],
+      "text": "어떻게 얻는가?\n어디에 사용하는가?\n그 외 가능한 용도.",
+      "style": "body_xs",
+      "align": "center",
+      "note": "[RESOURCES] intro/subtitle (not title)"
+    }
+  ]
+}

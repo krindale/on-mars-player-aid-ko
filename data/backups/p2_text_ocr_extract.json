@@ -1,0 +1,747 @@
+[
+  {
+    "id": "p2_exec_01",
+    "current_ko": "이그제큐티브 액션",
+    "ocr_en": "EXECUTIVE ACTIONS"
+  },
+  {
+    "id": "p2_exec_01_body",
+    "current_ko": "한 턴에 한 번, 메인 액션 전·후로 이그제큐티브 액션 1.",
+    "ocr_en": "Once per turn, before or after your\nMain action, you can take 1 Executive\naction."
+  },
+  {
+    "id": "p2_exec_02b",
+    "current_ko": "비용: 크리스탈 4 — 비용 없이 테크 타일 1 발전.",
+    "ocr_en": "Cost: 4 Crystals\nDevelop Tech once at no\ncost."
+  },
+  {
+    "id": "p2_exec_02c",
+    "current_ko": "비용: 크리스탈 4 — 로버 최대 2칸 이동(크리스탈/테크 가능).",
+    "ocr_en": "Cost: 4 Crystals\nMove your Rover up to 2\nspaces - you may spend\nCrystals and/or use Tech."
+  },
+  {
+    "id": "p2_exec_03",
+    "current_ko": "비용: 크리스탈 3 — 청사진 1.",
+    "ocr_en": "Cost: 3 Crystals\nTake 1 Blueprint."
+  },
+  {
+    "id": "p2_exec_04",
+    "current_ko": "비용: 크리스탈 3 — 건물 1 업그레이드.",
+    "ocr_en": "Cost: 3 Crystals\nUpgrade a a Building tile."
+  },
+  {
+    "id": "p2_exec_04b",
+    "current_ko": "비용: 크리스탈 3 — 광물 1.",
+    "ocr_en": "Cost: 3 Crystals\nGain 1 Mineral."
+  },
+  {
+    "id": "p2_exec_05",
+    "current_ko": "비용: 크리스탈 2 — 봇들 이동력 최대 2(크리스탈로 추가).",
+    "ocr_en": "Cost: 2 Crystals Use up to 2\nMovement points to move\nyour Bots. You may spend\nCrystals to gain additional MP."
+  },
+  {
+    "id": "p2_exec_06",
+    "current_ko": "비용: 크리스탈 2 — 창고에서 자원 1.",
+    "ocr_en": "Cost: 2 Crystals\nTake 1 Resource from the\nWarehouse."
+  },
+  {
+    "id": "p2_exec_08",
+    "current_ko": "비용: 크리스탈 2 또는 일치 과학자 — 고급 건물 액션 사용.",
+    "ocr_en": "Cost: 2 Crystals or a\nmatching Scientist Use an\nAdvanced Building action."
+  },
+  {
+    "id": "p2_exec_09",
+    "current_ko": "연구소 효과",
+    "ocr_en": "LABORATORY RY BENEFITS EFITS"
+  },
+  {
+    "id": "p2_lab_intro",
+    "current_ko": "테크 타일로 칸을 덮을 때 그 칸의 효과.",
+    "ocr_en": "Receive the benefit of a space when\nyou cover it with a a Tech tile."
+  },
+  {
+    "id": "p2_bp1_01",
+    "current_ko": "청사진 레벨 1",
+    "ocr_en": "BLUEPRINTS LEVEL |"
+  },
+  {
+    "id": "p2_bp3_01",
+    "current_ko": "청사진 레벨 3",
+    "ocr_en": "BLUEPRINTS LEVEL"
+  },
+  {
+    "id": "p2_res_01",
+    "current_ko": "자원",
+    "ocr_en": "RESOURCES\nHow do you gain Resources?\nWhat can you spend them on?\nOther possible uses."
+  },
+  {
+    "id": "p2_res_02",
+    "current_ko": "자원을 어떻게 얻고 어디에 사용하는가?",
+    "ocr_en": "build Mine, take Blueprint,\nLSS Reward, upgrade Tech,\nExecutive Action\nbuild Generator, Building, hire upgrade\nR&D\nEngineer\nas any other Resource (not\nCrystals), fulfil Contract"
+  },
+  {
+    "id": "p2_res_04",
+    "current_ko": "[광물] 광산 건설, 청사진, LSS 보상, 테크 업그레이드, 이그제큐티브 액션. 다른 자원처럼 사용(크리스탈 제외).",
+    "ocr_en": "build Generator, take\nBlueprint, Warehouse\nAction\nbuild Water Extractor,\nupgrade Building, hire\nHydrologist\nupgrade Tech, buy Tech\nTile, fulfil Contract"
+  },
+  {
+    "id": "p2_res_05",
+    "current_ko": "[배터리] 발전기 건설·업그레이드, 청사진·창고 액션, R&D 엔지니어 채용, 테크 업그레이드, 계약 이행.",
+    "ocr_en": "build Water Extractor, take\nBlueprint, Warehouse\nAction\nbuild a Greenhouse,\nwelcome a a Ship, Turn Order\nspace 4, hire Biochemist\nupgrade Tech, buy Tech\nTile, fulfil Contract"
+  },
+  {
+    "id": "p2_res_06",
+    "current_ko": "[물] 수자원 추출기 건설, 청사진·창고 액션, 그린하우스 건설, 우주선 환영, 턴 순서 칸, 수경재배학자 채용, 테크 업그레이드, 계약 이행.",
+    "ocr_en": "build Greenhouse, take\nBlueprint, Warehouse\nAction\nbuild Oxygen Condenser,\nwelcome a Ship, Turn Order\nspace 4, hire Geochemist\nupgrade Tech, buy a Tech\nTile, fulfil Contract"
+  },
+  {
+    "id": "p2_res_08",
+    "current_ko": "[식물] 그린하우스 건설, 청사진·창고 액션, 산소 응축기 건설, 우주선 환영, 생화학자 채용, 테크 업그레이드, 계약 이행.",
+    "ocr_en": "build Oxygen Condenser,\ntake Blueprint, Warehouse\nAction, your Tech is used\nby another player\nbuild Shelter, upgrade tech.\nhire Systems Engineer\nTech, buy Tech upgrade\nTile, fulfil Contract"
+  },
+  {
+    "id": "p2_res_09",
+    "current_ko": "[산소] 산소 응축기 건설, 청사진·창고 액션, 봇·셸터 건설, 시스템 엔지니어 채용, 테크 업그레이드, 계약 이행.",
+    "ocr_en": "build Shelter, LSS bonus,\ntake Blueprint, Warehouse\nAction, rover collection,\ncontribute to a mission,"
+  },
+  {
+    "id": "p2_res_10",
+    "current_ko": "[크리스탈] 셸터 건설, LSS 보너스, 자원·로버 회수, 콤플렉스 기여, 테크 업그레이드 보너스, 셸터 생산, 궤도 이동, 청사진·창고, 시스템 엔지니어, 계약 이행.",
+    "ocr_en": "build Shelter, LSS bonus,\ntake Blueprint, Warehouse\nAction, rover collection,\ncontribute to a mission,\nTech upgrade bonus,\nShelter production when\ntravelling to Orbit\nbuild a Shelter, upgrade\ntech, hire Systems\nEngineer\nupgrade Tech, buy Tech\nTile, fulfil Contract"
+  },
+  {
+    "id": "p2_res_patch_3",
+    "current_ko": "",
+    "ocr_en": "build Oxygen Condenser,\ntake Blueprint, Warehouse"
+  },
+  {
+    "id": "p2_lab_card1",
+    "current_ko": "창고에서 크리스탈 1 또는 자원 1.",
+    "ocr_en": "Take 1 Crystal or 1 Resource\nfrom the Warehouse."
+  },
+  {
+    "id": "p2_lab_card2",
+    "current_ko": "공급처에서 크리스탈 1.",
+    "ocr_en": "Gain 1 Crystal from the\ngeneral supply."
+  },
+  {
+    "id": "p2_lab_card3",
+    "current_ko": "공급처에서 광물 1.",
+    "ocr_en": "Gain 1 Mineral from the\ngeneral supply."
+  },
+  {
+    "id": "p2_lab_card4",
+    "current_ko": "봇들 이동력 최대 2(크리스탈로 추가).",
+    "ocr_en": "Use up to 2 2 Movement\npoints to move your Bots.\nSpend Crystals to gain\nadditional Movement Points."
+  },
+  {
+    "id": "p2_lab_card5",
+    "current_ko": "건물 1 업그레이드(테크 가능, 작업장 보내 추가 가능).",
+    "ocr_en": "Upgrade 1 Building following 1 normal\nrules. May use Tech.\nSend workers to Working area\nto perform additional upgrades."
+  },
+  {
+    "id": "p2_lab_card6",
+    "current_ko": "청사진 1(작업장 보내 추가 가능).",
+    "ocr_en": "Take a Blueprint from the\ndisplay. Send workers to\nWorking Area to take\nadditional Blueprints."
+  },
+  {
+    "id": "p2_bp1_02_title",
+    "current_ko": "1. 건설 야적장",
+    "ocr_en": "1. CONSTRUCTION YARD"
+  },
+  {
+    "id": "p2_bp1_02_res_label",
+    "current_ko": "광물 1",
+    "ocr_en": "Gain 1 Mineral"
+  },
+  {
+    "id": "p2_bp1_02_bld_label",
+    "current_ko": "광산",
+    "ocr_en": "Mine"
+  },
+  {
+    "id": "p2_bp1_02_eng_label",
+    "current_ko": "지질학자",
+    "ocr_en": "Geologist"
+  },
+  {
+    "id": "p2_bp1_02_body",
+    "current_ko": "고급 건물 액션: 정상 규칙대로 건물 1 업그레이드(테크 가능). 부스트마다: 1회 추가.",
+    "ocr_en": "Advanced Building Action: Upgrade 1 1 Building following normal rules. May\nuse Tech. For each Boost: perform 1 additional upgrade."
+  },
+  {
+    "id": "p2_bp1_03_title",
+    "current_ko": "2. 광물 매장지",
+    "ocr_en": "2. METAL DEPOSIT"
+  },
+  {
+    "id": "p2_bp1_03_res_label",
+    "current_ko": "광물 1",
+    "ocr_en": "§Gain 1 Mineral"
+  },
+  {
+    "id": "p2_bp1_03_bld_label",
+    "current_ko": "광산",
+    "ocr_en": "Mine"
+  },
+  {
+    "id": "p2_bp1_03_eng_label",
+    "current_ko": "지질학자",
+    "ocr_en": "Geologist"
+  },
+  {
+    "id": "p2_bp1_03_body",
+    "current_ko": "고급 건물 액션: 광산 1 건설(콤플렉스라면 테크). 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct a Mine following normal rules. Tech\n1 required if creating or increasing a Complex. For each Boost: Gain 1\nadditional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp1_04_title",
+    "current_ko": "3. 자동 생산",
+    "ocr_en": "3. AUTOMATED PRODUCTION,."
+  },
+  {
+    "id": "p2_bp1_04_res_label",
+    "current_ko": "배터리 1",
+    "ocr_en": "§Gain 1 Battery"
+  },
+  {
+    "id": "p2_bp1_04_bld_label",
+    "current_ko": "발전기",
+    "ocr_en": "Generator"
+  },
+  {
+    "id": "p2_bp1_04_eng_label",
+    "current_ko": "R&D 엔지니어",
+    "ocr_en": "R&D Engineer"
+  },
+  {
+    "id": "p2_bp1_04_body",
+    "current_ko": "고급 건물 액션: 자기 광산/고급 건물이 자원·크리스탈 1에 일치하면 한 번 더 생산. 부스트마다: 추가 생산 1.",
+    "ocr_en": "Advanced Building Action: Each of your Mines/Advanced Buildings produces\n1 matching Resource/Crystal. For each Boost: one of those Mines/Advanced\nBuildings produces once more."
+  },
+  {
+    "id": "p2_bp1_05_title",
+    "current_ko": "4. 풍력 터빈",
+    "ocr_en": "4. WIND TURBINES"
+  },
+  {
+    "id": "p2_bp1_05_res_label",
+    "current_ko": "배터리 1",
+    "ocr_en": "§Gain 1 Battery"
+  },
+  {
+    "id": "p2_bp1_05_bld_label",
+    "current_ko": "발전기",
+    "ocr_en": "Generator"
+  },
+  {
+    "id": "p2_bp1_05_eng_label",
+    "current_ko": "R&D 엔지니어",
+    "ocr_en": "R&D Engineer"
+  },
+  {
+    "id": "p2_bp1_05_body",
+    "current_ko": "고급 건물 액션: 발전기 1 건설(콤플렉스라면 테크). 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct a a Generator following normal rules.\nTech required if creating or increasing a Complex. For each Boost: Gain 1\nadditional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp1_06_title",
+    "current_ko": "5. 개인 우주선",
+    "ocr_en": "5. PRIVATE SHIP"
+  },
+  {
+    "id": "p2_bp1_06_res_label",
+    "current_ko": "물 1",
+    "ocr_en": "4§Gain 1 Water"
+  },
+  {
+    "id": "p2_bp1_06_bld_label",
+    "current_ko": "수자원 추출기",
+    "ocr_en": "Water Extractor"
+  },
+  {
+    "id": "p2_bp1_06_eng_label",
+    "current_ko": "수경재배학자",
+    "ocr_en": "Hydrologist"
+  },
+  {
+    "id": "p2_bp1_06_body",
+    "current_ko": "고급 건물 액션: 우주선 환영. 식물 1·물 1로 콜로니스트 2+봇 1 또는 콜로니스트 3. 부스트마다: 우주선 1 추가.",
+    "ocr_en": "Advanced Building Action: Welcome 1 1 Ship. It costs 1 Plant and 1 Water and\nbrings 2 Colonists and 1 Bot or 3 3 Colonists. For each Boost: Welcome 1\nadditional Ship for the same costs and rewards."
+  },
+  {
+    "id": "p2_bp1_07_title",
+    "current_ko": "6. 수분 증발기",
+    "ocr_en": "6. MOISTURE VAPORATOR gt"
+  },
+  {
+    "id": "p2_bp1_07_res_label",
+    "current_ko": "물 1",
+    "ocr_en": "4§Gain 1 1 Water"
+  },
+  {
+    "id": "p2_bp1_07_bld_label",
+    "current_ko": "수자원 추출기",
+    "ocr_en": "Water Extractor"
+  },
+  {
+    "id": "p2_bp1_07_eng_label",
+    "current_ko": "수경재배학자",
+    "ocr_en": "Hydrologist"
+  },
+  {
+    "id": "p2_bp1_07_body",
+    "current_ko": "고급 건물 액션: 수자원 추출기 1 건설. 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct a Water Extractor following normal\nrules. Tech required if creating or increasing a Complex. For each Boost: Gain\n1 additional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp1_08_title",
+    "current_ko": "7. 바이오마켓",
+    "ocr_en": "7. BIOMARKET"
+  },
+  {
+    "id": "p2_bp1_08_res_label",
+    "current_ko": "식물 1",
+    "ocr_en": "Gain 1 Plant"
+  },
+  {
+    "id": "p2_bp1_08_bld_label",
+    "current_ko": "그린하우스",
+    "ocr_en": "Greenhouse"
+  },
+  {
+    "id": "p2_bp1_08_eng_label",
+    "current_ko": "생화학자",
+    "ocr_en": "Biochemist"
+  },
+  {
+    "id": "p2_bp1_08_body",
+    "current_ko": "고급 건물 액션: 창고에서 자원/크리스탈 1. 부스트마다: 추가 1.",
+    "ocr_en": "Advanced Building Action: Take 1 Crystal or 1 Resource from the Warehouse.\nFor each Boost: Take 1 additional Resource or Crystal from the Warehouse."
+  },
+  {
+    "id": "p2_bp1_10_title",
+    "current_ko": "8. 수경 농장",
+    "ocr_en": "8. HYDROPONIC FARM + <a"
+  },
+  {
+    "id": "p2_bp1_10_res_label",
+    "current_ko": "식물 1",
+    "ocr_en": "§Gain 1 Plant"
+  },
+  {
+    "id": "p2_bp1_10_bld_label",
+    "current_ko": "그린하우스",
+    "ocr_en": "Greenhouse"
+  },
+  {
+    "id": "p2_bp1_10_eng_label",
+    "current_ko": "생화학자",
+    "ocr_en": "Biochemist"
+  },
+  {
+    "id": "p2_bp1_10_body",
+    "current_ko": "고급 건물 액션: 그린하우스 1 건설. 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct a Greenhouse following normal rules. a\nTech required if creating or increasing a a Complex. For each Boost: Gain 1\nadditional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp1_11_title",
+    "current_ko": "9. 산소 탱크",
+    "ocr_en": "9. OXYGEN TANK +."
+  },
+  {
+    "id": "p2_bp1_11_res_label",
+    "current_ko": "산소 1",
+    "ocr_en": "§Gain 1 1 Oxygen"
+  },
+  {
+    "id": "p2_bp1_11_bld_label",
+    "current_ko": "산소 응축기",
+    "ocr_en": "Oxygen Condenser"
+  },
+  {
+    "id": "p2_bp1_11_eng_label",
+    "current_ko": "지화학자",
+    "ocr_en": "Geochemist"
+  },
+  {
+    "id": "p2_bp1_11_body",
+    "current_ko": "고급 건물 액션: 테크 그리드에서 정상 비용으로 테크 1. 부스트마다: 테크 1 추가.",
+    "ocr_en": "Building Action: Take 1 Tech tile from the Tech Grid, as per normal Advanced 1\nAlles. For each Boost: Take 1 1 additional Tech tile."
+  },
+  {
+    "id": "p2_bp1_12_title",
+    "current_ko": "10. 농축기",
+    "ocr_en": "10. CONCENTRATOR +."
+  },
+  {
+    "id": "p2_bp1_12_res_label",
+    "current_ko": "산소 1",
+    "ocr_en": "§Gain 1 1 Oxygen"
+  },
+  {
+    "id": "p2_bp1_12_bld_label",
+    "current_ko": "산소 응축기",
+    "ocr_en": "Oxygen Condenser"
+  },
+  {
+    "id": "p2_bp1_12_eng_label",
+    "current_ko": "지화학자",
+    "ocr_en": "Geochemist"
+  },
+  {
+    "id": "p2_bp1_12_body",
+    "current_ko": "고급 건물 액션: 산소 응축기 1 건설. 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct an Oxygen Condenser following normal\nrules. Tech required if creating or increasing a Complex. For each Boost: Gain\nadditional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp1_13_title",
+    "current_ko": "11. 카지노",
+    "ocr_en": "11. CASINO +."
+  },
+  {
+    "id": "p2_bp1_13_res_label",
+    "current_ko": "크리스탈 1",
+    "ocr_en": "Gain 1 Crystal"
+  },
+  {
+    "id": "p2_bp1_13_bld_label",
+    "current_ko": "셸터",
+    "ocr_en": "Shelter"
+  },
+  {
+    "id": "p2_bp1_13_eng_label",
+    "current_ko": "시스템 엔지니어",
+    "ocr_en": "Systems Engineer"
+  },
+  {
+    "id": "p2_bp1_13_body",
+    "current_ko": "고급 건물 액션: 크리스탈 2. 부스트마다: 추가 1.",
+    "ocr_en": "Advanced Building Action: Gain 2 2 Crystals. For each Boost: Gain 1 additional\nCrystal."
+  },
+  {
+    "id": "p2_bp1_14_title",
+    "current_ko": "12. 체육관",
+    "ocr_en": "12. GYM M <®>"
+  },
+  {
+    "id": "p2_bp1_14_res_label",
+    "current_ko": "크리스탈 1",
+    "ocr_en": "Gain 1 Crystal"
+  },
+  {
+    "id": "p2_bp1_14_bld_label",
+    "current_ko": "셸터",
+    "ocr_en": "shelter"
+  },
+  {
+    "id": "p2_bp1_14_eng_label",
+    "current_ko": "시스템 엔지니어",
+    "ocr_en": "Systems Engineer"
+  },
+  {
+    "id": "p2_bp1_14_body",
+    "current_ko": "고급 건물 액션: 셸터 1 건설. 부스트마다: 테크 +1.",
+    "ocr_en": "Advanced Building Action: Construct a a Shelter following normal rules. Tech\nrequired if creating or increasing a a Complex. For each Boost: Gain 1 1\nadditional level of Tech for this construction action."
+  },
+  {
+    "id": "p2_bp3_02_title",
+    "current_ko": "13. 광물 광산",
+    "ocr_en": "13. MINERAL MINE"
+  },
+  {
+    "id": "p2_bp3_02_res_label",
+    "current_ko": "광물 1",
+    "ocr_en": "Gain 1 Mineral"
+  },
+  {
+    "id": "p2_bp3_02_bld_label",
+    "current_ko": "광산",
+    "ocr_en": "Mine"
+  },
+  {
+    "id": "p2_bp3_02_eng_label",
+    "current_ko": "지질학자",
+    "ocr_en": "Geologist"
+  },
+  {
+    "id": "p2_bp3_02_body",
+    "current_ko": "고급 건물 액션: 2 OP.",
+    "ocr_en": "Advanced Building Action: Score 2 OP."
+  },
+  {
+    "id": "p2_bp3_03_title",
+    "current_ko": "14. 바이오 연구소",
+    "ocr_en": "14. BIOLAB i."
+  },
+  {
+    "id": "p2_bp3_03_res_label",
+    "current_ko": "광물 1",
+    "ocr_en": "Gain 1 Mineral"
+  },
+  {
+    "id": "p2_bp3_03_bld_label",
+    "current_ko": "광산",
+    "ocr_en": "Min"
+  },
+  {
+    "id": "p2_bp3_03_eng_label",
+    "current_ko": "지질학자",
+    "ocr_en": "Geologist"
+  },
+  {
+    "id": "p2_bp3_03_body",
+    "current_ko": "고급 건물 액션: 디스플레이에서 정상 비용으로 지구 계약 1.",
+    "ocr_en": "Advanced Building Action: Take 1 Contract from the display, paying the\ncost."
+  },
+  {
+    "id": "p2_bp3_04_title",
+    "current_ko": "15. 레이더",
+    "ocr_en": "15. RADAR"
+  },
+  {
+    "id": "p2_bp3_04_res_label",
+    "current_ko": "배터리 1",
+    "ocr_en": "§Gain 1 Battery"
+  },
+  {
+    "id": "p2_bp3_04_bld_label",
+    "current_ko": "발전기",
+    "ocr_en": "Generator"
+  },
+  {
+    "id": "p2_bp3_04_eng_label",
+    "current_ko": "R&D 엔지니어",
+    "ocr_en": "R&D Engineer"
+  },
+  {
+    "id": "p2_bp3_04_body",
+    "current_ko": "고급 건물 액션: 카드 위에 발견 타일을 둠. 가져갈 때 보너스+게임 종료까지 카드 액션 재사용.",
+    "ocr_en": "Advanced Building Action: Place one of the Discovery tiles from the\nExploration space onto this card. Gain the benefit of of the tile. For the rest of\nthe game, the Action of of this card is to gain that benefit."
+  },
+  {
+    "id": "p2_bp3_05_title",
+    "current_ko": "16. 빌더 드론 A100",
+    "ocr_en": "16. BUILDER DRONE AI600"
+  },
+  {
+    "id": "p2_bp3_05_res_label",
+    "current_ko": "배터리 1",
+    "ocr_en": "§Gain 1 Battery"
+  },
+  {
+    "id": "p2_bp3_05_bld_label",
+    "current_ko": "발전기",
+    "ocr_en": "Generator"
+  },
+  {
+    "id": "p2_bp3_05_eng_label",
+    "current_ko": "R&D 엔지니어",
+    "ocr_en": "R&D Engineer"
+  },
+  {
+    "id": "p2_bp3_05_body",
+    "current_ko": "고급 건물 액션: 맵 어디든 건물 1 업그레이드(자기 봇 무관).",
+    "ocr_en": "Advanced Building Action: Upgrade a Building anywhere on the map (the\nbuilding zone of your Bots is is unlimited for this action)."
+  },
+  {
+    "id": "p2_bp3_06_title",
+    "current_ko": "17. 연구소",
+    "ocr_en": "17. RESEARCH LAB i."
+  },
+  {
+    "id": "p2_bp3_06_res_label",
+    "current_ko": "물 1",
+    "ocr_en": "Gain 1 Water"
+  },
+  {
+    "id": "p2_bp3_06_bld_label",
+    "current_ko": "수자원 추출기",
+    "ocr_en": "Water Extractor"
+  },
+  {
+    "id": "p2_bp3_06_eng_label",
+    "current_ko": "수경재배학자",
+    "ocr_en": "Hydrologist"
+  },
+  {
+    "id": "p2_bp3_06_body",
+    "current_ko": "고급 건물 액션: 자기 테크 타일 최대 2장 발전(정상 비용). 부스트마다: 1장 추가.",
+    "ocr_en": "Advanced Building Action: Develop 1 1 of your Tech tiles up to 2 times or 2\nTech tiles one time each, paying normal costs. For each Boost: develop a\nTech one additional time, paying normal costs."
+  },
+  {
+    "id": "p2_bp3_06b_title",
+    "current_ko": "18. 수도교",
+    "ocr_en": "18. AQUEDUCT"
+  },
+  {
+    "id": "p2_bp3_06b_res_label",
+    "current_ko": "물 1",
+    "ocr_en": "§Gain 1 Water"
+  },
+  {
+    "id": "p2_bp3_06b_bld_label",
+    "current_ko": "수자원 추출기",
+    "ocr_en": "Water Extractor"
+  },
+  {
+    "id": "p2_bp3_06b_eng_label",
+    "current_ko": "수경재배학자",
+    "ocr_en": "Hydrologist"
+  },
+  {
+    "id": "p2_bp3_06b_body",
+    "current_ko": "고급 건물 액션: 자기 거주구역으로 콜로니스트 최대 2.",
+    "ocr_en": "Advanced Building Action: Move up to 2 Colonists from your Working area to\nyour Living Quarters."
+  },
+  {
+    "id": "p2_bp3_07_title",
+    "current_ko": "19. 에코 리조트",
+    "ocr_en": "19. ECO RESORT"
+  },
+  {
+    "id": "p2_bp3_07_res_label",
+    "current_ko": "식물 1",
+    "ocr_en": "19. ECO RESORT\nPlant"
+  },
+  {
+    "id": "p2_bp3_07_bld_label",
+    "current_ko": "그린하우스",
+    "ocr_en": "Greenhouse"
+  },
+  {
+    "id": "p2_bp3_07_eng_label",
+    "current_ko": "생화학자",
+    "ocr_en": "Biochemist"
+  },
+  {
+    "id": "p2_bp3_07_body",
+    "current_ko": "고급 건물 액션: 궤도 액션 칸·콜로니의 자기 콜로니스트를 거주구역으로.",
+    "ocr_en": "Advanced Building Action: Return some or or all of your Colonists from Action\nslots in Orbit or on the Colony to your Living Quarters. Warehouse."
+  },
+  {
+    "id": "p2_bp3_08_title",
+    "current_ko": "20. 무역 시장",
+    "ocr_en": "20. TRADE MARKET"
+  },
+  {
+    "id": "p2_bp3_08_res_label",
+    "current_ko": "식물 1",
+    "ocr_en": "Gain 1 Plant"
+  },
+  {
+    "id": "p2_bp3_08_bld_label",
+    "current_ko": "그린하우스",
+    "ocr_en": "Greenhouse"
+  },
+  {
+    "id": "p2_bp3_08_eng_label",
+    "current_ko": "생화학자",
+    "ocr_en": "Biochemist"
+  },
+  {
+    "id": "p2_bp3_08_body",
+    "current_ko": "고급 건물 액션: 저장고에서 자원 1을 지불하고 비-광물 자원 2를 공급처에서. 부스트마다: 자원 1 추가.",
+    "ocr_en": "Advanced Building Action: Spend 1 Resource from your Storage and take any\n2 non-mineral Resources from the general supply. For each Boost: take 1\nadditional Resource."
+  },
+  {
+    "id": "p2_bp3_08b_title",
+    "current_ko": "21. 재활용 봇",
+    "ocr_en": "21. RECYCLING BOTS i."
+  },
+  {
+    "id": "p2_bp3_08b_res_label",
+    "current_ko": "산소 1",
+    "ocr_en": "§Gain 1 Oxygen"
+  },
+  {
+    "id": "p2_bp3_08b_bld_label",
+    "current_ko": "산소 응축기",
+    "ocr_en": "Oxygen Condenser"
+  },
+  {
+    "id": "p2_bp3_08b_eng_label",
+    "current_ko": "지화학자",
+    "ocr_en": "Geochemist"
+  },
+  {
+    "id": "p2_bp3_08b_body",
+    "current_ko": "고급 건물 액션: 이동력 2로 자기 로버 이동(크리스탈, 연구·발견 타일 회수). 부스트마다: 이동력 1.",
+    "ocr_en": "dvanced Action: to 2 Movement to move Building Spend up points your\nBots as if they were Rovers (collecting Crystals, Research tiles and Discovery\ntiles). For each Boost: Take 1 1 additional Movement point."
+  },
+  {
+    "id": "p2_bp3_09_title",
+    "current_ko": "22. 공중 엘리베이터",
+    "ocr_en": "22. AERIAL ELEVATOR i."
+  },
+  {
+    "id": "p2_bp3_09_res_label",
+    "current_ko": "산소 1",
+    "ocr_en": "Gain 1 1 Oxygen"
+  },
+  {
+    "id": "p2_bp3_09_bld_label",
+    "current_ko": "산소 응축기",
+    "ocr_en": "Oxygen Condenser"
+  },
+  {
+    "id": "p2_bp3_09_eng_label",
+    "current_ko": "지화학자",
+    "ocr_en": "Geochemist"
+  },
+  {
+    "id": "p2_bp3_09_body",
+    "current_ko": "고급 건물 액션: 메인 액션 전 궤도로 이동해 평소 이동 단계, 이후 메인 액션.",
+    "ocr_en": "Advanced Building Action: Travel to Orbit, performing the travel steps as\nnormal. If you do this before your Main action, perform your Main action in\nOrbit."
+  },
+  {
+    "id": "p2_bp3_10_title",
+    "current_ko": "23. 도서관",
+    "ocr_en": "23. LIBRARY"
+  },
+  {
+    "id": "p2_bp3_10_res_label",
+    "current_ko": "크리스탈 1",
+    "ocr_en": "Gain 1 Crystal"
+  },
+  {
+    "id": "p2_bp3_10_bld_label",
+    "current_ko": "셸터",
+    "ocr_en": "Shelter"
+  },
+  {
+    "id": "p2_bp3_10_eng_label",
+    "current_ko": "시스템 엔지니어",
+    "ocr_en": "Systems Engineer"
+  },
+  {
+    "id": "p2_bp3_10_body",
+    "current_ko": "고급 건물 액션: 청사진 1. 부스트마다: 추가 1.",
+    "ocr_en": "Advanced Building Action: Take 1 1 Blueprint. For each Boost: Take 1 more\nBlueprint."
+  },
+  {
+    "id": "p2_bp3_11_title",
+    "current_ko": "24. 사령부",
+    "ocr_en": "24. COMMAND CENTER M &"
+  },
+  {
+    "id": "p2_bp3_11_res_label",
+    "current_ko": "크리스탈 1",
+    "ocr_en": "Gain 1 Crystal"
+  },
+  {
+    "id": "p2_bp3_11_bld_label",
+    "current_ko": "셸터",
+    "ocr_en": "Shelter"
+  },
+  {
+    "id": "p2_bp3_11_eng_label",
+    "current_ko": "시스템 엔지니어",
+    "ocr_en": "Systems Engineer"
+  },
+  {
+    "id": "p2_bp3_11_body",
+    "current_ko": "고급 건물 액션: 자기 로버를 (현재 보드의 자기 로버 테크 최고 레벨)만큼 칸 이동. 부스트마다: 1칸 추가.",
+    "ocr_en": "Advanced Building Action: Move your Rover a a number of of hexes up up to the\nhighest level of Rover Tech in play. For each Boost: Move it it 1 additional hex."
+  }
+]

@@ -1,0 +1,2373 @@
+{
+  "page": 1,
+  "in_image": [
+    {
+      "text": "|",
+      "bbox": [
+        464,
+        170,
+        489,
+        307
+      ],
+      "conf": 62.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_003"
+    },
+    {
+      "text": "a]",
+      "bbox": [
+        348,
+        1025,
+        489,
+        1170
+      ],
+      "conf": 40.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_054"
+    },
+    {
+      "text": "x",
+      "bbox": [
+        1444,
+        366,
+        1509,
+        430
+      ],
+      "conf": 84.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_024"
+    },
+    {
+      "text": "x",
+      "bbox": [
+        1445,
+        908,
+        1542,
+        986
+      ],
+      "src": "both",
+      "vtext": "The",
+      "verdict": "in_image",
+      "region_id": "p1_img_041"
+    },
+    {
+      "text": "Nf",
+      "bbox": [
+        1420,
+        1959,
+        2722,
+        1974
+      ],
+      "conf": 42.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "COLONY",
+      "bbox": [
+        1886,
+        1982,
+        2051,
+        2025
+      ],
+      "src": "both",
+      "vtext": "COLONY",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "LEVEL",
+      "bbox": [
+        2058,
+        1982,
+        2188,
+        2025
+      ],
+      "src": "both",
+      "vtext": "LEVEL",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "UP",
+      "bbox": [
+        2204,
+        1982,
+        2255,
+        2025
+      ],
+      "src": "both",
+      "vtext": "UP",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "When",
+      "bbox": [
+        1440,
+        2037,
+        1535,
+        2074
+      ],
+      "src": "both",
+      "vtext": "When",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1526,
+        2037,
+        1601,
+        2074
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "colony",
+      "bbox": [
+        1594,
+        2037,
+        1723,
+        2076
+      ],
+      "src": "both",
+      "vtext": "colony",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "levels",
+      "bbox": [
+        1714,
+        2037,
+        1829,
+        2074
+      ],
+      "src": "both",
+      "vtext": "levels",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "up,",
+      "bbox": [
+        1834,
+        2037,
+        1889,
+        2076
+      ],
+      "src": "both",
+      "vtext": "up,",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "perform",
+      "bbox": [
+        1902,
+        2037,
+        2037,
+        2075
+      ],
+      "src": "both",
+      "vtext": "perform",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        2040,
+        2037,
+        2103,
+        2074
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "following",
+      "bbox": [
+        2108,
+        2037,
+        2265,
+        2076
+      ],
+      "src": "both",
+      "vtext": "following",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "steps",
+      "bbox": [
+        2280,
+        2037,
+        2366,
+        2075
+      ],
+      "src": "both",
+      "vtext": "steps",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "[note:",
+      "bbox": [
+        1434,
+        2073,
+        1529,
+        2110
+      ],
+      "src": "both",
+      "vtext": "[note:",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1539,
+        2073,
+        1587,
+        2110
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Colony",
+      "bbox": [
+        1599,
+        2073,
+        1700,
+        2112
+      ],
+      "src": "both",
+      "vtext": "Colony",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Status",
+      "bbox": [
+        1704,
+        2073,
+        1805,
+        2110
+      ],
+      "src": "both",
+      "vtext": "Status",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "is",
+      "bbox": [
+        1809,
+        2073,
+        1839,
+        2110
+      ],
+      "src": "both",
+      "vtext": "is",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "updated",
+      "bbox": [
+        1851,
+        2073,
+        1969,
+        2112
+      ],
+      "src": "both",
+      "vtext": "updated",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "at",
+      "bbox": [
+        1974,
+        2073,
+        2008,
+        2110
+      ],
+      "src": "both",
+      "vtext": "at",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        2019,
+        2073,
+        2067,
+        2110
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "end",
+      "bbox": [
+        2079,
+        2073,
+        2130,
+        2110
+      ],
+      "src": "both",
+      "vtext": "end",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "of",
+      "bbox": [
+        2139,
+        2073,
+        2170,
+        2110
+      ],
+      "src": "both",
+      "vtext": "of",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "your",
+      "bbox": [
+        2182,
+        2073,
+        2248,
+        2112
+      ],
+      "src": "both",
+      "vtext": "your",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "turn",
+      "bbox": [
+        2259,
+        2073,
+        2320,
+        2110
+      ],
+      "src": "both",
+      "vtext": "turn",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "(after",
+      "bbox": [
+        2333,
+        2073,
+        2424,
+        2110
+      ],
+      "src": "both",
+      "vtext": "(after",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "player(s)",
+      "bbox": [
+        2427,
+        2073,
+        2574,
+        2112
+      ],
+      "src": "both",
+      "vtext": "player(s)",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "whose",
+      "bbox": [
+        2568,
+        2073,
+        2664,
+        2110
+      ],
+      "src": "both",
+      "vtext": "whose",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Tech",
+      "bbox": [
+        1440,
+        2116,
+        1514,
+        2153
+      ],
+      "src": "both",
+      "vtext": "Tech",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "tiles",
+      "bbox": [
+        1516,
+        2116,
+        1593,
+        2153
+      ],
+      "src": "both",
+      "vtext": "tiles",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "were",
+      "bbox": [
+        1598,
+        2116,
+        1669,
+        2153
+      ],
+      "src": "both",
+      "vtext": "were",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "used",
+      "bbox": [
+        1681,
+        2116,
+        1747,
+        2153
+      ],
+      "src": "both",
+      "vtext": "used",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "have",
+      "bbox": [
+        1760,
+        2116,
+        1829,
+        2153
+      ],
+      "src": "both",
+      "vtext": "have",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "kept/spent",
+      "bbox": [
+        1836,
+        2116,
+        2001,
+        2153
+      ],
+      "src": "both",
+      "vtext": "kept/spent",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        2005,
+        2116,
+        2059,
+        2153
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Oxygen",
+      "bbox": [
+        2066,
+        2116,
+        2181,
+        2153
+      ],
+      "src": "both",
+      "vtext": "Oxygen",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "they",
+      "bbox": [
+        2173,
+        2116,
+        2257,
+        2153
+      ],
+      "src": "both",
+      "vtext": "they",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "received)].",
+      "bbox": [
+        2249,
+        2116,
+        2425,
+        2153
+      ],
+      "src": "both",
+      "vtext": "received)].",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "1.",
+      "bbox": [
+        1434,
+        2146,
+        1469,
+        2190
+      ],
+      "src": "both",
+      "vtext": "1.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Move",
+      "bbox": [
+        1486,
+        2146,
+        1572,
+        2190
+      ],
+      "src": "both",
+      "vtext": "Move",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1574,
+        2146,
+        1638,
+        2190
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "colony",
+      "bbox": [
+        1644,
+        2146,
+        1760,
+        2190
+      ],
+      "src": "both",
+      "vtext": "colony",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "marker",
+      "bbox": [
+        1768,
+        2146,
+        1891,
+        2190
+      ],
+      "src": "both",
+      "vtext": "marker",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "up.",
+      "bbox": [
+        1892,
+        2146,
+        1951,
+        2190
+      ],
+      "src": "both",
+      "vtext": "up.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "2.",
+      "bbox": [
+        1440,
+        2183,
+        1473,
+        2227
+      ],
+      "src": "both",
+      "vtext": "2.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Add",
+      "bbox": [
+        1485,
+        2183,
+        1548,
+        2227
+      ],
+      "src": "both",
+      "vtext": "Add",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Blueprint",
+      "bbox": [
+        1555,
+        2183,
+        1714,
+        2227
+      ],
+      "src": "both",
+      "vtext": "Blueprint",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "cards",
+      "bbox": [
+        1723,
+        2183,
+        1816,
+        2227
+      ],
+      "src": "both",
+      "vtext": "cards",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "according",
+      "bbox": [
+        1823,
+        2183,
+        1991,
+        2227
+      ],
+      "src": "both",
+      "vtext": "according",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "to",
+      "bbox": [
+        1991,
+        2183,
+        2037,
+        2227
+      ],
+      "src": "both",
+      "vtext": "to",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        2040,
+        2183,
+        2103,
+        2227
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "display.",
+      "bbox": [
+        2106,
+        2183,
+        2241,
+        2227
+      ],
+      "src": "both",
+      "vtext": "display.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "3.",
+      "bbox": [
+        1440,
+        2226,
+        1472,
+        2263
+      ],
+      "src": "both",
+      "vtext": "3.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Refill",
+      "bbox": [
+        1486,
+        2226,
+        1580,
+        2263
+      ],
+      "src": "both",
+      "vtext": "Refill",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1580,
+        2226,
+        1642,
+        2263
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Tech",
+      "bbox": [
+        1645,
+        2226,
+        1724,
+        2263
+      ],
+      "src": "both",
+      "vtext": "Tech",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Grid.",
+      "bbox": [
+        1734,
+        2226,
+        1814,
+        2263
+      ],
+      "src": "both",
+      "vtext": "Grid.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "(2P:",
+      "bbox": [
+        1827,
+        2226,
+        1890,
+        2263
+      ],
+      "src": "both",
+      "vtext": "(2P:",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Skip",
+      "bbox": [
+        1903,
+        2226,
+        1971,
+        2264
+      ],
+      "src": "both",
+      "vtext": "Skip",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "this",
+      "bbox": [
+        1981,
+        2226,
+        2043,
+        2263
+      ],
+      "src": "both",
+      "vtext": "this",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "step)",
+      "bbox": [
+        2056,
+        2226,
+        2139,
+        2264
+      ],
+      "src": "both",
+      "vtext": "step)",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "4.",
+      "bbox": [
+        1440,
+        2257,
+        1474,
+        2299
+      ],
+      "src": "both",
+      "vtext": "4.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Refill",
+      "bbox": [
+        1488,
+        2257,
+        1588,
+        2299
+      ],
+      "src": "both",
+      "vtext": "Refill",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1582,
+        2257,
+        1653,
+        2299
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Warehouse.",
+      "bbox": [
+        1648,
+        2257,
+        1843,
+        2299
+      ],
+      "src": "both",
+      "vtext": "Warehouse.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "(2P:",
+      "bbox": [
+        1850,
+        2257,
+        1920,
+        2299
+      ],
+      "src": "both",
+      "vtext": "(2P:",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Only",
+      "bbox": [
+        1932,
+        2257,
+        2007,
+        2301
+      ],
+      "src": "both",
+      "vtext": "Only",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "refill",
+      "bbox": [
+        2014,
+        2257,
+        2113,
+        2299
+      ],
+      "src": "both",
+      "vtext": "refill",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "bottom",
+      "bbox": [
+        2107,
+        2257,
+        2228,
+        2299
+      ],
+      "src": "both",
+      "vtext": "bottom",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "2",
+      "bbox": [
+        2238,
+        2257,
+        2260,
+        2299
+      ],
+      "src": "both",
+      "vtext": "2",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "rows)",
+      "bbox": [
+        2271,
+        2257,
+        2361,
+        2299
+      ],
+      "src": "both",
+      "vtext": "rows)",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "5.",
+      "bbox": [
+        1440,
+        2299,
+        1474,
+        2336
+      ],
+      "src": "both",
+      "vtext": "5.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Score",
+      "bbox": [
+        1486,
+        2299,
+        1580,
+        2336
+      ],
+      "src": "both",
+      "vtext": "Score",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Progress",
+      "bbox": [
+        1593,
+        2299,
+        1741,
+        2339
+      ],
+      "src": "both",
+      "vtext": "Progress",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "cubes.",
+      "bbox": [
+        1746,
+        2299,
+        1859,
+        2336
+      ],
+      "src": "both",
+      "vtext": "cubes.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "(Levels",
+      "bbox": [
+        1865,
+        2299,
+        1990,
+        2336
+      ],
+      "src": "both",
+      "vtext": "(Levels",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "2",
+      "bbox": [
+        2001,
+        2299,
+        2021,
+        2336
+      ],
+      "src": "both",
+      "vtext": "2",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "and",
+      "bbox": [
+        2034,
+        2299,
+        2092,
+        2336
+      ],
+      "src": "both",
+      "vtext": "and",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        2103,
+        2299,
+        2124,
+        2336
+      ],
+      "src": "both",
+      "vtext": "3",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "only)",
+      "bbox": [
+        2137,
+        2299,
+        2222,
+        2338
+      ],
+      "src": "both",
+      "vtext": "only)",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "6.",
+      "bbox": [
+        1445,
+        2336,
+        1480,
+        2373
+      ],
+      "src": "both",
+      "vtext": "6.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Move",
+      "bbox": [
+        1488,
+        2336,
+        1574,
+        2373
+      ],
+      "src": "both",
+      "vtext": "Move",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1583,
+        2336,
+        1639,
+        2373
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Remaining",
+      "bbox": [
+        1651,
+        2336,
+        1827,
+        2376
+      ],
+      "src": "both",
+      "vtext": "Remaining",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "Missions",
+      "bbox": [
+        1823,
+        2336,
+        1981,
+        2373
+      ],
+      "src": "both",
+      "vtext": "Missions",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "cube.",
+      "bbox": [
+        1978,
+        2336,
+        2081,
+        2373
+      ],
+      "src": "both",
+      "vtext": "cube.",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "(Levels",
+      "bbox": [
+        2081,
+        2336,
+        2212,
+        2373
+      ],
+      "src": "both",
+      "vtext": "(Levels",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "3",
+      "bbox": [
+        2218,
+        2336,
+        2243,
+        2373
+      ],
+      "src": "both",
+      "vtext": "3",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "and",
+      "bbox": [
+        2252,
+        2336,
+        2314,
+        2373
+      ],
+      "src": "both",
+      "vtext": "and",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "4",
+      "bbox": [
+        2320,
+        2336,
+        2349,
+        2373
+      ],
+      "src": "both",
+      "vtext": "4",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "only)",
+      "bbox": [
+        2354,
+        2336,
+        2443,
+        2376
+      ],
+      "src": "both",
+      "vtext": "only)",
+      "verdict": "in_image",
+      "region_id": "p1_img_070"
+    },
+    {
+      "text": "?",
+      "bbox": [
+        2801,
+        204,
+        2857,
+        272
+      ],
+      "conf": 46.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_006"
+    },
+    {
+      "text": "uit",
+      "bbox": [
+        2771,
+        258,
+        3124,
+        454
+      ],
+      "conf": 48.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_018"
+    },
+    {
+      "text": "CYCLE",
+      "bbox": [
+        2881,
+        384,
+        3015,
+        421
+      ],
+      "src": "both",
+      "vtext": "CYCLE",
+      "verdict": "in_image",
+      "region_id": "p1_img_028"
+    },
+    {
+      "text": "Ne",
+      "bbox": [
+        2790,
+        434,
+        3092,
+        543
+      ],
+      "conf": 30.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_032"
+    },
+    {
+      "text": "*",
+      "bbox": [
+        3010,
+        430,
+        3089,
+        547
+      ],
+      "conf": 41.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_032"
+    },
+    {
+      "text": "MARS",
+      "bbox": [
+        2887,
+        286,
+        3009,
+        323
+      ],
+      "src": "both",
+      "vtext": "MARS",
+      "verdict": "in_image",
+      "region_id": "p1_img_009"
+    },
+    {
+      "text": "GE?",
+      "bbox": [
+        2936,
+        501,
+        3044,
+        539
+      ],
+      "conf": 34.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_032"
+    },
+    {
+      "text": "your",
+      "bbox": [
+        2795,
+        982,
+        2887,
+        1018
+      ],
+      "src": "both",
+      "vtext": "your",
+      "verdict": "in_image",
+      "region_id": "p1_img_045"
+    },
+    {
+      "text": "Working",
+      "bbox": [
+        2771,
+        1018,
+        2918,
+        1055
+      ],
+      "src": "both",
+      "vtext": "Working",
+      "verdict": "in_image",
+      "region_id": "p1_img_051"
+    },
+    {
+      "text": "Area",
+      "bbox": [
+        2795,
+        1055,
+        2887,
+        1091
+      ],
+      "src": "both",
+      "vtext": "Area",
+      "verdict": "in_image",
+      "region_id": "p1_img_055"
+    },
+    {
+      "text": "Be",
+      "bbox": [
+        2825,
+        1215,
+        2866,
+        1233
+      ],
+      "conf": 73.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_063"
+    },
+    {
+      "text": "(=)",
+      "bbox": [
+        3057,
+        1003,
+        3144,
+        1090
+      ],
+      "conf": 45.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_049"
+    },
+    {
+      "text": "Mineral",
+      "bbox": [
+        3033,
+        1133,
+        3168,
+        1172
+      ],
+      "src": "both",
+      "vtext": "Mineral",
+      "verdict": "in_image",
+      "region_id": "p1_img_060"
+    },
+    {
+      "text": "DISPLACEMENT",
+      "bbox": [
+        3375,
+        194,
+        3685,
+        232
+      ],
+      "src": "both",
+      "vtext": "DISPLACEMENT",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "RULE",
+      "bbox": [
+        3702,
+        194,
+        3808,
+        232
+      ],
+      "src": "both",
+      "vtext": "RULE",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "If",
+      "bbox": [
+        3174,
+        250,
+        3207,
+        286
+      ],
+      "src": "both",
+      "vtext": "If",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "you",
+      "bbox": [
+        3210,
+        250,
+        3273,
+        286
+      ],
+      "src": "both",
+      "vtext": "you",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "construct",
+      "bbox": [
+        3283,
+        250,
+        3440,
+        286
+      ],
+      "src": "both",
+      "vtext": "construct",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "or",
+      "bbox": [
+        3454,
+        250,
+        3488,
+        286
+      ],
+      "src": "both",
+      "vtext": "or",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "upgrade",
+      "bbox": [
+        3501,
+        250,
+        3636,
+        286
+      ],
+      "src": "both",
+      "vtext": "upgrade",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3650,
+        258,
+        3666,
+        279
+      ],
+      "conf": 96.0,
+      "src": "tess-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "building",
+      "bbox": [
+        3669,
+        250,
+        3809,
+        286
+      ],
+      "src": "both",
+      "vtext": "building",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "on",
+      "bbox": [
+        3818,
+        250,
+        3861,
+        286
+      ],
+      "src": "both",
+      "vtext": "on",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "top",
+      "bbox": [
+        3867,
+        250,
+        3928,
+        286
+      ],
+      "src": "both",
+      "vtext": "top",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "of",
+      "bbox": [
+        3933,
+        250,
+        3973,
+        286
+      ],
+      "src": "both",
+      "vtext": "of",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3982,
+        250,
+        4002,
+        286
+      ],
+      "src": "both",
+      "vtext": "a",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Bot",
+      "bbox": [
+        3174,
+        286,
+        3232,
+        323
+      ],
+      "src": "both",
+      "vtext": "Bot",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "or",
+      "bbox": [
+        3251,
+        286,
+        3289,
+        323
+      ],
+      "src": "both",
+      "vtext": "or",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Rover,",
+      "bbox": [
+        3308,
+        286,
+        3424,
+        323
+      ],
+      "src": "both",
+      "vtext": "Rover,",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "that",
+      "bbox": [
+        3433,
+        286,
+        3520,
+        323
+      ],
+      "src": "both",
+      "vtext": "that",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "piece",
+      "bbox": [
+        3522,
+        286,
+        3636,
+        323
+      ],
+      "src": "both",
+      "vtext": "piece",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "must",
+      "bbox": [
+        3628,
+        286,
+        3732,
+        323
+      ],
+      "src": "both",
+      "vtext": "must",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "be",
+      "bbox": [
+        3730,
+        286,
+        3789,
+        323
+      ],
+      "src": "both",
+      "vtext": "be",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "moved",
+      "bbox": [
+        3789,
+        286,
+        3905,
+        323
+      ],
+      "src": "both",
+      "vtext": "moved",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "away",
+      "bbox": [
+        3918,
+        286,
+        4003,
+        323
+      ],
+      "src": "both",
+      "vtext": "away",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "from",
+      "bbox": [
+        3174,
+        322,
+        3254,
+        360
+      ],
+      "src": "both",
+      "vtext": "from",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "its",
+      "bbox": [
+        3266,
+        322,
+        3321,
+        360
+      ],
+      "src": "both",
+      "vtext": "its",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "current",
+      "bbox": [
+        3339,
+        322,
+        3469,
+        360
+      ],
+      "src": "both",
+      "vtext": "current",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "position",
+      "bbox": [
+        3487,
+        322,
+        3635,
+        361
+      ],
+      "src": "both",
+      "vtext": "position",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "by",
+      "bbox": [
+        3646,
+        322,
+        3690,
+        361
+      ],
+      "src": "both",
+      "vtext": "by",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "its",
+      "bbox": [
+        3707,
+        322,
+        3763,
+        360
+      ],
+      "src": "both",
+      "vtext": "its",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "owner",
+      "bbox": [
+        3768,
+        322,
+        3873,
+        360
+      ],
+      "src": "both",
+      "vtext": "owner",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "to",
+      "bbox": [
+        3891,
+        322,
+        3928,
+        360
+      ],
+      "src": "both",
+      "vtext": "to",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        3946,
+        322,
+        4002,
+        360
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "closest",
+      "bbox": [
+        3174,
+        359,
+        3298,
+        396
+      ],
+      "src": "both",
+      "vtext": "closest",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "available",
+      "bbox": [
+        3311,
+        359,
+        3475,
+        396
+      ],
+      "src": "both",
+      "vtext": "available",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "hex",
+      "bbox": [
+        3477,
+        359,
+        3545,
+        396
+      ],
+      "src": "both",
+      "vtext": "hex",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "(either",
+      "bbox": [
+        3552,
+        359,
+        3686,
+        396
+      ],
+      "src": "both",
+      "vtext": "(either",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "an",
+      "bbox": [
+        3680,
+        359,
+        3738,
+        396
+      ],
+      "src": "both",
+      "vtext": "an",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "empty",
+      "bbox": [
+        3737,
+        359,
+        3843,
+        398
+      ],
+      "src": "both",
+      "vtext": "empty",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "hex",
+      "bbox": [
+        3860,
+        359,
+        3915,
+        396
+      ],
+      "src": "both",
+      "vtext": "hex",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "or",
+      "bbox": [
+        3930,
+        359,
+        3968,
+        396
+      ],
+      "src": "both",
+      "vtext": "or",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3982,
+        359,
+        4002,
+        396
+      ],
+      "src": "both",
+      "vtext": "a",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Building",
+      "bbox": [
+        3174,
+        396,
+        3320,
+        439
+      ],
+      "src": "both",
+      "vtext": "Building",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "with",
+      "bbox": [
+        3314,
+        401,
+        3409,
+        433
+      ],
+      "src": "both",
+      "vtext": "with",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "no",
+      "bbox": [
+        3429,
+        402,
+        3480,
+        433
+      ],
+      "src": "both",
+      "vtext": "no",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "other",
+      "bbox": [
+        3498,
+        401,
+        3613,
+        433
+      ],
+      "src": "both",
+      "vtext": "other",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "piece",
+      "bbox": [
+        3620,
+        401,
+        3717,
+        439
+      ],
+      "src": "both",
+      "vtext": "piece",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "on",
+      "bbox": [
+        3735,
+        402,
+        3787,
+        439
+      ],
+      "src": "both",
+      "vtext": "on",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "it);",
+      "bbox": [
+        3792,
+        401,
+        3868,
+        439
+      ],
+      "src": "both",
+      "vtext": "it);",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "if",
+      "bbox": [
+        3887,
+        401,
+        3925,
+        439
+      ],
+      "src": "both",
+      "vtext": "if",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "you",
+      "bbox": [
+        3944,
+        402,
+        4001,
+        439
+      ],
+      "src": "both",
+      "vtext": "you",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "construct",
+      "bbox": [
+        3174,
+        439,
+        3348,
+        469
+      ],
+      "src": "both",
+      "vtext": "construct",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "or",
+      "bbox": [
+        3362,
+        439,
+        3405,
+        469
+      ],
+      "src": "both",
+      "vtext": "or",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "upgrade",
+      "bbox": [
+        3422,
+        439,
+        3559,
+        473
+      ],
+      "src": "both",
+      "vtext": "upgrade",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3578,
+        439,
+        3600,
+        469
+      ],
+      "src": "both",
+      "vtext": "a",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "building",
+      "bbox": [
+        3616,
+        439,
+        3770,
+        473
+      ],
+      "src": "both",
+      "vtext": "building",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "on",
+      "bbox": [
+        3784,
+        439,
+        3827,
+        469
+      ],
+      "src": "both",
+      "vtext": "on",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "top",
+      "bbox": [
+        3846,
+        439,
+        3904,
+        473
+      ],
+      "src": "both",
+      "vtext": "top",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "of",
+      "bbox": [
+        3923,
+        439,
+        3961,
+        469
+      ],
+      "src": "both",
+      "vtext": "of",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3968,
+        439,
+        4010,
+        469
+      ],
+      "src": "both",
+      "vtext": "a",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Colonist,",
+      "bbox": [
+        3174,
+        474,
+        3327,
+        508
+      ],
+      "src": "both",
+      "vtext": "Colonist,",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "displace",
+      "bbox": [
+        3345,
+        475,
+        3497,
+        512
+      ],
+      "src": "both",
+      "vtext": "displace",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "the",
+      "bbox": [
+        3513,
+        475,
+        3573,
+        512
+      ],
+      "src": "both",
+      "vtext": "the",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Colonist",
+      "bbox": [
+        3592,
+        475,
+        3744,
+        512
+      ],
+      "src": "both",
+      "vtext": "Colonist",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "back",
+      "bbox": [
+        3761,
+        475,
+        3839,
+        512
+      ],
+      "src": "both",
+      "vtext": "back",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "to",
+      "bbox": [
+        3858,
+        475,
+        3896,
+        512
+      ],
+      "src": "both",
+      "vtext": "to",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "their",
+      "bbox": [
+        3915,
+        475,
+        4010,
+        512
+      ],
+      "src": "both",
+      "vtext": "their",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "owner's",
+      "bbox": [
+        3168,
+        512,
+        3306,
+        549
+      ],
+      "src": "both",
+      "vtext": "owner's",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Living",
+      "bbox": [
+        3307,
+        512,
+        3417,
+        549
+      ],
+      "src": "both",
+      "vtext": "Living",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "Quarters.",
+      "bbox": [
+        3429,
+        512,
+        3587,
+        549
+      ],
+      "src": "both",
+      "vtext": "Quarters.",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    },
+    {
+      "text": "X",
+      "bbox": [
+        1445,
+        908,
+        1464,
+        983
+      ],
+      "conf": 100.0,
+      "src": "vision-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_041"
+    },
+    {
+      "text": "CONSTRUCTION",
+      "bbox": [
+        2789,
+        335,
+        3107,
+        372
+      ],
+      "conf": 100.0,
+      "src": "vision-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_018"
+    },
+    {
+      "text": "a",
+      "bbox": [
+        3637,
+        250,
+        3653,
+        286
+      ],
+      "conf": 100.0,
+      "src": "vision-only",
+      "verdict": "in_image",
+      "region_id": "p1_img_001"
+    }
+  ],
+  "no_region": [
+    {
+      "text": "Gain",
+      "bbox": [
+        3052,
+        1097,
+        3145,
+        1134
+      ],
+      "src": "both",
+      "vtext": "Gain",
+      "verdict": "no_region",
+      "region_id": null
+    },
+    {
+      "text": "1",
+      "bbox": [
+        3132,
+        1097,
+        3155,
+        1139
+      ],
+      "src": "both",
+      "vtext": "1",
+      "verdict": "no_region",
+      "region_id": null
+    },
+    {
+      "text": "v0T",
+      "bbox": [
+        4016,
+        2421,
+        4077,
+        2458
+      ],
+      "conf": 30.000001192092896,
+      "src": "vision-only",
+      "verdict": "no_region",
+      "region_id": null
+    }
+  ]
+}
