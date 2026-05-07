@@ -592,22 +592,22 @@
     {
       "id": "p1_right_l_02",
       "mask_bbox": [
-        2763,
+        2828,
         655,
-        3157,
-        968
+        3402,
+        778
       ],
       "text_bbox": [
-        2767,
+        2832,
         655,
-        3153,
-        964
+        3398,
+        774
       ],
-      "text": "이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
+      "text": "이동력 최대 2로 봇 이동, 크리스탈로 부스트.",
       "style": "body",
       "align": "left",
       "type": "text",
-      "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임' [split: body, title moved]"
+      "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임' [split: body, title moved] [paragraph 1 only — paragraph 2 moved to _p2]"
     },
     {
       "id": "p1_right_l_04",
@@ -1913,6 +1913,46 @@
       "style": "section_red",
       "align": "center",
       "note": "DISCOVERY TILES title"
+    },
+    {
+      "id": "p1_right_l_02_p2",
+      "type": "text",
+      "mask_bbox": [
+        2745,
+        790,
+        2935,
+        1095
+      ],
+      "text_bbox": [
+        2745,
+        790,
+        2935,
+        1095
+      ],
+      "text": "작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
+      "style": "body",
+      "align": "left",
+      "note": "LSS reward paragraph 2 (Retrieve a Colonist)"
+    },
+    {
+      "id": "p1_right_l_03",
+      "type": "text",
+      "mask_bbox": [
+        3033,
+        1097,
+        3168,
+        1172
+      ],
+      "text_bbox": [
+        3033,
+        1097,
+        3168,
+        1172
+      ],
+      "text": "광물 1 획득",
+      "style": "body",
+      "align": "center",
+      "note": "LSS reward label: Gain 1 Mineral"
     }
   ]
 }
