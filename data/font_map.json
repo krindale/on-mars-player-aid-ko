@@ -150,7 +150,21 @@
           0,
           0
         ]
-      }
+      },
+      "inline_keywords": [
+        {
+          "text": "획득:"
+        },
+        {
+          "text": "용도:"
+        },
+        {
+          "text": "그 외:"
+        },
+        {
+          "text": "부스트마다"
+        }
+      ]
     },
     "section_red_with_body": {
       "font": "regular",
@@ -240,7 +254,12 @@
           0,
           0
         ]
-      }
+      },
+      "inline_keywords": [
+        {
+          "text": "비용"
+        }
+      ]
     },
     "bp_body": {
       "font": "regular",
@@ -258,7 +277,15 @@
           0,
           0
         ]
-      }
+      },
+      "inline_keywords": [
+        {
+          "text": "고급 건물 액션"
+        },
+        {
+          "text": "부스트마다"
+        }
+      ]
     },
     "section_white": {
       "font": "extrabold",
@@ -268,6 +295,98 @@
         255,
         255
       ]
+    },
+    "body_p1": {
+      "font": "medium",
+      "size_px": 36,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 36,
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "line_height": 1.0
+      },
+      "line_height": 1.0,
+      "inline_keywords": [
+        {
+          "text": "로버:"
+        },
+        {
+          "text": "봇:"
+        },
+        {
+          "text": "A)",
+          "color": [
+            76,
+            194,
+            175
+          ]
+        },
+        {
+          "text": "B)",
+          "color": [
+            76,
+            194,
+            175
+          ]
+        }
+      ],
+      "inline_number_red": true,
+      "line_prefix_colors": {
+        "부스트:": [
+          76,
+          194,
+          175
+        ]
+      },
+      "inline_regexes": [
+        {
+          "pattern": "\\(2인 게임:[^\\)]*\\)",
+          "color": [
+            76,
+            194,
+            175
+          ]
+        }
+      ]
+    },
+    "body_p1_strong": {
+      "font": "semibold",
+      "size_px": 36,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "line_height": 1.0,
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 36,
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "line_height": 1.0
+      },
+      "inline_keywords": [],
+      "inline_number_red": false,
+      "line_prefix_colors": {
+        "부스트:": [
+          76,
+          194,
+          175
+        ]
+      },
+      "inline_regexes": []
     }
   }
 }

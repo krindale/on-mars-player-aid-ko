@@ -1,0 +1,1958 @@
+{
+  "_comment": "페이지 별 region 정의. 좌표는 300 DPI 픽셀 기준 (4200×2550 좌표계). bbox = [x0, y0, x1, y1]. text region: 영문 마스킹 + 한글 그리기 영역. image region: 영문 그대로 보존되는 일러스트/아이콘 영역. 각 region 의 'note' 필드는 사람용 설명 (편집 시 참고).",
+  "_field_guide": {
+    "text": {
+      "id": "고유 식별자",
+      "type": "'text'",
+      "mask_bbox": "[x0, y0, x1, y1]  영문 글자를 흰색으로 마스킹할 영역",
+      "text_bbox": "[x0, y0, x1, y1]  한글 텍스트 그릴 영역 (보통 mask_bbox 안)",
+      "text": "한글 번역 본문",
+      "style": "font_map.json 의 스타일 키",
+      "align": "'left' | 'center' | 'right'",
+      "note": "사람용 설명 (자동 생성, 자유 편집)"
+    },
+    "image": {
+      "id": "고유 식별자",
+      "type": "'image'",
+      "bbox": "[x0, y0, x1, y1]  영문 픽셀 그대로 보존할 영역",
+      "note": "사람용 설명 (자동 생성, 자유 편집)"
+    }
+  },
+  "image_size": [
+    4200,
+    2550
+  ],
+  "pdf_size_pt": [
+    1008,
+    612
+  ],
+  "dpi": 300,
+  "page": 1,
+  "regions": [
+    {
+      "id": "p1_left_01",
+      "mask_bbox": [
+        502,
+        220,
+        1163,
+        262
+      ],
+      "text_bbox": [
+        435,
+        224,
+        1159,
+        258
+      ],
+      "text": "궤도 정거장 메인 액션",
+      "style": "section_red",
+      "align": "center",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '궤도 정거장 메인 액션'"
+    },
+    {
+      "id": "p1_left_02",
+      "mask_bbox": [
+        256,
+        305,
+        1390,
+        408
+      ],
+      "text_bbox": [
+        256,
+        303,
+        1390,
+        410
+      ],
+      "text": "콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어 마커를 눕혀 놓는다.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어'"
+    },
+    {
+      "id": "p1_left_03",
+      "mask_bbox": [
+        256,
+        426,
+        1390,
+        563
+      ],
+      "text_bbox": [
+        256,
+        430,
+        1390,
+        562
+      ],
+      "text": "디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물 마커 1.\n부스트: 이 액션 1회 더 반복.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물'"
+    },
+    {
+      "id": "p1_left_04",
+      "mask_bbox": [
+        256,
+        577,
+        1390,
+        700
+      ],
+      "text_bbox": [
+        256,
+        577,
+        1390,
+        700
+      ],
+      "text": "표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장 왼쪽 열의 빈칸에 배치.\n부스트: 추가 자원/크리스탈 1.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장' [split: paragraph 1]"
+    },
+    {
+      "id": "p1_left_04b",
+      "type": "text",
+      "mask_bbox": [
+        256,
+        715,
+        1390,
+        848
+      ],
+      "text_bbox": [
+        256,
+        715,
+        1390,
+        848
+      ],
+      "text": "",
+      "style": "body_sm",
+      "align": "left",
+      "note": "split: paragraph 2 of original p1_left_04 (Develop Tech Tile)"
+    },
+    {
+      "id": "p1_left_05",
+      "mask_bbox": [
+        256,
+        862,
+        1390,
+        990
+      ],
+      "text_bbox": [
+        256,
+        866,
+        1390,
+        986
+      ],
+      "text": "테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비용 지불, 효과 획득.\n부스트: 테크 1번 더 발전.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비'"
+    },
+    {
+      "id": "p1_left_06",
+      "mask_bbox": [
+        504,
+        1078,
+        1000,
+        1121
+      ],
+      "text_bbox": [
+        441,
+        1082,
+        1000,
+        1117
+      ],
+      "text": "창고에서 자원/크리스탈 1을 자기 저장고/디포로.\n부스트: 추가 1.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '창고에서 자원/크리스탈 1을 자기 저장고/디포로. 부스트: 추가 1.'"
+    },
+    {
+      "id": "p1_left_07",
+      "mask_bbox": [
+        256,
+        1186,
+        1390,
+        1522
+      ],
+      "text_bbox": [
+        256,
+        1190,
+        1390,
+        1518
+      ],
+      "text": "콜로니 메인 액션\n1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자기 봇 1대 안에 타일 뒷면이 보이도록 배치 (A) 같은 종류 건물 인접 + 같은 종류·적정 레벨 테크, 또는 B) 같은 종류 타일에서 정확히 2칸 떨어짐). 4. 표시된 크리스탈 배치. 5. 타일을 뒤집어 새 크기에 맞는 자원/크리스탈 획득. 6. 같은 종류 콤플렉스에 첫 기여라면 진행 큐브 배치. 7. LSS 진행 확인. 8. 광산이라면 콜로니스트 1.",
+      "style": "section_red_with_body",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '콜로니 메인 액션 1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자'"
+    },
+    {
+      "id": "p1_left_08",
+      "mask_bbox": [
+        256,
+        1571,
+        1390,
+        1701
+      ],
+      "text_bbox": [
+        256,
+        1575,
+        1390,
+        1698
+      ],
+      "text": "1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 지불. 3. 고급 건물 마커를 청사진→건물(다른 말은 밀려난다).",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 '"
+    },
+    {
+      "id": "p1_left_09",
+      "mask_bbox": [
+        256,
+        1765,
+        1390,
+        1892
+      ],
+      "text_bbox": [
+        256,
+        1769,
+        1390,
+        1888
+      ],
+      "text": "1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 보드 옆에 배치. 3. 덱에서 원하는 계약서 1장으로 교체.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 '"
+    },
+    {
+      "id": "p1_left_10",
+      "mask_bbox": [
+        256,
+        1950,
+        1390,
+        2180
+      ],
+      "text_bbox": [
+        256,
+        1954,
+        1390,
+        2176
+      ],
+      "text": "자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리스탈 수집, 턴 끝 시 발견·연구 타일 위면 가져감. 봇: 지나간 크리스탈·발견·연구 타일 파괴.\n부스트: 추가 이동력 1.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리'"
+    },
+    {
+      "id": "p1_left_11",
+      "mask_bbox": [
+        256,
+        2230,
+        1390,
+        2422
+      ],
+      "text_bbox": [
+        127,
+        2234,
+        1390,
+        2418
+      ],
+      "text": "1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식물 1·물 1 지불. 3. 디포→격납고로 우주선 1. 4. 콜로니스트 1+봇 1 또는 콜로니스트 2.\n부스트: 다시 한 번 전부 수행.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[ACTIONS column (left)] 한글: '1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식'"
+    },
+    {
+      "id": "p1_center_01",
+      "mask_bbox": [
+        1855,
+        164,
+        2289,
+        205
+      ],
+      "text_bbox": [
+        1855,
+        164,
+        2289,
+        205
+      ],
+      "text": "기본 액션 규칙",
+      "style": "section_red",
+      "align": "center",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '기본 액션 규칙 자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자' [split: title]"
+    },
+    {
+      "id": "p1_center_01b",
+      "type": "text",
+      "mask_bbox": [
+        1420,
+        205,
+        2724,
+        368
+      ],
+      "text_bbox": [
+        1420,
+        205,
+        2724,
+        368
+      ],
+      "text": "자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자기 차례에 메인 액션 1개 필수, 그 전·후로 이그제큐티브 액션 1개 가능. 액션 칸의 기호:",
+      "style": "body",
+      "align": "left",
+      "note": "split: body of original p1_center_01 (Basic Action Rules)"
+    },
+    {
+      "id": "p1_center_02",
+      "mask_bbox": [
+        1539,
+        377,
+        2724,
+        419
+      ],
+      "text_bbox": [
+        1543,
+        381,
+        2724,
+        415
+      ],
+      "text": "[X] 비용 없이 액션 수행 가능.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[X] 비용 없이 액션 수행 가능.'"
+    },
+    {
+      "id": "p1_center_03",
+      "mask_bbox": [
+        1539,
+        434,
+        2724,
+        660
+      ],
+      "text_bbox": [
+        1539,
+        434,
+        2724,
+        660
+      ],
+      "text": "[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 다른 색마다 크리스탈 1 지불 또는 콜로니스트 1을 작업장으로. (2인: 비용은 점유된 칸 단위.) 칸이 다 차 있으면 콜로니스트가 가장 많은 플레이어(들)의 것을 작업장으로 되돌리고 남은 비용 지불.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 ' [split: paragraph 1 - 콜로니스트]"
+    },
+    {
+      "id": "p1_center_03b",
+      "type": "text",
+      "mask_bbox": [
+        1539,
+        670,
+        2724,
+        778
+      ],
+      "text_bbox": [
+        1539,
+        670,
+        2724,
+        778
+      ],
+      "text": "",
+      "style": "body_sm",
+      "align": "left",
+      "note": "split: paragraph 2 of original p1_center_03 (Working Area boost)"
+    },
+    {
+      "id": "p1_center_04",
+      "mask_bbox": [
+        1539,
+        829,
+        2724,
+        890
+      ],
+      "text_bbox": [
+        1539,
+        805,
+        2724,
+        939
+      ],
+      "text": "[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.'"
+    },
+    {
+      "id": "p1_center_05",
+      "mask_bbox": [
+        1539,
+        933,
+        2724,
+        975
+      ],
+      "text_bbox": [
+        1539,
+        937,
+        2724,
+        971
+      ],
+      "text": "[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.'"
+    },
+    {
+      "id": "p1_center_06",
+      "mask_bbox": [
+        1898,
+        1006,
+        2246,
+        1055
+      ],
+      "text_bbox": [
+        1898,
+        1006,
+        2246,
+        1055
+      ],
+      "text": "셔틀 페이즈",
+      "style": "section_red",
+      "align": "center",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '셔틀 페이즈 모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무' [split: title]"
+    },
+    {
+      "id": "p1_center_06b1",
+      "type": "text",
+      "mask_bbox": [
+        1419,
+        1055,
+        2724,
+        1130
+      ],
+      "text_bbox": [
+        1419,
+        1055,
+        2724,
+        1130
+      ],
+      "text": "모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무료, 그렇지 않으면 격납고에서 우주선 1 제거.",
+      "style": "body",
+      "align": "left",
+      "note": "split: shuttle phase intro"
+    },
+    {
+      "id": "p1_center_06b2",
+      "type": "text",
+      "mask_bbox": [
+        1569,
+        1130,
+        2724,
+        1370
+      ],
+      "text_bbox": [
+        1569,
+        1130,
+        2724,
+        1370
+      ],
+      "text": "[→콜로니] 턴 순서대로: 1. 마커를 탐사로 이동, A) 발견 타일 1을 골라 자기 로버로부터 정확히 3칸 떨어진 빈칸에 놓고 B) 그 자리 채우기. 2. 작업장+콜로니측 콜로니스트 회수(초과 분실). 3. 콜로니측 빈 턴 순서 칸으로 마커 이동, 보너스.",
+      "style": "body",
+      "align": "left",
+      "note": "split: → Colony side"
+    },
+    {
+      "id": "p1_center_06b3",
+      "type": "text",
+      "mask_bbox": [
+        1569,
+        1370,
+        2724,
+        1567
+      ],
+      "text_bbox": [
+        1569,
+        1370,
+        2724,
+        1567
+      ],
+      "text": "[→궤도] 턴 순서대로: 1. 마커를 생산 칸으로 이동(고급 건물=자원, 광산=광물 생산). 2. 작업장+궤도측 콜로니스트 회수. 3. 궤도측 빈 턴 순서 칸으로 마커 이동, 보너스.",
+      "style": "body",
+      "align": "left",
+      "note": "split: → Orbit side"
+    },
+    {
+      "id": "p1_center_07",
+      "mask_bbox": [
+        1770,
+        1586,
+        2380,
+        1622
+      ],
+      "text_bbox": [
+        1770,
+        1586,
+        2380,
+        1622
+      ],
+      "text": "생명 유지 시스템 (LSS)",
+      "style": "section_red",
+      "align": "center",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '생명 유지 시스템 (LSS) 현재 콜로니 레벨은 마커 바로 아래 숫자. ' [split: title]"
+    },
+    {
+      "id": "p1_center_07b",
+      "type": "text",
+      "mask_bbox": [
+        1420,
+        1630,
+        2724,
+        1790
+      ],
+      "text_bbox": [
+        1420,
+        1630,
+        2724,
+        1790
+      ],
+      "text": "현재 콜로니 레벨은 마커 바로 아래 숫자. LSS 트랙 마커는 차트 최상단이 아닌 한 보드 위 해당 종류 건물 수와 일치해야 한다.",
+      "style": "body",
+      "align": "left",
+      "note": "split: body of LSS section"
+    },
+    {
+      "id": "p1_center_08",
+      "mask_bbox": [
+        1418,
+        1796,
+        2724,
+        1945
+      ],
+      "text_bbox": [
+        1422,
+        1800,
+        2724,
+        1941
+      ],
+      "text": "어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 올라갈 때, 그 마커를 올린 플레이어는 1) 그 열 상단 보상 타일의 OP, 2) 보상 타일 왼쪽에 표시된 혜택 1을 얻는다.",
+      "style": "body_sm",
+      "align": "left",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 '"
+    },
+    {
+      "id": "p1_center_09",
+      "mask_bbox": [
+        1886,
+        1982,
+        2258,
+        2025
+      ],
+      "text_bbox": [
+        1886,
+        1982,
+        2258,
+        2025
+      ],
+      "text": "콜로니 레벨업",
+      "style": "section_white",
+      "align": "center",
+      "type": "text",
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '콜로니 레벨업 콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어' [split: title]"
+    },
+    {
+      "id": "p1_center_09b",
+      "type": "text",
+      "mask_bbox": [
+        1440,
+        2030,
+        2694,
+        2380
+      ],
+      "text_bbox": [
+        1440,
+        2030,
+        2694,
+        2380
+      ],
+      "text": "콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어(들)가 산소 받기 직전·후 갱신].\n1. 콜로니 마커 이동.  2. 청사진 보충(2인: 건너뜀).  3. 테크 그리드 보충.  4. 창고 보충(2인: 아래 두 줄만).  5. 진행 큐브 점수(레벨 2·3).  6. 미션 큐브 이동(레벨 3·4).",
+      "style": "white_body",
+      "align": "left",
+      "note": "split: body of Colony Level Up"
+    },
+    {
+      "id": "p1_right_l_02",
+      "mask_bbox": [
+        2828,
+        655,
+        3402,
+        778
+      ],
+      "text_bbox": [
+        2832,
+        655,
+        3398,
+        774
+      ],
+      "text": "이동력 최대 2로 봇 이동, 크리스탈로 부스트.",
+      "style": "body",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임' [split: body, title moved] [paragraph 1 only — paragraph 2 moved to _p2]"
+    },
+    {
+      "id": "p1_right_l_04",
+      "mask_bbox": [
+        2916,
+        1204,
+        3413,
+        1318
+      ],
+      "text_bbox": [
+        2916,
+        1208,
+        3413,
+        1314
+      ],
+      "text": "자기 최고 레벨 테크 타일과 같은 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '자기 최고 레벨 테크 타일과 같은 OP.'"
+    },
+    {
+      "id": "p1_right_l_05",
+      "mask_bbox": [
+        2916,
+        1366,
+        3413,
+        1470
+      ],
+      "text_bbox": [
+        2817,
+        1368,
+        3409,
+        1474
+      ],
+      "text": "격납고의 우주선 1대당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '격납고의 우주선 1대당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_06",
+      "mask_bbox": [
+        2916,
+        1515,
+        3413,
+        1629
+      ],
+      "text_bbox": [
+        2916,
+        1519,
+        3413,
+        1625
+      ],
+      "text": "화성에 보유한 고급 건물 마커 1개당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '화성에 보유한 고급 건물 마커 1개당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_07",
+      "mask_bbox": [
+        2916,
+        1670,
+        3413,
+        1780
+      ],
+      "text_bbox": [
+        2916,
+        1674,
+        3413,
+        1776
+      ],
+      "text": "콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_08",
+      "mask_bbox": [
+        2916,
+        1836,
+        3413,
+        1933
+      ],
+      "text_bbox": [
+        2916,
+        1830,
+        3413,
+        1936
+      ],
+      "text": "화성의 자기 봇 1대당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '화성의 자기 봇 1대당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_09",
+      "mask_bbox": [
+        2916,
+        1982,
+        3413,
+        2110
+      ],
+      "text_bbox": [
+        2916,
+        1985,
+        3413,
+        2106
+      ],
+      "text": "자기 로버가 모은 발견 타일 1장당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '자기 로버가 모은 발견 타일 1장당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_10",
+      "mask_bbox": [
+        2916,
+        2141,
+        3413,
+        2240
+      ],
+      "text_bbox": [
+        2916,
+        2145,
+        3413,
+        2236
+      ],
+      "text": "화성에 보유한 자기 셸터 1개당 2 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '화성에 보유한 자기 셸터 1개당 2 OP.'"
+    },
+    {
+      "id": "p1_right_l_11",
+      "mask_bbox": [
+        2916,
+        2300,
+        3413,
+        2398
+      ],
+      "text_bbox": [
+        2916,
+        2296,
+        3413,
+        2395
+      ],
+      "text": "자기 거주구역의 콜로니스트 1명당 1 OP.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISPLACEMENT/LSS column] 한글: '자기 거주구역의 콜로니스트 1명당 1 OP.'"
+    },
+    {
+      "id": "p1_right_r_02_title",
+      "type": "text",
+      "mask_bbox": [
+        3375,
+        194,
+        3809,
+        235
+      ],
+      "text_bbox": [
+        3375,
+        194,
+        3809,
+        235
+      ],
+      "text": "변위 규칙",
+      "style": "section_red",
+      "align": "center",
+      "note": "split: title (DISPLACEMENT RULE)"
+    },
+    {
+      "id": "p1_right_r_02",
+      "mask_bbox": [
+        3173,
+        247,
+        4007,
+        552
+      ],
+      "text_bbox": [
+        3177,
+        251,
+        4003,
+        548
+      ],
+      "text": "봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은 색 소유의 빈 건물로. 콜로니스트 위에 짓는 경우 그 콜로니스트를 자기 거주구역으로.",
+      "style": "body",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '변위 규칙 봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈' [split: body, title moved to p1_right_r_02_title]"
+    },
+    {
+      "id": "p1_right_r_03",
+      "mask_bbox": [
+        3731,
+        655,
+        4031,
+        859
+      ],
+      "text_bbox": [
+        3735,
+        655,
+        4031,
+        867
+      ],
+      "text": "테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
+      "style": "body",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '발견 타일 테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용' [split: body, title moved]"
+    },
+    {
+      "id": "p1_right_r_04",
+      "mask_bbox": [
+        3265,
+        878,
+        3420,
+        1010
+      ],
+      "text_bbox": [
+        3265,
+        878,
+        3420,
+        1010
+      ],
+      "text": "",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.' [split: left half (LSS reward label area)]"
+    },
+    {
+      "id": "p1_right_r_04b",
+      "type": "text",
+      "mask_bbox": [
+        3590,
+        878,
+        4031,
+        1010
+      ],
+      "text_bbox": [
+        3590,
+        878,
+        4031,
+        1010
+      ],
+      "text": "표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "split: right half (Discovery tile body)"
+    },
+    {
+      "id": "p1_right_r_05",
+      "mask_bbox": [
+        3590,
+        1029,
+        4031,
+        1184
+      ],
+      "text_bbox": [
+        3590,
+        1033,
+        4031,
+        1180
+      ],
+      "text": "건물 2개를 업그레이드(정상 비용).",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '건물 2개를 업그레이드(정상 비용).'"
+    },
+    {
+      "id": "p1_right_r_06",
+      "mask_bbox": [
+        3590,
+        1207,
+        4031,
+        1299
+      ],
+      "text_bbox": [
+        3590,
+        1211,
+        4031,
+        1304
+      ],
+      "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.'"
+    },
+    {
+      "id": "p1_right_r_07",
+      "mask_bbox": [
+        3590,
+        1340,
+        4031,
+        1495
+      ],
+      "text_bbox": [
+        3590,
+        1344,
+        4031,
+        1491
+      ],
+      "text": "과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).'"
+    },
+    {
+      "id": "p1_right_r_08",
+      "mask_bbox": [
+        3590,
+        1514,
+        4031,
+        1632
+      ],
+      "text_bbox": [
+        3590,
+        1518,
+        4031,
+        1628
+      ],
+      "text": "청사진 최대 2장 가져오기.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '청사진 최대 2장 가져오기.'"
+    },
+    {
+      "id": "p1_right_r_09",
+      "mask_bbox": [
+        3590,
+        1670,
+        4031,
+        1770
+      ],
+      "text_bbox": [
+        3590,
+        1670,
+        4031,
+        1770
+      ],
+      "text": "",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.' [split: paragraph 1 - Blueprints area]"
+    },
+    {
+      "id": "p1_right_r_09b",
+      "type": "text",
+      "mask_bbox": [
+        3590,
+        1770,
+        4031,
+        1981
+      ],
+      "text_bbox": [
+        3590,
+        1770,
+        4031,
+        1981
+      ],
+      "text": "창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.",
+      "style": "body_xs",
+      "align": "left",
+      "note": "split: paragraph 2 - Warehouse Resources/Crystals"
+    },
+    {
+      "id": "p1_right_r_10",
+      "mask_bbox": [
+        3590,
+        1987,
+        4031,
+        2086
+      ],
+      "text_bbox": [
+        3590,
+        1991,
+        4031,
+        2087
+      ],
+      "text": "크리스탈 3개 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '크리스탈 3개 획득.'"
+    },
+    {
+      "id": "p1_right_r_11",
+      "mask_bbox": [
+        3590,
+        2139,
+        4031,
+        2250
+      ],
+      "text_bbox": [
+        3590,
+        2143,
+        4031,
+        2246
+      ],
+      "text": "표시된 종류·수량의 자원 획득.",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '표시된 종류·수량의 자원 획득.'"
+    },
+    {
+      "id": "p1_right_r_12",
+      "mask_bbox": [
+        3590,
+        2310,
+        4031,
+        2387
+      ],
+      "text_bbox": [
+        3590,
+        2314,
+        4031,
+        2383
+      ],
+      "text": "테크 타일 1장 획득(정상 비용).",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '테크 타일 1장 획득(정상 비용).'"
+    },
+    {
+      "id": "p1_img_001",
+      "type": "image",
+      "bbox": [
+        3151,
+        160,
+        4027,
+        594
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_002",
+      "type": "image",
+      "bbox": [
+        2958,
+        163,
+        3022,
+        227
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_003",
+      "type": "image",
+      "bbox": [
+        343,
+        165,
+        493,
+        309
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_004",
+      "type": "image",
+      "bbox": [
+        2845,
+        167,
+        2964,
+        216
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_005",
+      "type": "image",
+      "bbox": [
+        3020,
+        193,
+        3110,
+        283
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_006",
+      "type": "image",
+      "bbox": [
+        2796,
+        199,
+        2862,
+        277
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_007",
+      "type": "image",
+      "bbox": [
+        2766,
+        253,
+        2806,
+        371
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_008",
+      "type": "image",
+      "bbox": [
+        3076,
+        281,
+        3139,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_009",
+      "type": "image",
+      "bbox": [
+        2886,
+        285,
+        2979,
+        325
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_010",
+      "type": "image",
+      "bbox": [
+        2974,
+        285,
+        3008,
+        325
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_011",
+      "type": "image",
+      "bbox": [
+        117,
+        288,
+        243,
+        423
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_012",
+      "type": "image",
+      "bbox": [
+        3096,
+        294,
+        3119,
+        332
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_013",
+      "type": "image",
+      "bbox": [
+        2786,
+        335,
+        2817,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_014",
+      "type": "image",
+      "bbox": [
+        2813,
+        335,
+        2846,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_015",
+      "type": "image",
+      "bbox": [
+        2843,
+        335,
+        2874,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_016",
+      "type": "image",
+      "bbox": [
+        2870,
+        335,
+        2903,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_017",
+      "type": "image",
+      "bbox": [
+        2898,
+        335,
+        2929,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_018",
+      "type": "image",
+      "bbox": [
+        2925,
+        335,
+        2957,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_019",
+      "type": "image",
+      "bbox": [
+        2953,
+        335,
+        2985,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_020",
+      "type": "image",
+      "bbox": [
+        2982,
+        335,
+        3012,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_021",
+      "type": "image",
+      "bbox": [
+        3008,
+        335,
+        3049,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_022",
+      "type": "image",
+      "bbox": [
+        3047,
+        335,
+        3079,
+        375
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_023",
+      "type": "image",
+      "bbox": [
+        3088,
+        340,
+        3128,
+        458
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_024",
+      "type": "image",
+      "bbox": [
+        1439,
+        360,
+        1513,
+        435
+      ],
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] image region"
+    },
+    {
+      "id": "p1_img_025",
+      "type": "image",
+      "bbox": [
+        2755,
+        372,
+        2874,
+        518
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_026",
+      "type": "image",
+      "bbox": [
+        2880,
+        385,
+        2910,
+        425
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_027",
+      "type": "image",
+      "bbox": [
+        2905,
+        385,
+        2939,
+        425
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_028",
+      "type": "image",
+      "bbox": [
+        2933,
+        385,
+        2964,
+        425
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_029",
+      "type": "image",
+      "bbox": [
+        2961,
+        385,
+        2989,
+        425
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_030",
+      "type": "image",
+      "bbox": [
+        2985,
+        385,
+        3014,
+        425
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_031",
+      "type": "image",
+      "bbox": [
+        116,
+        420,
+        244,
+        570
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_032",
+      "type": "image",
+      "bbox": [
+        2930,
+        442,
+        3096,
+        544
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_033",
+      "type": "image",
+      "bbox": [
+        2872,
+        485,
+        2934,
+        547
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_034",
+      "type": "image",
+      "bbox": [
+        116,
+        567,
+        244,
+        709
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_035",
+      "type": "image",
+      "bbox": [
+        1417,
+        710,
+        1439,
+        756
+      ],
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] image region"
+    },
+    {
+      "id": "p1_img_036",
+      "type": "image",
+      "bbox": [
+        120,
+        711,
+        250,
+        851
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_037",
+      "type": "image",
+      "bbox": [
+        1415,
+        800,
+        1530,
+        918
+      ],
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] image region"
+    },
+    {
+      "id": "p1_img_038",
+      "type": "image",
+      "bbox": [
+        122,
+        852,
+        238,
+        991
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_039",
+      "type": "image",
+      "bbox": [
+        3152,
+        854,
+        3188,
+        890
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_040",
+      "type": "image",
+      "bbox": [
+        3154,
+        876,
+        3260,
+        1003
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_041",
+      "type": "image",
+      "bbox": [
+        1439,
+        916,
+        1513,
+        990
+      ],
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] image region"
+    },
+    {
+      "id": "p1_img_042",
+      "type": "image",
+      "bbox": [
+        2939,
+        963,
+        3047,
+        1012
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_043",
+      "type": "image",
+      "bbox": [
+        2988,
+        963,
+        3079,
+        1052
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_044",
+      "type": "image",
+      "bbox": [
+        3121,
+        963,
+        3212,
+        1052
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_045",
+      "type": "image",
+      "bbox": [
+        2819,
+        984,
+        2846,
+        1015
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_046",
+      "type": "image",
+      "bbox": [
+        2863,
+        984,
+        2884,
+        1014
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_047",
+      "type": "image",
+      "bbox": [
+        2799,
+        985,
+        2826,
+        1021
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_048",
+      "type": "image",
+      "bbox": [
+        2842,
+        985,
+        2867,
+        1015
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_049",
+      "type": "image",
+      "bbox": [
+        3051,
+        998,
+        3148,
+        1095
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_050",
+      "type": "image",
+      "bbox": [
+        3423,
+        1005,
+        3585,
+        1211
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_051",
+      "type": "image",
+      "bbox": [
+        2801,
+        1015,
+        2871,
+        1052
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_052",
+      "type": "image",
+      "bbox": [
+        2769,
+        1016,
+        2806,
+        1052
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_053",
+      "type": "image",
+      "bbox": [
+        2867,
+        1022,
+        2913,
+        1059
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_054",
+      "type": "image",
+      "bbox": [
+        343,
+        1023,
+        497,
+        1170
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_055",
+      "type": "image",
+      "bbox": [
+        2798,
+        1053,
+        2845,
+        1089
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_056",
+      "type": "image",
+      "bbox": [
+        2838,
+        1059,
+        2884,
+        1090
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_057",
+      "type": "image",
+      "bbox": [
+        3049,
+        1097,
+        3098,
+        1134
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_058",
+      "type": "image",
+      "bbox": [
+        3104,
+        1103,
+        3129,
+        1133
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_059",
+      "type": "image",
+      "bbox": [
+        3036,
+        1135,
+        3068,
+        1171
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_060",
+      "type": "image",
+      "bbox": [
+        3074,
+        1141,
+        3120,
+        1171
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_061",
+      "type": "image",
+      "bbox": [
+        3116,
+        1141,
+        3136,
+        1171
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_062",
+      "type": "image",
+      "bbox": [
+        3130,
+        1141,
+        3155,
+        1171
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_063",
+      "type": "image",
+      "bbox": [
+        2755,
+        1181,
+        2916,
+        2430
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_064",
+      "type": "image",
+      "bbox": [
+        117,
+        1185,
+        244,
+        1326
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_065",
+      "type": "image",
+      "bbox": [
+        3423,
+        1294,
+        3585,
+        1343
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_066",
+      "type": "image",
+      "bbox": [
+        3424,
+        1492,
+        3585,
+        1518
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_067",
+      "type": "image",
+      "bbox": [
+        117,
+        1570,
+        244,
+        1712
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_068",
+      "type": "image",
+      "bbox": [
+        3424,
+        1627,
+        3585,
+        1674
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_069",
+      "type": "image",
+      "bbox": [
+        117,
+        1759,
+        244,
+        1901
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_070",
+      "type": "image",
+      "bbox": [
+        1415,
+        1954,
+        2727,
+        2431
+      ],
+      "note": "[RULES/CYCLE/SHUTTLE column (center)] image region"
+    },
+    {
+      "id": "p1_img_071",
+      "type": "image",
+      "bbox": [
+        2809,
+        2027,
+        2862,
+        2080
+      ],
+      "note": "[DISPLACEMENT/LSS column] image region"
+    },
+    {
+      "id": "p1_img_072",
+      "type": "image",
+      "bbox": [
+        3423,
+        2081,
+        3585,
+        2143
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_073",
+      "type": "image",
+      "bbox": [
+        116,
+        2228,
+        245,
+        2371
+      ],
+      "note": "[ACTIONS column (left)] image region"
+    },
+    {
+      "id": "p1_img_074",
+      "type": "image",
+      "bbox": [
+        3423,
+        2245,
+        3585,
+        2314
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_img_075",
+      "type": "image",
+      "bbox": [
+        3423,
+        2382,
+        3585,
+        2430
+      ],
+      "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_right_l_02_title",
+      "type": "text",
+      "mask_bbox": [
+        2960,
+        610,
+        3265,
+        646
+      ],
+      "text_bbox": [
+        2960,
+        610,
+        3265,
+        646
+      ],
+      "text": "LSS 보상",
+      "style": "section_red",
+      "align": "center",
+      "note": "LSS REWARDS title"
+    },
+    {
+      "id": "p1_right_r_03_title",
+      "type": "text",
+      "mask_bbox": [
+        3528,
+        603,
+        3900,
+        653
+      ],
+      "text_bbox": [
+        3528,
+        603,
+        3900,
+        653
+      ],
+      "text": "발견 타일",
+      "style": "section_red",
+      "align": "center",
+      "note": "DISCOVERY TILES title"
+    },
+    {
+      "id": "p1_right_l_02_p2",
+      "type": "text",
+      "mask_bbox": [
+        2745,
+        790,
+        2935,
+        1095
+      ],
+      "text_bbox": [
+        2745,
+        790,
+        2935,
+        1095
+      ],
+      "text": "작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
+      "style": "body",
+      "align": "left",
+      "note": "LSS reward paragraph 2 (Retrieve a Colonist)"
+    },
+    {
+      "id": "p1_right_l_03",
+      "type": "text",
+      "mask_bbox": [
+        3033,
+        1097,
+        3168,
+        1172
+      ],
+      "text_bbox": [
+        3033,
+        1097,
+        3168,
+        1172
+      ],
+      "text": "광물 1 획득",
+      "style": "body",
+      "align": "center",
+      "note": "LSS reward label: Gain 1 Mineral"
+    }
+  ]
+}

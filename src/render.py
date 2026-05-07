@@ -9,7 +9,8 @@ from __future__ import annotations
 import json
 import os
 import sys
-from dataclasses import dataclass
+import re
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import fitz  # PyMuPDF
@@ -62,6 +63,11 @@ class Style:
     size_px: int
     color: tuple
     first_line: "Style | None" = None  # optional override for the first line
+    line_height: float = 0.9            # multiplier on (ascent+descent)
+    inline_keywords: list = field(default_factory=list)  # [{"text": str, "color": tuple|None}]
+    inline_number_red: bool = False     # if true, line-start "1." "2." "3." rendered red+bold
+    line_prefix_colors: dict = field(default_factory=dict)  # {prefix_str: (r,g,b)} — whole line in this color
+    inline_regexes: list = field(default_factory=list)  # [{"pattern": compiled_re, "color": tuple}]
 
     @classmethod
     def load(cls, key: str, font_map: dict) -> "Style":
@@ -74,8 +80,37 @@ class Style:
                 font_path=ROOT / font_map["fonts"][fls["font"]],
                 size_px=int(fls["size_px"]),
                 color=tuple(fls["color"]),
+                line_height=float(fls.get("line_height", 0.9)),
             )
-        return cls(font_path=font_path, size_px=int(s["size_px"]), color=tuple(s["color"]), first_line=first_line)
+        kws_raw = s.get("inline_keywords") or []
+        kws = []
+        for kw in kws_raw:
+            kws.append({
+                "text": kw["text"],
+                "color": tuple(kw["color"]) if kw.get("color") else None,
+            })
+        prefix_raw = s.get("line_prefix_colors") or {}
+        prefix_colors = {k: tuple(v) for k, v in prefix_raw.items()}
+        regex_raw = s.get("inline_regexes") or []
+        regexes = [{"pattern": re.compile(rx["pattern"]),
+                    "color": tuple(rx["color"]) if rx.get("color") else None}
+                   for rx in regex_raw]
+        return cls(
+            font_path=font_path,
+            size_px=int(s["size_px"]),
+            color=tuple(s["color"]),
+            first_line=first_line,
+            line_height=float(s.get("line_height", 0.9)),
+            inline_keywords=kws,
+            inline_number_red=bool(s.get("inline_number_red", False)),
+            line_prefix_colors=prefix_colors,
+            inline_regexes=regexes,
+        )
+
+
+NUMBER_RED = (235, 36, 44)
+NUMBER_RE = re.compile(r"^(\s*)(\d+\.)\s*")
+NUMBER_INLINE_RE = re.compile(r"(?<![0-9])([1-9]\.)(?=\s)")
 
 
 def load_font(path: Path, size: int) -> ImageFont.FreeTypeFont:
@@ -123,14 +158,25 @@ def wrap(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
     return out_lines
 
 
-def fit_text(text: str, style: Style, w: int, h: int) -> tuple[ImageFont.FreeTypeFont, list[str], int]:
-    """Use declared size; wrap to width only. Tight line spacing (0.9).
-    Caller is responsible for expanding the box vertically if needed."""
+def fit_text(text: str, style: Style, w: int, h: int,
+             allow_shrink: int = 0) -> tuple[ImageFont.FreeTypeFont, list[str], int]:
+    """Try declared size first; allow up to `allow_shrink` px size reduction
+    if the text doesn't fit the box height. Caller still expands the box if
+    even the smallest size doesn't fit."""
     size = style.size_px
     font = load_font(style.font_path, size)
     lines = wrap(text, font, w)
     ascent, descent = font.getmetrics()
-    line_h = int((ascent + descent) * 0.9)
+    line_h = int((ascent + descent) * style.line_height)
+    if line_h * len(lines) <= h or allow_shrink <= 0:
+        return font, lines, line_h
+    for s in range(size - 1, max(8, size - allow_shrink) - 1, -1):
+        f2 = load_font(style.font_path, s)
+        l2 = wrap(text, f2, w)
+        a2, d2 = f2.getmetrics()
+        lh2 = int((a2 + d2) * style.line_height)
+        if lh2 * len(l2) <= h:
+            return f2, l2, lh2
     return font, lines, line_h
 
 
@@ -217,7 +263,6 @@ def render_region(canvas: Image.Image, draw: ImageDraw.ImageDraw, region: dict, 
 
     bold_font = (load_font(style.first_line.font_path, style.first_line.size_px)
                  if style.first_line else None)
-    BOLD_KEYWORDS = ["고급 건물 액션", "부스트마다", "비용", "획득:", "용도:", "그 외:"]
     nonempty_lines = [ln for ln in lines if ln]
     if nonempty_lines:
         sample_bbox = draw.textbbox((0, 0), nonempty_lines[0], font=font)
@@ -230,28 +275,86 @@ def render_region(canvas: Image.Image, draw: ImageDraw.ImageDraw, region: dict, 
         y = ty0 - visual_top_offset
     else:
         y = ty0 + (box_h - total_visual_h) // 2 - visual_top_offset
+
+    def _add_keyword_segs(out: list, text: str) -> None:
+        """Apply inline_keywords AND inline_regexes to a plain text segment."""
+        cur = text
+        while cur:
+            best = None  # (start, end, matched_text, color)
+            # keyword (literal) candidates
+            for kw in style.inline_keywords:
+                i = cur.find(kw["text"])
+                if i >= 0:
+                    cand = (i, i + len(kw["text"]), kw["text"], kw["color"])
+                    if best is None or cand[0] < best[0]:
+                        best = cand
+            # regex candidates
+            for rx in style.inline_regexes:
+                m = rx["pattern"].search(cur)
+                if m:
+                    cand = (m.start(), m.end(), m.group(0), rx["color"])
+                    if best is None or cand[0] < best[0]:
+                        best = cand
+            if best is None:
+                if cur:
+                    out.append(('r', cur, None))
+                break
+            s_idx, e_idx, mtxt, mcol = best
+            if s_idx > 0:
+                out.append(('r', cur[:s_idx], None))
+            out.append(('b', mtxt, mcol))
+            cur = cur[e_idx:]
+
+    def _split_segments(line: str) -> list:
+        """Return [(kind, text, color_or_None)] segments. kind: 'r'=regular, 'b'=bold.
+        Number markers ("1.", "2.", ...) anywhere in line → bold + red.
+        Then inline keywords applied to remaining text segments."""
+        segs: list = []
+        if style.inline_number_red:
+            last = 0
+            for m in NUMBER_INLINE_RE.finditer(line):
+                if m.start() > last:
+                    _add_keyword_segs(segs, line[last:m.start()])
+                segs.append(('b', m.group(1) + ' ', NUMBER_RED))
+                last = m.end() + 1  # consume the lookahead space
+            if last < len(line):
+                _add_keyword_segs(segs, line[last:])
+        else:
+            _add_keyword_segs(segs, line)
+        return segs
+
+    def _has_styled_segment(line: str) -> bool:
+        if style.inline_number_red and NUMBER_INLINE_RE.search(line):
+            return True
+        if any(kw["text"] in line for kw in style.inline_keywords):
+            return True
+        return any(rx["pattern"].search(line) for rx in style.inline_regexes)
+
     for li, line in enumerate(lines):
         if not line:
             y += line_h
             continue
-        if bold_font and any(kw in line for kw in BOLD_KEYWORDS):
-            # Split line into alternating (regular, bold) segments by keyword
-            segments = []
-            cur = line
-            while cur:
-                best = None
-                for kw in BOLD_KEYWORDS:
-                    idx = cur.find(kw)
-                    if idx >= 0 and (best is None or idx < best[0]):
-                        best = (idx, kw)
-                if best is None:
-                    segments.append(('r', cur)); break
-                idx, kw = best
-                if idx > 0: segments.append(('r', cur[:idx]))
-                segments.append(('b', kw))
-                cur = cur[idx+len(kw):]
+        # Whole-line prefix coloring (e.g., "부스트:" line in teal, normal weight)
+        prefix_color = None
+        for prefix, color in style.line_prefix_colors.items():
+            if line.startswith(prefix):
+                prefix_color = color
+                break
+        if prefix_color is not None:
+            w, _ = measure(line, font)
+            if align == "center":
+                x = tx0 + (box_w - w) // 2
+            elif align == "right":
+                x = tx1 - w
+            else:
+                x = tx0
+            draw.text((x, y), line, font=font, fill=prefix_color)
+            y += line_h
+            continue
+        if bold_font and _has_styled_segment(line):
+            segments = _split_segments(line)
             full_w = 0
-            for kind, seg in segments:
+            for kind, seg, _col in segments:
                 f = bold_font if kind == 'b' else font
                 full_w += measure(seg, f)[0]
             if align == "center":
@@ -260,9 +363,14 @@ def render_region(canvas: Image.Image, draw: ImageDraw.ImageDraw, region: dict, 
                 x = tx1 - full_w
             else:
                 x = tx0
-            for kind, seg in segments:
+            for kind, seg, seg_color in segments:
                 f = bold_font if kind == 'b' else font
-                col = style.first_line.color if kind == 'b' else style.color
+                if seg_color is not None:
+                    col = seg_color
+                elif kind == 'b':
+                    col = style.first_line.color
+                else:
+                    col = style.color
                 draw.text((x, y), seg, font=f, fill=col)
                 x += measure(seg, f)[0]
         else:

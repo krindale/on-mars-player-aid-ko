@@ -44,8 +44,8 @@
         258
       ],
       "text": "궤도 정거장 메인 액션",
-      "style": "section_red",
-      "align": "center",
+      "style": "bp_title",
+      "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '궤도 정거장 메인 액션'"
     },
@@ -63,8 +63,8 @@
         1390,
         410
       ],
-      "text": "콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어 마커를 눕혀 놓는다.",
-      "style": "body_sm",
+      "text": "콜로니로 이동한다. 셔틀 페이즈 규칙을 따르되 1단계는 건너뛴다. 자기 플레이어 마커를 눕혀 놓는다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어'"
@@ -83,8 +83,8 @@
         1390,
         562
       ],
-      "text": "디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물 마커 1.\n부스트: 이 액션 1회 더 반복.",
-      "style": "body_sm",
+      "text": "디스플레이에서 청사진 1장을 가져온다. 표시된 자원을 획득한다. 청사진 위에 고급 건물 마커 1개를 놓는다.\n부스트: 이 액션 전체를 한 번 더 수행한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물'"
@@ -103,8 +103,8 @@
         1390,
         700
       ],
-      "text": "표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장 왼쪽 열의 빈칸에 배치.\n부스트: 추가 자원/크리스탈 1.",
-      "style": "body_sm",
+      "text": "표시된 비용을 지불하고 테크 그리드에서 테크 타일 1장을 가져온다. 자기 연구소의 가장 왼쪽 열에 있는 빈 칸에 배치한다.\n부스트: 이 액션 전체를 한 번 더 수행한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장' [split: paragraph 1]"
@@ -124,8 +124,8 @@
         1390,
         848
       ],
-      "text": "",
-      "style": "body_sm",
+      "text": "테크 타일 1장을 두 번, 또는 서로 다른 테크 타일 2장을 한 번씩 발전한다. 각 칸의 비용을 지불하고 효과를 획득한다.\n부스트: 추가로 테크 타일 1장을 한 번 더 발전한다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: paragraph 2 of original p1_left_04 (Develop Tech Tile)"
     },
@@ -143,8 +143,8 @@
         1390,
         986
       ],
-      "text": "테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비용 지불, 효과 획득.\n부스트: 테크 1번 더 발전.",
-      "style": "body_sm",
+      "text": "창고에서 자원 또는 크리스탈 1개를 가져와 자기 저장고/디포에 놓는다.\n부스트: 추가로 자원 또는 크리스탈 1개를 더 가져온다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비'"
@@ -153,18 +153,18 @@
       "id": "p1_left_06",
       "mask_bbox": [
         504,
-        1078,
+        1068,
         1000,
         1121
       ],
       "text_bbox": [
         441,
-        1082,
+        1072,
         1000,
         1117
       ],
-      "text": "창고에서 자원/크리스탈 1을 자기 저장고/디포로.\n부스트: 추가 1.",
-      "style": "body_sm",
+      "text": "콜로니 메인 액션",
+      "style": "bp_title",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '창고에서 자원/크리스탈 1을 자기 저장고/디포로. 부스트: 추가 1.'"
@@ -173,18 +173,18 @@
       "id": "p1_left_07",
       "mask_bbox": [
         256,
-        1186,
+        1146,
         1390,
-        1522
+        1482
       ],
       "text_bbox": [
         256,
-        1190,
+        1150,
         1390,
-        1518
+        1478
       ],
-      "text": "콜로니 메인 액션\n1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자기 봇 1대 안에 타일 뒷면이 보이도록 배치 (A) 같은 종류 건물 인접 + 같은 종류·적정 레벨 테크, 또는 B) 같은 종류 타일에서 정확히 2칸 떨어짐). 4. 표시된 크리스탈 배치. 5. 타일을 뒤집어 새 크기에 맞는 자원/크리스탈 획득. 6. 같은 종류 콤플렉스에 첫 기여라면 진행 큐브 배치. 7. LSS 진행 확인. 8. 광산이라면 콜로니스트 1.",
-      "style": "section_red_with_body",
+      "text": "1. 어떤 종류의 건물을 지을지 선택한다. 2. 건설 비용을 지불한다.\n3. 자기 봇 1대의 건축 영역 안에 타일을 뒷면이 보이도록 배치한다.\n다음 중 하나여야 한다:\nA) 같은 종류 건물 인접 + 같은 종류·적정 레벨 테크 타일\nB) 같은 종류 타일에서 정확히 2칸 떨어짐\n4. 표시된 크리스탈을 배치한다.\n5. 타일을 앞면으로 뒤집고 새 크기에 맞는 자원·크리스탈을 획득한다.\n6. 같은 종류 콤플렉스에 첫 기여라면 진행 큐브를 배치한다.\n7. LSS 진행을 확인한다. 8. 광산이라면 콜로니스트 1을 추가한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '콜로니 메인 액션 1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자'"
@@ -203,8 +203,8 @@
         1390,
         1698
       ],
-      "text": "1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 지불. 3. 고급 건물 마커를 청사진→건물(다른 말은 밀려난다).",
-      "style": "body_sm",
+      "text": "1. 자기 봇 1대의 건축 영역 안에서 일치하는 청사진과 건물을 선택한다.\n2. 광물 1을 지불한다.\n3. 자기 고급 건물 마커를 청사진 위에서 건물 위로 옮긴다\n(그 자리에 다른 말이 있으면 변위된다).",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 '"
@@ -223,8 +223,8 @@
         1390,
         1888
       ],
-      "text": "1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 보드 옆에 배치. 3. 덱에서 원하는 계약서 1장으로 교체.",
-      "style": "body_sm",
+      "text": "1. 과학자 카드 아래나 계약 카드 위에 표시된 비용을 지불한다.\n2. 카드(과학자라면 과학자도 함께)를 자기 플레이어 보드 옆에 놓는다.\n3. 덱에서 원하는 계약 카드 1장으로 그 자리를 교체한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 '"
@@ -243,8 +243,8 @@
         1390,
         2176
       ],
-      "text": "자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리스탈 수집, 턴 끝 시 발견·연구 타일 위면 가져감. 봇: 지나간 크리스탈·발견·연구 타일 파괴.\n부스트: 추가 이동력 1.",
-      "style": "body_sm",
+      "text": "자기 로버에 이동력 최대 2, 자기 봇들에 이동력 최대 2를 사용한다.\n로버: 지나간 칸의 크리스탈을 모은다. 발견 타일이나 연구 타일 위에서 턴이 끝나면 그 타일을 가져온다.\n봇: 지나간 칸의 크리스탈, 발견 타일, 연구 타일을 파괴한다.\n부스트: 추가로 이동력 1을 사용한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리'"
@@ -263,8 +263,8 @@
         1390,
         2418
       ],
-      "text": "1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식물 1·물 1 지불. 3. 디포→격납고로 우주선 1. 4. 콜로니스트 1+봇 1 또는 콜로니스트 2.\n부스트: 다시 한 번 전부 수행.",
-      "style": "body_sm",
+      "text": "1. 자기 디포에서 제거된 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인한다.\n2. 식물 1과 물 1을 지불한다. 3. 자기 디포에서 격납고로 우주선 1대를 옮긴다.\n4. 콜로니스트 1과 봇 1, 또는 콜로니스트 2를 얻는다.\n부스트: 이 액션 전체를 한 번 더 수행한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[ACTIONS column (left)] 한글: '1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식'"
@@ -284,7 +284,7 @@
         205
       ],
       "text": "기본 액션 규칙",
-      "style": "section_red",
+      "style": "bp_title",
       "align": "center",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '기본 액션 규칙 자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자' [split: title]"
@@ -304,8 +304,8 @@
         2724,
         368
       ],
-      "text": "자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자기 차례에 메인 액션 1개 필수, 그 전·후로 이그제큐티브 액션 1개 가능. 액션 칸의 기호:",
-      "style": "body",
+      "text": "자기 플레이어 마커가 현재 위치한 보드 쪽에서 액션을 수행할 수 있다. 자기 차례마다 메인 액션을 1회 반드시 수행해야 한다. 메인 액션 전이나 후에 추가 액션을 1회 추가로 수행할 수 있다. 액션 칸에는 다음과 같은 기호가 표시될 수 있다:",
+      "style": "body_p1",
       "align": "left",
       "note": "split: body of original p1_center_01 (Basic Action Rules)"
     },
@@ -313,18 +313,18 @@
       "id": "p1_center_02",
       "mask_bbox": [
         1539,
-        377,
+        367,
         2724,
         419
       ],
       "text_bbox": [
         1543,
-        381,
+        371,
         2724,
         415
       ],
-      "text": "[X] 비용 없이 액션 수행 가능.",
-      "style": "body_sm",
+      "text": "비용 없이 액션을 수행할 수 있다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[X] 비용 없이 액션 수행 가능.'"
@@ -343,8 +343,8 @@
         2724,
         660
       ],
-      "text": "[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 다른 색마다 크리스탈 1 지불 또는 콜로니스트 1을 작업장으로. (2인: 비용은 점유된 칸 단위.) 칸이 다 차 있으면 콜로니스트가 가장 많은 플레이어(들)의 것을 작업장으로 되돌리고 남은 비용 지불.",
-      "style": "body_sm",
+      "text": "거주구역에 있는 자기 콜로니스트 1명을 액션 칸에 놓는다. 이미 놓여 있는 다른 색 콜로니스트 1명당 크리스탈 1을 지불하거나 거주구역의 콜로니스트 1명을 작업장으로 이동시킨다. (2인 게임: 비용은 점유된 액션 칸 단위로 적용된다.) 칸이 모두 차 있는 상태에서 콜로니스트를 놓으려면, 콜로니스트가 가장 많은 플레이어(들)의 모든 콜로니스트를 각자의 작업장으로 되돌려보내고 남은 비용을 지불한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 ' [split: paragraph 1 - 콜로니스트]"
@@ -364,8 +364,8 @@
         2724,
         778
       ],
-      "text": "",
-      "style": "body_sm",
+      "text": "거주구역에서 작업장으로 콜로니스트 1명 이상을 이동시켜 액션의 효과를 부스트할 수 있다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: paragraph 2 of original p1_center_03 (Working Area boost)"
     },
@@ -383,8 +383,8 @@
         2724,
         939
       ],
-      "text": "[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.",
-      "style": "body_sm",
+      "text": "크리스탈 1개 이상을 지불해서 액션의 효과를 부스트한다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.'"
@@ -403,8 +403,8 @@
         2724,
         971
       ],
-      "text": "[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.",
-      "style": "body_sm",
+      "text": "이 액션은 부스트할 수 없다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.'"
@@ -424,7 +424,7 @@
         1055
       ],
       "text": "셔틀 페이즈",
-      "style": "section_red",
+      "style": "bp_title",
       "align": "center",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '셔틀 페이즈 모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무' [split: title]"
@@ -444,8 +444,8 @@
         2724,
         1130
       ],
-      "text": "모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무료, 그렇지 않으면 격납고에서 우주선 1 제거.",
-      "style": "body",
+      "text": "모든 플레이어가 이동할 수 있다. 셔틀이 자기 플레이어 마커가 있는 쪽에서 출발하면 무료로 이동할 수 있다. 그렇지 않으면 격납고에서 우주선 1대를 제거한다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: shuttle phase intro"
     },
@@ -454,18 +454,18 @@
       "type": "text",
       "mask_bbox": [
         1569,
-        1130,
+        1145,
         2724,
-        1370
+        1365
       ],
       "text_bbox": [
         1569,
-        1130,
+        1145,
         2724,
-        1370
+        1365
       ],
-      "text": "[→콜로니] 턴 순서대로: 1. 마커를 탐사로 이동, A) 발견 타일 1을 골라 자기 로버로부터 정확히 3칸 떨어진 빈칸에 놓고 B) 그 자리 채우기. 2. 작업장+콜로니측 콜로니스트 회수(초과 분실). 3. 콜로니측 빈 턴 순서 칸으로 마커 이동, 보너스.",
-      "style": "body",
+      "text": "턴 순서대로: 1. 자기 플레이어 마커를 탐사 칸으로 이동시킨다. A) 발견 타일 1장을 골라 자기 로버로부터 정확히 3칸 떨어진 빈 칸에 놓는다. B) 더미에서 새 타일을 뽑아 그 자리를 채운다. 2. 작업장과 콜로니측에 있는 자기 콜로니스트를 모두 회수한다(초과분은 잃는다). 3. 자기 플레이어 마커를 콜로니측의 빈 턴 순서 칸으로 이동시키고 그 칸에 표시된 보너스를 받는다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: → Colony side"
     },
@@ -484,8 +484,8 @@
         2724,
         1567
       ],
-      "text": "[→궤도] 턴 순서대로: 1. 마커를 생산 칸으로 이동(고급 건물=자원, 광산=광물 생산). 2. 작업장+궤도측 콜로니스트 회수. 3. 궤도측 빈 턴 순서 칸으로 마커 이동, 보너스.",
-      "style": "body",
+      "text": "턴 순서대로: 1. 자기 플레이어 마커를 생산 칸으로 이동시킨다. 고급 건물은 자원을 생산하고, 광산은 광물을 생산한다. 2. 작업장과 궤도측에 있는 자기 콜로니스트를 모두 회수한다(초과분은 잃는다). 3. 자기 플레이어 마커를 궤도측의 빈 턴 순서 칸으로 이동시키고 그 칸에 표시된 보너스를 받는다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: → Orbit side"
     },
@@ -504,7 +504,7 @@
         1622
       ],
       "text": "생명 유지 시스템 (LSS)",
-      "style": "section_red",
+      "style": "bp_title",
       "align": "center",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '생명 유지 시스템 (LSS) 현재 콜로니 레벨은 마커 바로 아래 숫자. ' [split: title]"
@@ -524,8 +524,8 @@
         2724,
         1790
       ],
-      "text": "현재 콜로니 레벨은 마커 바로 아래 숫자. LSS 트랙 마커는 차트 최상단이 아닌 한 보드 위 해당 종류 건물 수와 일치해야 한다.",
-      "style": "body",
+      "text": "현재 콜로니 레벨은 콜로니 레벨 마커 바로 아래에 표시된 숫자다. LSS 트랙 마커는 차트 최상단에 도달하지 않은 한, 보드 위 해당 종류의 건물 수와 항상 일치해야 한다.",
+      "style": "body_p1",
       "align": "left",
       "note": "split: body of LSS section"
     },
@@ -543,8 +543,8 @@
         2724,
         1941
       ],
-      "text": "어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 올라갈 때, 그 마커를 올린 플레이어는 1) 그 열 상단 보상 타일의 OP, 2) 보상 타일 왼쪽에 표시된 혜택 1을 얻는다.",
-      "style": "body_sm",
+      "text": "어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래에 있다가 그 위로 올라가게 되면, 그 마커를 올린 플레이어는 다음을 얻는다: 1. 해당 열 최상단에 있는 보상 타일에 표시된 OP. 2. 보상 타일 왼쪽에 표시된 혜택 중 하나.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 '"
@@ -564,7 +564,7 @@
         2025
       ],
       "text": "콜로니 레벨업",
-      "style": "section_white",
+      "style": "bp_card_title",
       "align": "center",
       "type": "text",
       "note": "[RULES/CYCLE/SHUTTLE column (center)] 한글: '콜로니 레벨업 콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어' [split: title]"
@@ -576,16 +576,16 @@
         1440,
         2030,
         2694,
-        2380
+        2430
       ],
       "text_bbox": [
         1440,
         2030,
         2694,
-        2380
+        2430
       ],
-      "text": "콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어(들)가 산소 받기 직전·후 갱신].\n1. 콜로니 마커 이동.  2. 청사진 보충(2인: 건너뜀).  3. 테크 그리드 보충.  4. 창고 보충(2인: 아래 두 줄만).  5. 진행 큐브 점수(레벨 2·3).  6. 미션 큐브 이동(레벨 3·4).",
-      "style": "white_body",
+      "text": "콜로니 레벨이 오를 때 다음 단계를 수행한다 [참고: 콜로니 상태는 자기 차례 마지막에 갱신된다(자기 테크 타일이 사용된 플레이어(들)가 받은 산소를 보유하거나 사용한 이후)].\n1. 콜로니 마커를 위로 이동시킨다.\n2. 디스플레이에 따라 청사진 카드를 추가한다.\n3. 테크 그리드를 보충한다. (2인 게임: 이 단계 건너뜀)\n4. 창고를 보충한다. (2인 게임: 아래 두 줄만 보충)\n5. 진행 큐브를 점수화한다. (레벨 2와 3에서만)\n6. 남은 미션 큐브를 이동시킨다. (레벨 3과 4에서만)",
+      "style": "body_p1_strong",
       "align": "left",
       "note": "split: body of Colony Level Up"
     },
@@ -603,9 +603,9 @@
         3398,
         774
       ],
-      "text": "이동력 최대 2로 봇 이동, 크리스탈로 부스트.",
-      "style": "body",
-      "align": "left",
+      "text": "이동력 최대 2로 봇 이동,\n크리스탈로 부스트",
+      "style": "body_p1",
+      "align": "center",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임' [split: body, title moved] [paragraph 1 only — paragraph 2 moved to _p2]"
     },
@@ -623,8 +623,8 @@
         3413,
         1314
       ],
-      "text": "자기 최고 레벨 테크 타일과 같은 OP.",
-      "style": "body_xs",
+      "text": "자기 최고 레벨 테크 타일 = OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '자기 최고 레벨 테크 타일과 같은 OP.'"
@@ -643,8 +643,8 @@
         3409,
         1474
       ],
-      "text": "격납고의 우주선 1대당 2 OP.",
-      "style": "body_xs",
+      "text": "격납고 우주선 1대당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '격납고의 우주선 1대당 2 OP.'"
@@ -663,8 +663,8 @@
         3413,
         1625
       ],
-      "text": "화성에 보유한 고급 건물 마커 1개당 2 OP.",
-      "style": "body_xs",
+      "text": "화성 자기 고급 건물 마커 1개당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '화성에 보유한 고급 건물 마커 1개당 2 OP.'"
@@ -683,8 +683,8 @@
         3413,
         1776
       ],
-      "text": "콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.",
-      "style": "body_xs",
+      "text": "콜로니스트/고급 건물 마커 있는 자기 광산 1개당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.'"
@@ -703,8 +703,8 @@
         3413,
         1936
       ],
-      "text": "화성의 자기 봇 1대당 2 OP.",
-      "style": "body_xs",
+      "text": "화성 자기 봇 1대당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '화성의 자기 봇 1대당 2 OP.'"
@@ -723,8 +723,8 @@
         3413,
         2106
       ],
-      "text": "자기 로버가 모은 발견 타일 1장당 2 OP.",
-      "style": "body_xs",
+      "text": "자기 로버가 모은 발견 타일 1장당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '자기 로버가 모은 발견 타일 1장당 2 OP.'"
@@ -743,8 +743,8 @@
         3413,
         2236
       ],
-      "text": "화성에 보유한 자기 셸터 1개당 2 OP.",
-      "style": "body_xs",
+      "text": "화성 자기 셸터 1개당 2 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '화성에 보유한 자기 셸터 1개당 2 OP.'"
@@ -763,8 +763,8 @@
         3413,
         2395
       ],
-      "text": "자기 거주구역의 콜로니스트 1명당 1 OP.",
-      "style": "body_xs",
+      "text": "자기 거주구역 콜로니스트 1명당 1 OP",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '자기 거주구역의 콜로니스트 1명당 1 OP.'"
@@ -784,8 +784,8 @@
         3809,
         235
       ],
-      "text": "변위 규칙",
-      "style": "section_red",
+      "text": "밀어내기 규칙",
+      "style": "bp_card_title",
       "align": "center",
       "note": "split: title (DISPLACEMENT RULE)"
     },
@@ -803,8 +803,8 @@
         4003,
         548
       ],
-      "text": "봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은 색 소유의 빈 건물로. 콜로니스트 위에 짓는 경우 그 콜로니스트를 자기 거주구역으로.",
-      "style": "body",
+      "text": "이미 다른 말이 놓여 있는 칸에도 건물을 짓거나 업그레이드할 수 있다. 이때 그 말은 다음과 같이 밀어낸다.\n- 봇 또는 로버: 소유자가 가장 가까운 빈 자리(빈 육각칸 또는 다른 말이 없는 건물)로 이동시킨다.\n- 콜로니스트: 자기 거주구역으로 돌려보낸다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '변위 규칙 봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈' [split: body, title moved to p1_right_r_02_title]"
@@ -823,8 +823,8 @@
         4031,
         867
       ],
-      "text": "테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
-      "style": "body",
+      "text": "테크 타일 1장 2회 또는 2장 1회씩 비용 없이 발전",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '발견 타일 테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용' [split: body, title moved]"
@@ -843,8 +843,8 @@
         3420,
         1010
       ],
-      "text": "",
-      "style": "body_xs",
+      "text": "크리스탈 1 획득",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.' [split: left half (LSS reward label area)]"
@@ -864,8 +864,8 @@
         4031,
         1010
       ],
-      "text": "표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.",
-      "style": "body_xs",
+      "text": "표시된 종류 건물 건설(정상 비용). 콤플렉스면 테크 필요",
+      "style": "body_p1",
       "align": "left",
       "note": "split: right half (Discovery tile body)"
     },
@@ -883,8 +883,8 @@
         4031,
         1180
       ],
-      "text": "건물 2개를 업그레이드(정상 비용).",
-      "style": "body_xs",
+      "text": "건물 최대 2개 업그레이드(정상 비용)",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '건물 2개를 업그레이드(정상 비용).'"
@@ -903,8 +903,8 @@
         4031,
         1304
       ],
-      "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.",
-      "style": "body_xs",
+      "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.'"
@@ -923,8 +923,8 @@
         4031,
         1491
       ],
-      "text": "과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).",
-      "style": "body_xs",
+      "text": "과학자 카드 1장 채용 또는 지구 계약 1장 획득(정상 비용)",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).'"
@@ -943,8 +943,8 @@
         4031,
         1628
       ],
-      "text": "청사진 최대 2장 가져오기.",
-      "style": "body_xs",
+      "text": "청사진 최대 2장",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '청사진 최대 2장 가져오기.'"
@@ -963,8 +963,8 @@
         4031,
         1770
       ],
-      "text": "",
-      "style": "body_xs",
+      "text": "청사진을 최대 2장까지 가져온다.",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.' [split: paragraph 1 - Blueprints area]"
@@ -984,8 +984,8 @@
         4031,
         1981
       ],
-      "text": "창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.",
-      "style": "body_xs",
+      "text": "창고에서 자원/크리스탈 최대 2개 → 자기 저장고/디포",
+      "style": "body_p1",
       "align": "left",
       "note": "split: paragraph 2 - Warehouse Resources/Crystals"
     },
@@ -1003,8 +1003,8 @@
         4031,
         2087
       ],
-      "text": "크리스탈 3개 획득.",
-      "style": "body_xs",
+      "text": "크리스탈 3개 획득",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '크리스탈 3개 획득.'"
@@ -1023,8 +1023,8 @@
         4031,
         2246
       ],
-      "text": "표시된 종류·수량의 자원 획득.",
-      "style": "body_xs",
+      "text": "표시된 종류·수량의 자원 획득",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '표시된 종류·수량의 자원 획득.'"
@@ -1043,8 +1043,8 @@
         4031,
         2383
       ],
-      "text": "테크 타일 1장 획득(정상 비용).",
-      "style": "body_xs",
+      "text": "테크 타일 1장 획득(정상 비용)",
+      "style": "body_p1",
       "align": "left",
       "type": "text",
       "note": "[DISCOVERY TILES column] 한글: '테크 타일 1장 획득(정상 비용).'"
@@ -1890,7 +1890,7 @@
         646
       ],
       "text": "LSS 보상",
-      "style": "section_red",
+      "style": "bp_title",
       "align": "center",
       "note": "LSS REWARDS title"
     },
@@ -1910,7 +1910,7 @@
         653
       ],
       "text": "발견 타일",
-      "style": "section_red",
+      "style": "bp_title",
       "align": "center",
       "note": "DISCOVERY TILES title"
     },
@@ -1929,9 +1929,9 @@
         2935,
         1095
       ],
-      "text": "작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
-      "style": "body",
-      "align": "left",
+      "text": "임의 액션 칸 또는 작업장에서 콜로니스트 1 회수",
+      "style": "body_p1",
+      "align": "center",
       "note": "LSS reward paragraph 2 (Retrieve a Colonist)"
     },
     {
@@ -1950,7 +1950,7 @@
         1172
       ],
       "text": "광물 1 획득",
-      "style": "body",
+      "style": "body_p1",
       "align": "center",
       "note": "LSS reward label: Gain 1 Mineral"
     }

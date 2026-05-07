@@ -1,0 +1,273 @@
+{
+  "_comment": "Image is rendered at 300 DPI from a 1008x612pt PDF (4200x2550px). Sizes here are font sizes in image pixels (300dpi). Convert to pt via px*72/300.",
+  "fonts": {
+    "regular": "fonts/SUIT/SUIT-Regular.otf",
+    "medium": "fonts/SUIT/SUIT-Medium.otf",
+    "semibold": "fonts/SUIT/SUIT-SemiBold.otf",
+    "bold": "fonts/SUIT/SUIT-Bold.otf",
+    "extrabold": "fonts/SUIT/SUIT-ExtraBold.otf"
+  },
+  "styles": {
+    "section_red": {
+      "font": "extrabold",
+      "size_px": 62,
+      "color": [
+        235,
+        36,
+        44
+      ]
+    },
+    "section_red_lg": {
+      "font": "extrabold",
+      "size_px": 69,
+      "color": [
+        235,
+        36,
+        44
+      ]
+    },
+    "section_teal": {
+      "font": "extrabold",
+      "size_px": 54,
+      "color": [
+        76,
+        194,
+        175
+      ]
+    },
+    "subheading": {
+      "font": "bold",
+      "size_px": 45,
+      "color": [
+        235,
+        36,
+        44
+      ]
+    },
+    "subheading_teal": {
+      "font": "bold",
+      "size_px": 39,
+      "color": [
+        76,
+        194,
+        175
+      ]
+    },
+    "body": {
+      "font": "medium",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    "body_md": {
+      "font": "medium",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    "body_sm": {
+      "font": "medium",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    "body_smb": {
+      "font": "bold",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    "boost": {
+      "font": "bold",
+      "size_px": 22,
+      "color": [
+        76,
+        184,
+        196
+      ]
+    },
+    "white_body": {
+      "font": "regular",
+      "size_px": 20,
+      "color": [
+        240,
+        240,
+        240
+      ]
+    },
+    "white_bold": {
+      "font": "bold",
+      "size_px": 20,
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "white_heading": {
+      "font": "extrabold",
+      "size_px": 26,
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "label_white": {
+      "font": "bold",
+      "size_px": 22,
+      "color": [
+        255,
+        255,
+        255
+      ]
+    },
+    "body_xs": {
+      "font": "medium",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 30,
+        "color": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "section_red_with_body": {
+      "font": "regular",
+      "size_px": 20,
+      "color": [
+        40,
+        40,
+        40
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 31,
+        "color": [
+          223,
+          53,
+          64
+        ]
+      }
+    },
+    "section_red_lg_with_body": {
+      "font": "regular",
+      "size_px": 20,
+      "color": [
+        40,
+        40,
+        40
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 34,
+        "color": [
+          223,
+          53,
+          64
+        ]
+      }
+    },
+    "white_levelup": {
+      "font": "regular",
+      "size_px": 19,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 24,
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    "bp_title": {
+      "font": "extrabold",
+      "size_px": 41,
+      "color": [
+        235,
+        36,
+        44
+      ]
+    },
+    "bp_card_title": {
+      "font": "extrabold",
+      "size_px": 39,
+      "color": [
+        76,
+        194,
+        175
+      ]
+    },
+    "exec_card": {
+      "font": "regular",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "first_line_style": {
+        "font": "bold",
+        "size_px": 30,
+        "color": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "bp_body": {
+      "font": "regular",
+      "size_px": 30,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "first_line_style": {
+        "font": "bold",
+        "size_px": 30,
+        "color": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "section_white": {
+      "font": "extrabold",
+      "size_px": 42,
+      "color": [
+        255,
+        255,
+        255
+      ]
+    }
+  }
+}
