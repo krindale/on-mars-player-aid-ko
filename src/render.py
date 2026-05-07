@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC_PDF = ROOT / "OnMars-PlayerReference-v07.pdf"
-OUT_PDF = ROOT / "out" / "OnMars-PlayerReference-v07_KO.pdf"
+OUT_PDF = ROOT / "out" / "OnMars-Player-Aid-v01_KO.pdf"
 DATA = ROOT / "data" / "paragraphs_ko.json"
 FONT_MAP = ROOT / "data" / "font_map.json"
 PATHS_CLASSIFIED = ROOT / "out" / "verify" / "paths_classified.json"
