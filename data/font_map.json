@@ -259,6 +259,15 @@
           0
         ]
       }
+    },
+    "section_white": {
+      "font": "extrabold",
+      "size_px": 42,
+      "color": [
+        255,
+        255,
+        255
+      ]
     }
   }
 }

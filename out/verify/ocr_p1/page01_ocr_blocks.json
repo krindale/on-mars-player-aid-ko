@@ -1,0 +1,2066 @@
+{
+  "tess_blocks": [
+    {
+      "bbox": [
+        1859,
+        168,
+        2286,
+        199
+      ],
+      "text": "BASIC ACTION RULES",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        464,
+        170,
+        489,
+        307
+      ],
+      "text": "|",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3377,
+        198,
+        3802,
+        228
+      ],
+      "text": "DISPLACEMENT RULE",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2801,
+        204,
+        2857,
+        272
+      ],
+      "text": "?",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1425,
+        207,
+        2648,
+        241
+      ],
+      "text": "perform action from the side of the board which Player You may an your",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        505,
+        224,
+        1159,
+        254
+      ],
+      "text": "ORBITAL STATION MAIN ACTIONS",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1425,
+        244,
+        3973,
+        454
+      ],
+      "text": "currently occupies. turn must perform Main action. marker On your you one If construct upgrade building top of | uit",
+      "n_lines": 2
+    },
+    {
+      "bbox": [
+        272,
+        258,
+        4003,
+        430
+      ],
+      "text": "you or a on a | also perform Executive action either before after Main You may one or your Bot that piece must be moved Rover, MARS or away | action. The action show the following symbols: Travel the Colony. the Shuttle skip to Follow Phase rules but space may from its position its the current by to owner | step1. Player marker down. Lay closest available hex (either empty hex your | x",
+      "n_lines": 5
+    },
+    {
+      "bbox": [
+        3680,
+        371,
+        4002,
+        392
+      ],
+      "text": "an or a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1543,
+        381,
+        3009,
+        421
+      ],
+      "text": "The Action be performed without cost. may any CYCLE",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3179,
+        401,
+        4001,
+        436
+      ],
+      "text": "Building with other piece it); if no on you",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        272,
+        430,
+        4003,
+        734
+      ],
+      "text": "* Ne | 1 of Colonists from Living Quarters onto the Action Place construct upgrade building top of Take Blueprint from the display. Gain the depicted. one your your or a on a resource | 1 slot. Crystal Colonist from Living Quarters to Colonist, displace the Colonist back their Pay to Place Advanced Building marker the Blueprint. or move a your an on | GE? color Working for opposing already (2P: Cost Area each present. Living Quarters. Boost: repeat this Action in full. owner's your | is occupied Action slot.) If all slots full before placing, return per are | 1 the cost depicted to take Tech tile from the Tech Grid. Place Pay all Colonists of player(s) with the most Colonists present to their the | LSS REWARDS DISCOVERY TILES it empty in the leftmost of Laboratory. column respective Working remaining cost. Areas, on an space your pay | Boost: repeat this Action in full. to 2 Movement points to Develop Use up one | One Colonists be moved from Living Quarters to Tech tile twice, bots. You spend or more may your move your may",
+      "n_lines": 9
+    },
+    {
+      "bbox": [
+        274,
+        722,
+        1347,
+        765
+      ],
+      "text": "1 Tile twice tiles Develop Tech 2 Tech each. Pay the cost",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        272,
+        730,
+        4018,
+        877
+      ],
+      "text": "n | or once Working of Action. Area to boost the the Crystals to Boost this. two Tech tiles your power or | and gain the benefit for each space. each, at once no | Retrieve Boost: Develop additional Tech Tile an once. cost. | Colonist a the of Action. Spend Crystals to boost the one or more power",
+      "n_lines": 5
+    },
+    {
+      "bbox": [
+        3080,
+        856,
+        3126,
+        888
+      ],
+      "text": "&",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        272,
+        865,
+        4017,
+        1006
+      ],
+      "text": "1 Take Crystal from the Warehouse and place it in any Resource from or any | 1 Develop Tech tile twice, 1 Storage/Depot. Gain Action your | x tiles 2 Tech each, The Action not be boosted. | Crystal or once Boost: take additional Crystal. 1 Resource may slot or or | paying normal costs.",
+      "n_lines": 5
+    },
+    {
+      "bbox": [
+        2805,
+        990,
+        2879,
+        1017
+      ],
+      "text": "your",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3057,
+        1003,
+        3144,
+        1090
+      ],
+      "text": "(=)",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1909,
+        1017,
+        2908,
+        1055
+      ],
+      "text": "SHUTTLE PHASE Working",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        348,
+        1025,
+        489,
+        1170
+      ],
+      "text": "a]",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        272,
+        1033,
+        4026,
+        1287
+      ],
+      "text": "depicted Construct the | Area All players travel. If the shuttle is travelling from the side Player marker may your type of Building, paying COLONY MAIN ACTIONS | is travel for free. Otherwise, ship from Hangar. 1 may remove a your on, you Gain normal costs. Tech | Mineral A) In turn order: 1. Move Player marker to Exploration and required if complex. your | 1 Choose and place of the Discovery tiles empty exactly on an space Select which Building. construction cost. Place the tile 1. 2. Pay 3. | equal to the level of Upgrade to 2 Buildings, OP from B) tile from Be 3 Rover. Replace the the stack. up spaces your face down within the Building of of Bots. Must be zone one your | paying most-developed Tech Normal costs. 2.Retrieve all of Colonists from Working and Colony side your your area",
+      "n_lines": 7
+    },
+    {
+      "bbox": [
+        273,
+        1265,
+        3983,
+        1594
+      ],
+      "text": "A) Adjacent to Buildings of the requiring type, one or more same | tile. (lose excess) 3. Move Player marker to empty Turn any your an Tech tile of the type and appropriate level. B) Exactly 2 a same | Order the Colony side, receiving printed bonus. space on any from of the type. Place indicated 4. Construct type of spaces away same any | Resources/Crystals crystals. Flip the tile and gain equal to Production 5. In turn order: 1. Move Player marker to 2 OP for each Ship in Building, paying normal new your space. your | size. If this is first contribution to Complex of this type, 6. Advanced Buildings produce Miners produce Minerals. costs. Tech required if Hangar. your a resources, | place cube. Check for LSS advancement. 8. Add 2.Retrieve of Colonists from Working Orbit side Progress 7. all and size 2 greater. a your area or | Colonist if this is mine. (lose 3. Player marker to empty excess) Move Turn a any your an | 1 Hire Scientist card 2 OP for each Advanced or the Orbit side, receiving printed Order bonus. space on any | 1 take Earth Contract, Building marker have you",
+      "n_lines": 9
+    },
+    {
+      "bbox": [
+        272,
+        1575,
+        1293,
+        1610
+      ],
+      "text": "matching Blueprint Building within Building 1.Choose and the",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1776,
+        1590,
+        3937,
+        1628
+      ],
+      "text": "(LSS) LIFE SUPPORT SYSTEM paying costs. normal Mars. on",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        273,
+        1613,
+        1357,
+        1647
+      ],
+      "text": "of of Bots. Mineral 3.Move Advanced 1 zone one your your",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1424,
+        1639,
+        2672,
+        1673
+      ],
+      "text": "The Current Colony Level is the number shown just below the Colony level",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        275,
+        1650,
+        1350,
+        1685
+      ],
+      "text": "Building from Blueprint Building, displacing figures. to other any",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1424,
+        1674,
+        3989,
+        1785
+      ],
+      "text": "2 OP for each Mine where should always indicate the current number of marker. LSS Track markers | have Colonist Take to Blueprints. 2 buildings the board of that type, unless they have already reached the you a or up on | Advanced Building marker. top of the chart.",
+      "n_lines": 3
+    },
+    {
+      "bbox": [
+        272,
+        1776,
+        1336,
+        1810
+      ],
+      "text": "cost below Scientist above Contract Place card [and 1. Pay 2. or",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1424,
+        1790,
+        3996,
+        1835
+      ],
+      "text": "2Resources/ Take to up When LSS Track marker below the where the Colony level an was row",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        274,
+        1814,
+        1360,
+        1848
+      ],
+      "text": "Scientist] beside Player board 3. Replace with Contract of your a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        273,
+        1830,
+        3964,
+        1977
+      ],
+      "text": "Crystals from the marker is before it moved, the player who advanced the marker gains was | choice from the deck. for each 2 OP Bot have your you | Warehouse and place according tile of of benefits 1.OP to Reward at the top the column. 2. One the | Mars. on | Storage/ them in your shown to the left of the Reward tiles. | Depot.",
+      "n_lines": 6
+    },
+    {
+      "bbox": [
+        271,
+        1954,
+        3841,
+        2132
+      ],
+      "text": "points for to Use to 2 Movement Rover AND 2 Nf up your up | Movement points for Bots. Rover: collects Crystals passed COLONY LEVEL UP your for Discovery 2 OP each | Gain 3 Crystals Collects Discovery tiles if they the Research end turn over, or on When the colony levels perform the following steps tile has Rover up, your | Bots: them. destroys Crystals, Discovery Research tiles if they or collected. [note: the Colony Status is updated at the end of turn (after player(s) whose your | end the turn them. on",
+      "n_lines": 5
+    },
+    {
+      "bbox": [
+        272,
+        2117,
+        3982,
+        2419
+      ],
+      "text": "kept/spent tiles used have the they received)]. Tech Oxygen were | Boost: additional Movement point. Gain the indicated use an the colony marker 1. Move up. 2 OP for each Shelter you | of depicted number the the 2. Add Blueprint cards according to display. have Mars. on | Resources. Refill the Tech Grid. Skip this step) 3. (2P: Check that total number of ships removed from Depot is 1. your | Refill the Warehouse. (2P: Only refill bottom 2 rows) 1 4. currently LESS level. THAN the current Colony 2. Pay Plant and | cubes. (Levels and only) 5. Score Progress 2 3 1 1Water 3. Ship from Depot to Gain Move Hangar. 4. for each Colonist in 1 OP your your tile, paying Take 1 Tech | 1 6. the Remaining Missions cube. (Levels 3 and only) Move 4 / either Colonist Colonists. and 1 Bot 2 Living Quarters. normal costs. your | Boost: Repeat this Action in full.",
+      "n_lines": 8
+    }
+  ],
+  "vis_blocks": [
+    {
+      "bbox": [
+        1855,
+        164,
+        2289,
+        201
+      ],
+      "text": "BASIC ACTION RULES",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3375,
+        194,
+        3809,
+        232
+      ],
+      "text": "DISPLACEMENT RULE",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1422,
+        201,
+        2655,
+        244
+      ],
+      "text": "You may perform an action from the side of the board which your Player",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        500,
+        219,
+        1165,
+        262
+      ],
+      "text": "ORBITAL STATION MAIN ACTIONS",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        243,
+        2704,
+        280
+      ],
+      "text": "marker currently occupies. On your turn you must perform one Main action.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        250,
+        4010,
+        286
+      ],
+      "text": "If you construct or upgrade a building on top of a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1422,
+        274,
+        2710,
+        323
+      ],
+      "text": "You may also perform one Executive action either before or after your Main",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2887,
+        286,
+        3009,
+        323
+      ],
+      "text": "MARS",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        286,
+        4010,
+        323
+      ],
+      "text": "Bot or Rover, that piece must be moved away",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        317,
+        1294,
+        360
+      ],
+      "text": "Travel to the Colony. Follow the Shuttle Phase rules but skip",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        317,
+        2399,
+        360
+      ],
+      "text": "action. The action space may show the following symbols:",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        322,
+        4010,
+        360
+      ],
+      "text": "from its current position by its owner to the",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2789,
+        335,
+        3107,
+        372
+      ],
+      "text": "CONSTRUCTION",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        353,
+        891,
+        396
+      ],
+      "text": "step1. Lay your Player marker down.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        359,
+        4010,
+        396
+      ],
+      "text": "closest available hex (either an empty hex or a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1526,
+        378,
+        2350,
+        420
+      ],
+      "text": "The Action may be performed without any cost.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2881,
+        384,
+        3015,
+        420
+      ],
+      "text": "CYCLE",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        396,
+        3320,
+        439
+      ],
+      "text": "Building",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3314,
+        402,
+        3613,
+        433
+      ],
+      "text": "with no other",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3620,
+        402,
+        4004,
+        439
+      ],
+      "text": "piece on it); if you",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        439,
+        1306,
+        476
+      ],
+      "text": "Take 1 Blueprint from the display. Gain the resource depicted.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1544,
+        439,
+        2728,
+        476
+      ],
+      "text": "Place one of your Colonists from your Living Quarters onto the Action",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        439,
+        3968,
+        469
+      ],
+      "text": "construct or upgrade a building on top of",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3968,
+        439,
+        4010,
+        469
+      ],
+      "text": "a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3174,
+        474,
+        3327,
+        507
+      ],
+      "text": "Colonist,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        475,
+        1165,
+        512
+      ],
+      "text": "Place an Advanced Building marker on the Blueprint.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1538,
+        475,
+        2661,
+        512
+      ],
+      "text": "slot. Pay 1 Crystal or move a Colonist from your Living Quarters to",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3345,
+        475,
+        4010,
+        512
+      ],
+      "text": "displace the Colonist back to their",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1532,
+        506,
+        2716,
+        549
+      ],
+      "text": "your Working Area for each opposing color already present. (2P: Cost",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        512,
+        805,
+        549
+      ],
+      "text": "Boost: repeat this Action in full.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3168,
+        512,
+        3589,
+        549
+      ],
+      "text": "owner's Living Quarters.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1526,
+        542,
+        2692,
+        591
+      ],
+      "text": "is per occupied Action slot.) If all slots are full before placing, return",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        579,
+        1385,
+        622
+      ],
+      "text": "Pay the cost depicted to take 1 Tech tile from the Tech Grid. Place",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1538,
+        585,
+        2698,
+        622
+      ],
+      "text": "all Colonists of the player(s) with the most Colonists present to their",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3528,
+        603,
+        3900,
+        653
+      ],
+      "text": "DISCOVERY TILES",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2960,
+        610,
+        3265,
+        646
+      ],
+      "text": "LSS REWARDS",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        621,
+        1361,
+        658
+      ],
+      "text": "it on an empty space in the leftmost column of your Laboratory.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1538,
+        621,
+        2325,
+        664
+      ],
+      "text": "respective Working Areas, pay remaining cost.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        658,
+        805,
+        695
+      ],
+      "text": "Boost: repeat this Action in full.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2838,
+        658,
+        3388,
+        695
+      ],
+      "text": "Use up to 2 Movement points to",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3736,
+        658,
+        3955,
+        695
+      ],
+      "text": "Develop one",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1544,
+        695,
+        2673,
+        738
+      ],
+      "text": "One or more Colonists may be moved from your Living Quarters to",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2844,
+        695,
+        3388,
+        738
+      ],
+      "text": "move your bots. You may spend",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3736,
+        695,
+        3992,
+        732
+      ],
+      "text": "Tech tile twice,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        719,
+        1355,
+        762
+      ],
+      "text": "Develop 1 Tech Tile twice or 2 Tech tiles once each. Pay the cost",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1532,
+        732,
+        2435,
+        774
+      ],
+      "text": "your Working Area to boost the power of the Action.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2924,
+        732,
+        3302,
+        774
+      ],
+      "text": "Crystals to Boost this.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3736,
+        732,
+        4022,
+        768
+      ],
+      "text": "or two Tech tiles",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        762,
+        872,
+        799
+      ],
+      "text": "and gain the benefit for each space.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3736,
+        774,
+        4022,
+        811
+      ],
+      "text": "once each, at no",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2765,
+        793,
+        2918,
+        823
+      ],
+      "text": "Retrieve",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        798,
+        1013,
+        835
+      ],
+      "text": "Boost: Develop an additional Tech Tile once.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3736,
+        811,
+        3827,
+        847
+      ],
+      "text": "cost.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2753,
+        829,
+        2930,
+        866
+      ],
+      "text": "a Colonist",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1538,
+        841,
+        2582,
+        878
+      ],
+      "text": "Spend one or more Crystals to boost the power of the Action.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2759,
+        865,
+        2924,
+        903
+      ],
+      "text": "from any",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        866,
+        1391,
+        903
+      ],
+      "text": "Take any 1 Resource or Crystal from the Warehouse and place it in",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        890,
+        4010,
+        933
+      ],
+      "text": "Develop 1 Tech tile twice,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        262,
+        902,
+        622,
+        939
+      ],
+      "text": "your Storage/Depot.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3284,
+        902,
+        3394,
+        933
+      ],
+      "text": "Gain 1",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1445,
+        908,
+        2082,
+        983
+      ],
+      "text": "X The Action may not be boosted.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2783,
+        908,
+        2899,
+        946
+      ],
+      "text": "Action",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        933,
+        4022,
+        969
+      ],
+      "text": "or 2 Tech tiles once each,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        939,
+        1013,
+        976
+      ],
+      "text": "Boost: take 1 additional Resource or Crystal.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3278,
+        939,
+        3400,
+        976
+      ],
+      "text": "Crystal",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2783,
+        945,
+        2899,
+        976
+      ],
+      "text": "slot or",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        969,
+        3943,
+        1006
+      ],
+      "text": "paying normal costs.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2795,
+        982,
+        2887,
+        1018
+      ],
+      "text": "your",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1898,
+        1006,
+        2246,
+        1055
+      ],
+      "text": "SHUTTLE PHASE",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2771,
+        1018,
+        2918,
+        1055
+      ],
+      "text": "Working",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1030,
+        3986,
+        1067
+      ],
+      "text": "Construct the depicted",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1428,
+        1055,
+        2661,
+        1091
+      ],
+      "text": "All players may travel. If the shuttle is travelling from the side your Player marker",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2795,
+        1055,
+        2887,
+        1091
+      ],
+      "text": "Area",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1067,
+        3992,
+        1110
+      ],
+      "text": "type of Building, paying",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        506,
+        1079,
+        976,
+        1116
+      ],
+      "text": "COLONY MAIN ACTIONS",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1428,
+        1091,
+        2551,
+        1128
+      ],
+      "text": "is on, you may travel for free. Otherwise, remove a ship from your Hangar.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3052,
+        1097,
+        3156,
+        1134
+      ],
+      "text": "Gain 1",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1104,
+        3913,
+        1140
+      ],
+      "text": "normal costs. Tech",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3033,
+        1133,
+        3168,
+        1172
+      ],
+      "text": "Mineral",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1568,
+        1134,
+        2637,
+        1177
+      ],
+      "text": "In turn order: 1. Move your Player marker to Exploration and A)",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1140,
+        3931,
+        1183
+      ],
+      "text": "required if complex.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1562,
+        1177,
+        2722,
+        1213
+      ],
+      "text": "Choose and place 1 of the Discovery tiles on an empty space exactly",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1183,
+        1373,
+        1226
+      ],
+      "text": "1. Select which Building. 2. Pay construction cost. 3. Place the tile",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1207,
+        3320,
+        1244
+      ],
+      "text": "OP equal to the level of",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1207,
+        4029,
+        1244
+      ],
+      "text": "Upgrade up to 2 Buildings,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1213,
+        2606,
+        1251
+      ],
+      "text": "3 spaces from your Rover. B) Replace the tile from the stack.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1226,
+        1349,
+        1262
+      ],
+      "text": "face down within the Building zone of one of your Bots. Must be",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1244,
+        3375,
+        1281
+      ],
+      "text": "your most-developed Tech",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1244,
+        3943,
+        1287
+      ],
+      "text": "paying Normal costs.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1250,
+        2710,
+        1287
+      ],
+      "text": "2. Retrieve all of your Colonists from Working area and Colony side",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        274,
+        1262,
+        1367,
+        1299
+      ],
+      "text": "A) Adjacent to one or more Buildings of the same type, requiring",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1281,
+        2985,
+        1317
+      ],
+      "text": "tile.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1568,
+        1287,
+        2649,
+        1323
+      ],
+      "text": "(lose any excess) 3. Move your Player marker to an empty Turn",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1298,
+        1336,
+        1336
+      ],
+      "text": "a Tech tile of the same type and appropriate level. B) Exactly 2",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1323,
+        2600,
+        1366
+      ],
+      "text": "Order space on the Colony side, receiving any printed bonus.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1336,
+        1288,
+        1372
+      ],
+      "text": "spaces away from a tile of the same type. 4. Place indicated",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1341,
+        3961,
+        1379
+      ],
+      "text": "Construct any type of",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1372,
+        1373,
+        1415
+      ],
+      "text": "crystals. 5. Flip the tile and gain Resources/Crystals equal to new",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1372,
+        2631,
+        1415
+      ],
+      "text": "In turn order: 1. Move your Player marker to Production space.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1378,
+        3369,
+        1421
+      ],
+      "text": "2 OP for each Ship in your",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3582,
+        1378,
+        3986,
+        1460
+      ],
+      "text": "Building, paying normal | costs. Tech required if",
+      "n_lines": 2
+    },
+    {
+      "bbox": [
+        268,
+        1409,
+        1355,
+        1452
+      ],
+      "text": "size. 6. If this is your first contribution to a Complex of this type,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1409,
+        2679,
+        1452
+      ],
+      "text": "Advanced Buildings produce resources, Miners produce Minerals.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1415,
+        3064,
+        1458
+      ],
+      "text": "Hangar.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1445,
+        1312,
+        1488
+      ],
+      "text": "place Progress cube. 7. Check for LSS advancement. 8. Add a",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1445,
+        2679,
+        1488
+      ],
+      "text": "2. Retrieve all of your Colonists from Working area and Orbit side",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1451,
+        3882,
+        1494
+      ],
+      "text": "size 2 or greater.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1574,
+        1488,
+        2649,
+        1525
+      ],
+      "text": "(lose any excess) 3. Move your Player marker to an empty Turn",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1512,
+        3333,
+        1555
+      ],
+      "text": "2 OP for each Advanced",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1512,
+        3974,
+        1549
+      ],
+      "text": "Hire 1 Scientist card or",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1575,
+        1524,
+        2570,
+        1567
+      ],
+      "text": "Order space on the Orbit side, receiving any printed bonus.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1555,
+        3357,
+        1592
+      ],
+      "text": "Building marker you have",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1555,
+        3961,
+        1592
+      ],
+      "text": "take 1 Earth Contract,",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1573,
+        1300,
+        1610
+      ],
+      "text": "1. Choose matching Blueprint and Building within the Building",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1770,
+        1586,
+        2380,
+        1622
+      ],
+      "text": "LIFE SUPPORT SYSTEM (LSS)",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2917,
+        1590,
+        3070,
+        1630
+      ],
+      "text": "on Mars.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1592,
+        3943,
+        1629
+      ],
+      "text": "paying normal costs.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1610,
+        1367,
+        1647
+      ],
+      "text": "zone of one of your Bots. 2. Pay 1 Mineral 3. Move your Advanced",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1422,
+        1634,
+        2679,
+        1671
+      ],
+      "text": "The Current Colony Level is the number shown just below the Colony level",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1646,
+        1355,
+        1689
+      ],
+      "text": "Building from Blueprint to Building, displacing any other figures.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1665,
+        3363,
+        1708
+      ],
+      "text": "2 OP for each Mine where",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        1671,
+        2667,
+        1751
+      ],
+      "text": "marker. LSS Track markers should always indicate the current number of | buildings on the board of that type, unless they have already reached the",
+      "n_lines": 2
+    },
+    {
+      "bbox": [
+        2918,
+        1708,
+        3302,
+        1744
+      ],
+      "text": "you have a Colonist or",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1708,
+        3998,
+        1744
+      ],
+      "text": "Take up to 2 Blueprints.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1744,
+        3381,
+        1787
+      ],
+      "text": "Advanced Building marker.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1768,
+        1343,
+        1811
+      ],
+      "text": "1. Pay cost below Scientist or above Contract 2. Place card [and",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1787,
+        4004,
+        1824
+      ],
+      "text": "Take up to 2 Resources/",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        1793,
+        2600,
+        1836
+      ],
+      "text": "When an LSS Track marker was below the row where the Colony level",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1811,
+        1367,
+        1848
+      ],
+      "text": "Scientist] beside your Player board 3. Replace with a Contract of",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1823,
+        3888,
+        1866
+      ],
+      "text": "Crystals from the",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        1836,
+        2679,
+        1872
+      ],
+      "text": "marker is before it was moved, the player who advanced the marker gains",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1848,
+        726,
+        1885
+      ],
+      "text": "your choice from the deck.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1848,
+        3388,
+        1885
+      ],
+      "text": "2 OP for each Bot you have",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        1866,
+        3955,
+        1903
+      ],
+      "text": "Warehouse and place",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        1872,
+        2728,
+        1909
+      ],
+      "text": "1. OP according to Reward tile at the top of the column. 2. One of the benefits",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        1885,
+        3070,
+        1921
+      ],
+      "text": "on Mars.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1896,
+        3968,
+        1939
+      ],
+      "text": "them in your Storage/",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1416,
+        1909,
+        2045,
+        1946
+      ],
+      "text": "shown to the left of the Reward tiles.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        1939,
+        3705,
+        1976
+      ],
+      "text": "Depot.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1952,
+        1239,
+        1988
+      ],
+      "text": "Use up to 2 Movement points for your Rover AND up to 2",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1886,
+        1982,
+        2258,
+        2025
+      ],
+      "text": "COLONY LEVEL UP",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        1988,
+        1343,
+        2025
+      ],
+      "text": "Movement points for your Bots. Rover: collects Crystals passed",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2917,
+        1994,
+        3333,
+        2038
+      ],
+      "text": "2 OP for each Discovery",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        2018,
+        3852,
+        2056
+      ],
+      "text": "Gain 3 Crystals",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2025,
+        1361,
+        2061
+      ],
+      "text": "over, Collects Discovery or Research tiles if they end the turn on",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1440,
+        2037,
+        2374,
+        2074
+      ],
+      "text": "When the colony levels up, perform the following steps",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        2037,
+        3247,
+        2074
+      ],
+      "text": "tile your Rover has",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        262,
+        2061,
+        1367,
+        2098
+      ],
+      "text": "them. Bots: destroys Crystals, Discovery or Research tiles if they",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1434,
+        2073,
+        2667,
+        2110
+      ],
+      "text": "[note: the Colony Status is updated at the end of your turn (after player(s) whose",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2917,
+        2073,
+        3089,
+        2111
+      ],
+      "text": "collected.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1440,
+        2116,
+        2429,
+        2153
+      ],
+      "text": "Tech tiles were used have kept/spent the Oxygen they received)].",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2135,
+        970,
+        2178
+      ],
+      "text": "Boost: use an additional Movement point.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        2141,
+        3900,
+        2171
+      ],
+      "text": "Gain the indicated",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1434,
+        2146,
+        1953,
+        2190
+      ],
+      "text": "1. Move the colony marker up.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2917,
+        2153,
+        3364,
+        2197
+      ],
+      "text": "2 OP for each Shelter you",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        2177,
+        3992,
+        2214
+      ],
+      "text": "number of the depicted",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1440,
+        2183,
+        2252,
+        2227
+      ],
+      "text": "2. Add Blueprint cards according to the display.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        2195,
+        3162,
+        2232
+      ],
+      "text": "have on Mars.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        2213,
+        3779,
+        2252
+      ],
+      "text": "Resources.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2226,
+        1343,
+        2263
+      ],
+      "text": "1. Check that total number of ships removed from your Depot is",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1440,
+        2226,
+        2368,
+        2299
+      ],
+      "text": "3. Refill the Tech Grid. (2P: Skip this step) | 4. Refill the Warehouse. (2P: Only refill bottom 2 rows)",
+      "n_lines": 2
+    },
+    {
+      "bbox": [
+        268,
+        2263,
+        1367,
+        2306
+      ],
+      "text": "currently LESS THAN the current Colony level. 2. Pay 1 Plant and",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1440,
+        2299,
+        2222,
+        2336
+      ],
+      "text": "5. Score Progress cubes. (Levels 2 and 3 only)",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2305,
+        1324,
+        2336
+      ],
+      "text": "1Water 3. Move 1 Ship from vour Depot to vour Hanaar. 4. Gain",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2911,
+        2312,
+        3339,
+        2342
+      ],
+      "text": "1OP for each Colonist in",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3589,
+        2312,
+        3986,
+        2355
+      ],
+      "text": "Take 1 Tech tile, paying",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2336,
+        934,
+        2373
+      ],
+      "text": "either 1 Colonist and 1 Bot / 2 Colonists.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        1446,
+        2336,
+        2447,
+        2373
+      ],
+      "text": "6. Move the Remaining Missions cube. (Levels 3 and 4 only)",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        2918,
+        2348,
+        3284,
+        2385
+      ],
+      "text": "your Living Quarters.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        3583,
+        2354,
+        3821,
+        2391
+      ],
+      "text": "normal costs.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        268,
+        2379,
+        818,
+        2415
+      ],
+      "text": "Boost: Repeat this Action in full.",
+      "n_lines": 1
+    },
+    {
+      "bbox": [
+        4016,
+        2421,
+        4077,
+        2458
+      ],
+      "text": "v0T",
+      "n_lines": 1
+    }
+  ]
+}

@@ -1,0 +1,3446 @@
+{
+  "tess": {
+    "blocks": [
+      {
+        "bbox": [
+          1859,
+          168,
+          2286,
+          199
+        ],
+        "text": "BASIC ACTION RULES",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.053
+      },
+      {
+        "bbox": [
+          464,
+          170,
+          489,
+          307
+        ],
+        "text": "|",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.034
+      },
+      {
+        "bbox": [
+          3377,
+          198,
+          3802,
+          228
+        ],
+        "text": "DISPLACEMENT RULE",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          2801,
+          204,
+          2857,
+          272
+        ],
+        "text": "?",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          1425,
+          207,
+          2648,
+          241
+        ],
+        "text": "perform action from the side of the board which Player You may an your",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.167
+      },
+      {
+        "bbox": [
+          505,
+          224,
+          1159,
+          254
+        ],
+        "text": "ORBITAL STATION MAIN ACTIONS",
+        "status": "matched",
+        "matched_id": "p1_left_01",
+        "iou": 0.484
+      },
+      {
+        "bbox": [
+          1425,
+          244,
+          3973,
+          454
+        ],
+        "text": "currently occupies. turn must perform Main action. marker On your you one If con",
+        "status": "matched",
+        "matched_id": "p1_right_r_02",
+        "iou": 0.265
+      },
+      {
+        "bbox": [
+          272,
+          258,
+          4003,
+          430
+        ],
+        "text": "you or a on a | also perform Executive action either before after Main You may o",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.19
+      },
+      {
+        "bbox": [
+          3680,
+          371,
+          4002,
+          392
+        ],
+        "text": "an or a",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.027
+      },
+      {
+        "bbox": [
+          1543,
+          381,
+          3009,
+          421
+        ],
+        "text": "The Action be performed without cost. may any CYCLE",
+        "status": "matched",
+        "matched_id": "p1_center_02",
+        "iou": 0.493
+      },
+      {
+        "bbox": [
+          3179,
+          401,
+          4001,
+          436
+        ],
+        "text": "Building with other piece it); if no on you",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.113
+      },
+      {
+        "bbox": [
+          272,
+          430,
+          4003,
+          734
+        ],
+        "text": "* Ne | 1 of Colonists from Living Quarters onto the Action Place construct upgra",
+        "status": "matched",
+        "matched_id": "p1_center_03",
+        "iou": 0.318
+      },
+      {
+        "bbox": [
+          274,
+          722,
+          1347,
+          765
+        ],
+        "text": "1 Tile twice tiles Develop Tech 2 Tech each. Pay the cost",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.151
+      },
+      {
+        "bbox": [
+          272,
+          730,
+          4018,
+          877
+        ],
+        "text": "n | or once Working of Action. Area to boost the the Crystals to Boost this. two",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.18
+      },
+      {
+        "bbox": [
+          3080,
+          856,
+          3126,
+          888
+        ],
+        "text": "&",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.01
+      },
+      {
+        "bbox": [
+          272,
+          865,
+          4017,
+          1006
+        ],
+        "text": "1 Take Crystal from the Warehouse and place it in any Resource from or any | 1 D",
+        "status": "matched",
+        "matched_id": "p1_left_05",
+        "iou": 0.262
+      },
+      {
+        "bbox": [
+          2805,
+          990,
+          2879,
+          1017
+        ],
+        "text": "your",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3057,
+          1003,
+          3144,
+          1090
+        ],
+        "text": "(=)",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          1909,
+          1017,
+          2908,
+          1055
+        ],
+        "text": "SHUTTLE PHASE Working",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.042
+      },
+      {
+        "bbox": [
+          348,
+          1025,
+          489,
+          1170
+        ],
+        "text": "a]",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          272,
+          1033,
+          4026,
+          1287
+        ],
+        "text": "depicted Construct the | Area All players travel. If the shuttle is travelling f",
+        "status": "matched",
+        "matched_id": "p1_center_06",
+        "iou": 0.246
+      },
+      {
+        "bbox": [
+          273,
+          1265,
+          3983,
+          1594
+        ],
+        "text": "A) Adjacent to Buildings of the requiring type, one or more same | tile. (lose e",
+        "status": "matched",
+        "matched_id": "p1_center_06",
+        "iou": 0.254
+      },
+      {
+        "bbox": [
+          272,
+          1575,
+          1293,
+          1610
+        ],
+        "text": "matching Blueprint Building within Building 1.Choose and the",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.249
+      },
+      {
+        "bbox": [
+          1776,
+          1590,
+          3937,
+          1628
+        ],
+        "text": "(LSS) LIFE SUPPORT SYSTEM paying costs. normal Mars. on",
+        "status": "matched",
+        "matched_id": "p1_right_r_08",
+        "iou": 0.2
+      },
+      {
+        "bbox": [
+          273,
+          1613,
+          1357,
+          1647
+        ],
+        "text": "of of Bots. Mineral 3.Move Advanced 1 zone one your your",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.257
+      },
+      {
+        "bbox": [
+          1424,
+          1639,
+          2672,
+          1673
+        ],
+        "text": "The Current Colony Level is the number shown just below the Colony level",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.166
+      },
+      {
+        "bbox": [
+          275,
+          1650,
+          1350,
+          1685
+        ],
+        "text": "Building from Blueprint Building, displacing figures. to other any",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.262
+      },
+      {
+        "bbox": [
+          1424,
+          1674,
+          3989,
+          1785
+        ],
+        "text": "2 OP for each Mine where should always indicate the current number of marker. LS",
+        "status": "matched",
+        "matched_id": "p1_center_07",
+        "iou": 0.346
+      },
+      {
+        "bbox": [
+          272,
+          1776,
+          1336,
+          1810
+        ],
+        "text": "cost below Scientist above Contract Place card [and 1. Pay 2. or",
+        "status": "matched",
+        "matched_id": "p1_left_09",
+        "iou": 0.257
+      },
+      {
+        "bbox": [
+          1424,
+          1790,
+          3996,
+          1835
+        ],
+        "text": "2Resources/ Take to up When LSS Track marker below the where the Colony level an",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.195
+      },
+      {
+        "bbox": [
+          274,
+          1814,
+          1360,
+          1848
+        ],
+        "text": "Scientist] beside Player board 3. Replace with Contract of your a",
+        "status": "matched",
+        "matched_id": "p1_left_09",
+        "iou": 0.262
+      },
+      {
+        "bbox": [
+          273,
+          1830,
+          3964,
+          1977
+        ],
+        "text": "Crystals from the marker is before it moved, the player who advanced the marker ",
+        "status": "matched",
+        "matched_id": "p1_center_08",
+        "iou": 0.256
+      },
+      {
+        "bbox": [
+          271,
+          1954,
+          3841,
+          2132
+        ],
+        "text": "points for to Use to 2 Movement Rover AND 2 Nf up your up | Movement points for ",
+        "status": "matched",
+        "matched_id": "p1_left_10",
+        "iou": 0.279
+      },
+      {
+        "bbox": [
+          272,
+          2117,
+          3982,
+          2419
+        ],
+        "text": "kept/spent tiles used have the they received)]. Tech Oxygen were | Boost: additi",
+        "status": "matched",
+        "matched_id": "p1_center_09",
+        "iou": 0.252
+      }
+    ],
+    "regions": [
+      {
+        "id": "p1_left_01",
+        "mask_bbox": [
+          452,
+          220,
+          1163,
+          277
+        ],
+        "text": "궤도 정거장 메인 액션",
+        "status": "matched",
+        "iou": 0.484
+      },
+      {
+        "id": "p1_left_02",
+        "mask_bbox": [
+          256,
+          305,
+          1289,
+          408
+        ],
+        "text": "콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어 마커를 눕혀 놓는",
+        "status": "no_ocr",
+        "iou": 0.163
+      },
+      {
+        "id": "p1_left_03",
+        "mask_bbox": [
+          256,
+          426,
+          1308,
+          563
+        ],
+        "text": "디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물 마커 1.\n부스트",
+        "status": "no_ocr",
+        "iou": 0.121
+      },
+      {
+        "id": "p1_left_04",
+        "mask_bbox": [
+          256,
+          577,
+          1380,
+          848
+        ],
+        "text": "표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장 왼쪽 열의 빈칸에",
+        "status": "no_ocr",
+        "iou": 0.18
+      },
+      {
+        "id": "p1_left_05",
+        "mask_bbox": [
+          250,
+          862,
+          1390,
+          990
+        ],
+        "text": "테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비용 지불, 효과 획",
+        "status": "matched",
+        "iou": 0.262
+      },
+      {
+        "id": "p1_left_06",
+        "mask_bbox": [
+          494,
+          1078,
+          976,
+          1121
+        ],
+        "text": "창고에서 자원/크리스탈 1을 자기 저장고/디포로.\n부스트: 추가 1.",
+        "status": "no_ocr",
+        "iou": 0.022
+      },
+      {
+        "id": "p1_left_07",
+        "mask_bbox": [
+          256,
+          1186,
+          1373,
+          1522
+        ],
+        "text": "콜로니 메인 액션\n1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자기 봇 1대 안에 ",
+        "status": "matched",
+        "iou": 0.215
+      },
+      {
+        "id": "p1_left_08",
+        "mask_bbox": [
+          256,
+          1571,
+          1361,
+          1701
+        ],
+        "text": "1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 지불. 3. 고급 ",
+        "status": "matched",
+        "iou": 0.262
+      },
+      {
+        "id": "p1_left_09",
+        "mask_bbox": [
+          256,
+          1765,
+          1364,
+          1892
+        ],
+        "text": "1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 보드 옆에 배치. ",
+        "status": "matched",
+        "iou": 0.262
+      },
+      {
+        "id": "p1_left_10",
+        "mask_bbox": [
+          250,
+          1950,
+          1364,
+          2180
+        ],
+        "text": "자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리스탈 수집, 턴 끝",
+        "status": "matched",
+        "iou": 0.279
+      },
+      {
+        "id": "p1_left_11",
+        "mask_bbox": [
+          256,
+          2230,
+          1363,
+          2422
+        ],
+        "text": "1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식물 1·물 1 지불",
+        "status": "no_ocr",
+        "iou": 0.183
+      },
+      {
+        "id": "p1_center_01",
+        "mask_bbox": [
+          1420,
+          164,
+          2707,
+          358
+        ],
+        "text": "기본 액션 규칙\n자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자기 차례에 메인 액",
+        "status": "matched",
+        "iou": 0.229
+      },
+      {
+        "id": "p1_center_02",
+        "mask_bbox": [
+          1539,
+          377,
+          2348,
+          419
+        ],
+        "text": "[X] 비용 없이 액션 수행 가능.",
+        "status": "matched",
+        "iou": 0.493
+      },
+      {
+        "id": "p1_center_03",
+        "mask_bbox": [
+          1435,
+          434,
+          2724,
+          798
+        ],
+        "text": "[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 다른 색마다 크리스",
+        "status": "matched",
+        "iou": 0.318
+      },
+      {
+        "id": "p1_center_04",
+        "mask_bbox": [
+          1526,
+          829,
+          2581,
+          890
+        ],
+        "text": "[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.",
+        "status": "no_ocr",
+        "iou": 0.09
+      },
+      {
+        "id": "p1_center_05",
+        "mask_bbox": [
+          1539,
+          933,
+          2080,
+          975
+        ],
+        "text": "[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.",
+        "status": "no_ocr",
+        "iou": 0.043
+      },
+      {
+        "id": "p1_center_06",
+        "mask_bbox": [
+          1419,
+          1013,
+          2720,
+          1567
+        ],
+        "text": "셔틀 페이즈\n모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무료, 그렇지 않으면",
+        "status": "matched",
+        "iou": 0.254
+      },
+      {
+        "id": "p1_center_07",
+        "mask_bbox": [
+          1420,
+          1586,
+          2676,
+          1790
+        ],
+        "text": "생명 유지 시스템 (LSS)\n현재 콜로니 레벨은 마커 바로 아래 숫자. LSS 트랙 마커는",
+        "status": "matched",
+        "iou": 0.346
+      },
+      {
+        "id": "p1_center_08",
+        "mask_bbox": [
+          1418,
+          1796,
+          2722,
+          1945
+        ],
+        "text": "어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 올라갈 때, 그 마",
+        "status": "matched",
+        "iou": 0.256
+      },
+      {
+        "id": "p1_center_09",
+        "mask_bbox": [
+          1440,
+          1988,
+          2664,
+          2380
+        ],
+        "text": "콜로니 레벨업\n콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어(들)가 산소 받기",
+        "status": "matched",
+        "iou": 0.252
+      },
+      {
+        "id": "p1_right_l_02",
+        "mask_bbox": [
+          2763,
+          609,
+          3157,
+          968
+        ],
+        "text": "LSS 보상\n이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임의 액션 칸에서 콜",
+        "status": "no_ocr",
+        "iou": 0.091
+      },
+      {
+        "id": "p1_right_l_04",
+        "mask_bbox": [
+          2813,
+          1204,
+          3149,
+          1318
+        ],
+        "text": "자기 최고 레벨 테크 타일과 같은 OP.",
+        "status": "no_ocr",
+        "iou": 0.029
+      },
+      {
+        "id": "p1_right_l_05",
+        "mask_bbox": [
+          2906,
+          1366,
+          3153,
+          1470
+        ],
+        "text": "격납고의 우주선 1대당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.021
+      },
+      {
+        "id": "p1_right_l_06",
+        "mask_bbox": [
+          2905,
+          1515,
+          3156,
+          1629
+        ],
+        "text": "화성에 보유한 고급 건물 마커 1개당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.094
+      },
+      {
+        "id": "p1_right_l_07",
+        "mask_bbox": [
+          2906,
+          1670,
+          3153,
+          1780
+        ],
+        "text": "콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.092
+      },
+      {
+        "id": "p1_right_l_08",
+        "mask_bbox": [
+          2906,
+          1836,
+          3153,
+          1933
+        ],
+        "text": "화성의 자기 봇 1대당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.044
+      },
+      {
+        "id": "p1_right_l_09",
+        "mask_bbox": [
+          2905,
+          1982,
+          3153,
+          2110
+        ],
+        "text": "자기 로버가 모은 발견 타일 1장당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.05
+      },
+      {
+        "id": "p1_right_l_10",
+        "mask_bbox": [
+          2905,
+          2141,
+          3153,
+          2240
+        ],
+        "text": "화성에 보유한 자기 셸터 1개당 2 OP.",
+        "status": "no_ocr",
+        "iou": 0.022
+      },
+      {
+        "id": "p1_right_l_11",
+        "mask_bbox": [
+          2899,
+          2300,
+          3150,
+          2398
+        ],
+        "text": "자기 거주구역의 콜로니스트 1명당 1 OP.",
+        "status": "no_ocr",
+        "iou": 0.022
+      },
+      {
+        "id": "p1_right_r_02",
+        "mask_bbox": [
+          3173,
+          247,
+          4007,
+          552
+        ],
+        "text": "변위 규칙\n봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은",
+        "status": "matched",
+        "iou": 0.265
+      },
+      {
+        "id": "p1_right_r_03",
+        "mask_bbox": [
+          3131,
+          609,
+          4022,
+          859
+        ],
+        "text": "발견 타일\n테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
+        "status": "no_ocr",
+        "iou": 0.174
+      },
+      {
+        "id": "p1_right_r_04",
+        "mask_bbox": [
+          3265,
+          878,
+          4021,
+          1010
+        ],
+        "text": "표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.",
+        "status": "no_ocr",
+        "iou": 0.181
+      },
+      {
+        "id": "p1_right_r_05",
+        "mask_bbox": [
+          3571,
+          1029,
+          3988,
+          1184
+        ],
+        "text": "건물 2개를 업그레이드(정상 비용).",
+        "status": "no_ocr",
+        "iou": 0.066
+      },
+      {
+        "id": "p1_right_r_06",
+        "mask_bbox": [
+          3141,
+          1207,
+          4030,
+          1299
+        ],
+        "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.",
+        "status": "no_ocr",
+        "iou": 0.073
+      },
+      {
+        "id": "p1_right_r_07",
+        "mask_bbox": [
+          3160,
+          1340,
+          3987,
+          1495
+        ],
+        "text": "과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).",
+        "status": "no_ocr",
+        "iou": 0.104
+      },
+      {
+        "id": "p1_right_r_08",
+        "mask_bbox": [
+          3152,
+          1514,
+          3972,
+          1632
+        ],
+        "text": "청사진 최대 2장 가져오기.",
+        "status": "matched",
+        "iou": 0.2
+      },
+      {
+        "id": "p1_right_r_09",
+        "mask_bbox": [
+          3137,
+          1670,
+          4000,
+          1981
+        ],
+        "text": "창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.",
+        "status": "matched",
+        "iou": 0.206
+      },
+      {
+        "id": "p1_right_r_10",
+        "mask_bbox": [
+          3153,
+          1987,
+          3845,
+          2086
+        ],
+        "text": "크리스탈 3개 획득.",
+        "status": "no_ocr",
+        "iou": 0.107
+      },
+      {
+        "id": "p1_right_r_11",
+        "mask_bbox": [
+          3149,
+          2139,
+          3986,
+          2250
+        ],
+        "text": "표시된 종류·수량의 자원 획득.",
+        "status": "no_ocr",
+        "iou": 0.082
+      },
+      {
+        "id": "p1_right_r_12",
+        "mask_bbox": [
+          3148,
+          2310,
+          3980,
+          2387
+        ],
+        "text": "테크 타일 1장 획득(정상 비용).",
+        "status": "no_ocr",
+        "iou": 0.057
+      }
+    ]
+  },
+  "vis": {
+    "blocks": [
+      {
+        "bbox": [
+          1855,
+          164,
+          2289,
+          201
+        ],
+        "text": "BASIC ACTION RULES",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.064
+      },
+      {
+        "bbox": [
+          3375,
+          194,
+          3809,
+          232
+        ],
+        "text": "DISPLACEMENT RULE",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          1422,
+          201,
+          2655,
+          244
+        ],
+        "text": "You may perform an action from the side of the board which your Player",
+        "status": "matched",
+        "matched_id": "p1_center_01",
+        "iou": 0.212
+      },
+      {
+        "bbox": [
+          500,
+          219,
+          1165,
+          262
+        ],
+        "text": "ORBITAL STATION MAIN ACTIONS",
+        "status": "matched",
+        "matched_id": "p1_left_01",
+        "iou": 0.675
+      },
+      {
+        "bbox": [
+          1416,
+          243,
+          2704,
+          280
+        ],
+        "text": "marker currently occupies. On your turn you must perform one Main action.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.19
+      },
+      {
+        "bbox": [
+          3174,
+          250,
+          4010,
+          286
+        ],
+        "text": "If you construct or upgrade a building on top of a",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.118
+      },
+      {
+        "bbox": [
+          1422,
+          274,
+          2710,
+          323
+        ],
+        "text": "You may also perform one Executive action either before or after your Main",
+        "status": "matched",
+        "matched_id": "p1_center_01",
+        "iou": 0.252
+      },
+      {
+        "bbox": [
+          2887,
+          286,
+          3009,
+          323
+        ],
+        "text": "MARS",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3174,
+          286,
+          4010,
+          323
+        ],
+        "text": "Bot or Rover, that piece must be moved away",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.121
+      },
+      {
+        "bbox": [
+          268,
+          317,
+          1294,
+          360
+        ],
+        "text": "Travel to the Colony. Follow the Shuttle Phase rules but skip",
+        "status": "matched",
+        "matched_id": "p1_left_02",
+        "iou": 0.412
+      },
+      {
+        "bbox": [
+          1416,
+          317,
+          2399,
+          360
+        ],
+        "text": "action. The action space may show the following symbols:",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.159
+      },
+      {
+        "bbox": [
+          3174,
+          322,
+          4010,
+          360
+        ],
+        "text": "from its current position by its owner to the",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.124
+      },
+      {
+        "bbox": [
+          2789,
+          335,
+          3107,
+          372
+        ],
+        "text": "CONSTRUCTION",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          268,
+          353,
+          891,
+          396
+        ],
+        "text": "step1. Lay your Player marker down.",
+        "status": "matched",
+        "matched_id": "p1_left_02",
+        "iou": 0.252
+      },
+      {
+        "bbox": [
+          3174,
+          359,
+          4010,
+          396
+        ],
+        "text": "closest available hex (either an empty hex or a",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.121
+      },
+      {
+        "bbox": [
+          1526,
+          378,
+          2350,
+          420
+        ],
+        "text": "The Action may be performed without any cost.",
+        "status": "matched",
+        "matched_id": "p1_center_02",
+        "iou": 0.937
+      },
+      {
+        "bbox": [
+          2881,
+          384,
+          3015,
+          420
+        ],
+        "text": "CYCLE",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3174,
+          396,
+          3320,
+          439
+        ],
+        "text": "Building",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.025
+      },
+      {
+        "bbox": [
+          3314,
+          402,
+          3613,
+          433
+        ],
+        "text": "with no other",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.036
+      },
+      {
+        "bbox": [
+          3620,
+          402,
+          4004,
+          439
+        ],
+        "text": "piece on it); if you",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.056
+      },
+      {
+        "bbox": [
+          268,
+          439,
+          1306,
+          476
+        ],
+        "text": "Take 1 Blueprint from the display. Gain the resource depicted.",
+        "status": "matched",
+        "matched_id": "p1_left_03",
+        "iou": 0.266
+      },
+      {
+        "bbox": [
+          1544,
+          439,
+          2728,
+          476
+        ],
+        "text": "Place one of your Colonists from your Living Quarters onto the Action",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.093
+      },
+      {
+        "bbox": [
+          3174,
+          439,
+          3968,
+          469
+        ],
+        "text": "construct or upgrade a building on top of",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.094
+      },
+      {
+        "bbox": [
+          3968,
+          439,
+          4010,
+          469
+        ],
+        "text": "a",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.005
+      },
+      {
+        "bbox": [
+          3174,
+          474,
+          3327,
+          507
+        ],
+        "text": "Colonist,",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.02
+      },
+      {
+        "bbox": [
+          268,
+          475,
+          1165,
+          512
+        ],
+        "text": "Place an Advanced Building marker on the Blueprint.",
+        "status": "matched",
+        "matched_id": "p1_left_03",
+        "iou": 0.23
+      },
+      {
+        "bbox": [
+          1538,
+          475,
+          2661,
+          512
+        ],
+        "text": "slot. Pay 1 Crystal or move a Colonist from your Living Quarters to",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.089
+      },
+      {
+        "bbox": [
+          3345,
+          475,
+          4010,
+          512
+        ],
+        "text": "displace the Colonist back to their",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.096
+      },
+      {
+        "bbox": [
+          1532,
+          506,
+          2716,
+          549
+        ],
+        "text": "your Working Area for each opposing color already present. (2P: Cost",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.109
+      },
+      {
+        "bbox": [
+          268,
+          512,
+          805,
+          549
+        ],
+        "text": "Boost: repeat this Action in full.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.138
+      },
+      {
+        "bbox": [
+          3168,
+          512,
+          3589,
+          549
+        ],
+        "text": "owner's Living Quarters.",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.06
+      },
+      {
+        "bbox": [
+          1526,
+          542,
+          2692,
+          591
+        ],
+        "text": "is per occupied Action slot.) If all slots are full before placing, return",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.122
+      },
+      {
+        "bbox": [
+          268,
+          579,
+          1385,
+          622
+        ],
+        "text": "Pay the cost depicted to take 1 Tech tile from the Tech Grid. Place",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.157
+      },
+      {
+        "bbox": [
+          1538,
+          585,
+          2698,
+          622
+        ],
+        "text": "all Colonists of the player(s) with the most Colonists present to their",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.091
+      },
+      {
+        "bbox": [
+          3528,
+          603,
+          3900,
+          653
+        ],
+        "text": "DISCOVERY TILES",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.073
+      },
+      {
+        "bbox": [
+          2960,
+          610,
+          3265,
+          646
+        ],
+        "text": "LSS REWARDS",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.049
+      },
+      {
+        "bbox": [
+          268,
+          621,
+          1361,
+          658
+        ],
+        "text": "it on an empty space in the leftmost column of your Laboratory.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.133
+      },
+      {
+        "bbox": [
+          1538,
+          621,
+          2325,
+          664
+        ],
+        "text": "respective Working Areas, pay remaining cost.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.072
+      },
+      {
+        "bbox": [
+          268,
+          658,
+          805,
+          695
+        ],
+        "text": "Boost: repeat this Action in full.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.065
+      },
+      {
+        "bbox": [
+          2838,
+          658,
+          3388,
+          695
+        ],
+        "text": "Use up to 2 Movement points to",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.079
+      },
+      {
+        "bbox": [
+          3736,
+          658,
+          3955,
+          695
+        ],
+        "text": "Develop one",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.036
+      },
+      {
+        "bbox": [
+          1544,
+          695,
+          2673,
+          738
+        ],
+        "text": "One or more Colonists may be moved from your Living Quarters to",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.103
+      },
+      {
+        "bbox": [
+          2844,
+          695,
+          3388,
+          738
+        ],
+        "text": "move your bots. You may spend",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.089
+      },
+      {
+        "bbox": [
+          3736,
+          695,
+          3992,
+          732
+        ],
+        "text": "Tech tile twice,",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.043
+      },
+      {
+        "bbox": [
+          268,
+          719,
+          1355,
+          762
+        ],
+        "text": "Develop 1 Tech Tile twice or 2 Tech tiles once each. Pay the cost",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.153
+      },
+      {
+        "bbox": [
+          1532,
+          732,
+          2435,
+          774
+        ],
+        "text": "your Working Area to boost the power of the Action.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.081
+      },
+      {
+        "bbox": [
+          2924,
+          732,
+          3302,
+          774
+        ],
+        "text": "Crystals to Boost this.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.066
+      },
+      {
+        "bbox": [
+          3736,
+          732,
+          4022,
+          768
+        ],
+        "text": "or two Tech tiles",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.046
+      },
+      {
+        "bbox": [
+          268,
+          762,
+          872,
+          799
+        ],
+        "text": "and gain the benefit for each space.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.073
+      },
+      {
+        "bbox": [
+          3736,
+          774,
+          4022,
+          811
+        ],
+        "text": "once each, at no",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.048
+      },
+      {
+        "bbox": [
+          2765,
+          793,
+          2918,
+          823
+        ],
+        "text": "Retrieve",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.032
+      },
+      {
+        "bbox": [
+          268,
+          798,
+          1013,
+          835
+        ],
+        "text": "Boost: Develop an additional Tech Tile once.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.09
+      },
+      {
+        "bbox": [
+          3736,
+          811,
+          3827,
+          847
+        ],
+        "text": "cost.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.015
+      },
+      {
+        "bbox": [
+          2753,
+          829,
+          2930,
+          866
+        ],
+        "text": "a Colonist",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.044
+      },
+      {
+        "bbox": [
+          1538,
+          841,
+          2582,
+          878
+        ],
+        "text": "Spend one or more Crystals to boost the power of the Action.",
+        "status": "matched",
+        "matched_id": "p1_center_04",
+        "iou": 0.599
+      },
+      {
+        "bbox": [
+          2759,
+          865,
+          2924,
+          903
+        ],
+        "text": "from any",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.043
+      },
+      {
+        "bbox": [
+          268,
+          866,
+          1391,
+          903
+        ],
+        "text": "Take any 1 Resource or Crystal from the Warehouse and place it in",
+        "status": "matched",
+        "matched_id": "p1_left_05",
+        "iou": 0.284
+      },
+      {
+        "bbox": [
+          3589,
+          890,
+          4010,
+          933
+        ],
+        "text": "Develop 1 Tech tile twice,",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.181
+      },
+      {
+        "bbox": [
+          262,
+          902,
+          622,
+          939
+        ],
+        "text": "your Storage/Depot.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.091
+      },
+      {
+        "bbox": [
+          3284,
+          902,
+          3394,
+          933
+        ],
+        "text": "Gain 1",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.034
+      },
+      {
+        "bbox": [
+          1445,
+          908,
+          2082,
+          983
+        ],
+        "text": "X The Action may not be boosted.",
+        "status": "matched",
+        "matched_id": "p1_center_05",
+        "iou": 0.476
+      },
+      {
+        "bbox": [
+          2783,
+          908,
+          2899,
+          946
+        ],
+        "text": "Action",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.031
+      },
+      {
+        "bbox": [
+          3589,
+          933,
+          4022,
+          969
+        ],
+        "text": "or 2 Tech tiles once each,",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.156
+      },
+      {
+        "bbox": [
+          268,
+          939,
+          1013,
+          976
+        ],
+        "text": "Boost: take 1 additional Resource or Crystal.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.189
+      },
+      {
+        "bbox": [
+          3278,
+          939,
+          3400,
+          976
+        ],
+        "text": "Crystal",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.045
+      },
+      {
+        "bbox": [
+          2783,
+          945,
+          2899,
+          976
+        ],
+        "text": "slot or",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.019
+      },
+      {
+        "bbox": [
+          3583,
+          969,
+          3943,
+          1006
+        ],
+        "text": "paying normal costs.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.133
+      },
+      {
+        "bbox": [
+          2795,
+          982,
+          2887,
+          1018
+        ],
+        "text": "your",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          1898,
+          1006,
+          2246,
+          1055
+        ],
+        "text": "SHUTTLE PHASE",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.02
+      },
+      {
+        "bbox": [
+          2771,
+          1018,
+          2918,
+          1055
+        ],
+        "text": "Working",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3589,
+          1030,
+          3986,
+          1067
+        ],
+        "text": "Construct the depicted",
+        "status": "matched",
+        "matched_id": "p1_right_r_05",
+        "iou": 0.227
+      },
+      {
+        "bbox": [
+          1428,
+          1055,
+          2661,
+          1091
+        ],
+        "text": "All players may travel. If the shuttle is travelling from the side your Player m",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.062
+      },
+      {
+        "bbox": [
+          2795,
+          1055,
+          2887,
+          1091
+        ],
+        "text": "Area",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3589,
+          1067,
+          3992,
+          1110
+        ],
+        "text": "type of Building, paying",
+        "status": "matched",
+        "matched_id": "p1_right_r_05",
+        "iou": 0.265
+      },
+      {
+        "bbox": [
+          506,
+          1079,
+          976,
+          1116
+        ],
+        "text": "COLONY MAIN ACTIONS",
+        "status": "matched",
+        "matched_id": "p1_left_06",
+        "iou": 0.839
+      },
+      {
+        "bbox": [
+          1428,
+          1091,
+          2551,
+          1128
+        ],
+        "text": "is on, you may travel for free. Otherwise, remove a ship from your Hangar.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.058
+      },
+      {
+        "bbox": [
+          3052,
+          1097,
+          3156,
+          1134
+        ],
+        "text": "Gain 1",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          3583,
+          1104,
+          3913,
+          1140
+        ],
+        "text": "normal costs. Tech",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.184
+      },
+      {
+        "bbox": [
+          3033,
+          1133,
+          3168,
+          1172
+        ],
+        "text": "Mineral",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      },
+      {
+        "bbox": [
+          1568,
+          1134,
+          2637,
+          1177
+        ],
+        "text": "In turn order: 1. Move your Player marker to Exploration and A)",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.064
+      },
+      {
+        "bbox": [
+          3583,
+          1140,
+          3931,
+          1183
+        ],
+        "text": "required if complex.",
+        "status": "matched",
+        "matched_id": "p1_right_r_05",
+        "iou": 0.232
+      },
+      {
+        "bbox": [
+          1562,
+          1177,
+          2722,
+          1213
+        ],
+        "text": "Choose and place 1 of the Discovery tiles on an empty space exactly",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.058
+      },
+      {
+        "bbox": [
+          268,
+          1183,
+          1373,
+          1226
+        ],
+        "text": "1. Select which Building. 2. Pay construction cost. 3. Place the tile",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.117
+      },
+      {
+        "bbox": [
+          2918,
+          1207,
+          3320,
+          1244
+        ],
+        "text": "OP equal to the level of",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.192
+      },
+      {
+        "bbox": [
+          3583,
+          1207,
+          4029,
+          1244
+        ],
+        "text": "Upgrade up to 2 Buildings,",
+        "status": "matched",
+        "matched_id": "p1_right_r_06",
+        "iou": 0.202
+      },
+      {
+        "bbox": [
+          1575,
+          1213,
+          2606,
+          1251
+        ],
+        "text": "3 spaces from your Rover. B) Replace the tile from the stack.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.054
+      },
+      {
+        "bbox": [
+          268,
+          1226,
+          1349,
+          1262
+        ],
+        "text": "face down within the Building zone of one of your Bots. Must be",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.104
+      },
+      {
+        "bbox": [
+          2918,
+          1244,
+          3375,
+          1281
+        ],
+        "text": "your most-developed Tech",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.183
+      },
+      {
+        "bbox": [
+          3583,
+          1244,
+          3943,
+          1287
+        ],
+        "text": "paying Normal costs.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.189
+      },
+      {
+        "bbox": [
+          1575,
+          1250,
+          2710,
+          1287
+        ],
+        "text": "2. Retrieve all of your Colonists from Working area and Colony side",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.058
+      },
+      {
+        "bbox": [
+          274,
+          1262,
+          1367,
+          1299
+        ],
+        "text": "A) Adjacent to one or more Buildings of the same type, requiring",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.108
+      },
+      {
+        "bbox": [
+          2918,
+          1281,
+          2985,
+          1317
+        ],
+        "text": "tile.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.063
+      },
+      {
+        "bbox": [
+          1568,
+          1287,
+          2649,
+          1323
+        ],
+        "text": "(lose any excess) 3. Move your Player marker to an empty Turn",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.054
+      },
+      {
+        "bbox": [
+          268,
+          1298,
+          1336,
+          1336
+        ],
+        "text": "a Tech tile of the same type and appropriate level. B) Exactly 2",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.108
+      },
+      {
+        "bbox": [
+          1575,
+          1323,
+          2600,
+          1366
+        ],
+        "text": "Order space on the Colony side, receiving any printed bonus.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.061
+      },
+      {
+        "bbox": [
+          268,
+          1336,
+          1288,
+          1372
+        ],
+        "text": "spaces away from a tile of the same type. 4. Place indicated",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.098
+      },
+      {
+        "bbox": [
+          3589,
+          1341,
+          3961,
+          1379
+        ],
+        "text": "Construct any type of",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.11
+      },
+      {
+        "bbox": [
+          268,
+          1372,
+          1373,
+          1415
+        ],
+        "text": "crystals. 5. Flip the tile and gain Resources/Crystals equal to new",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.127
+      },
+      {
+        "bbox": [
+          1575,
+          1372,
+          2631,
+          1415
+        ],
+        "text": "In turn order: 1. Move your Player marker to Production space.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.063
+      },
+      {
+        "bbox": [
+          2918,
+          1378,
+          3369,
+          1421
+        ],
+        "text": "2 OP for each Ship in your",
+        "status": "matched",
+        "matched_id": "p1_right_l_05",
+        "iou": 0.289
+      },
+      {
+        "bbox": [
+          3582,
+          1378,
+          3986,
+          1460
+        ],
+        "text": "Building, paying normal | costs. Tech required if",
+        "status": "matched",
+        "matched_id": "p1_right_r_07",
+        "iou": 0.258
+      },
+      {
+        "bbox": [
+          268,
+          1409,
+          1355,
+          1452
+        ],
+        "text": "size. 6. If this is your first contribution to a Complex of this type,",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.125
+      },
+      {
+        "bbox": [
+          1575,
+          1409,
+          2679,
+          1452
+        ],
+        "text": "Advanced Buildings produce resources, Miners produce Minerals.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.066
+      },
+      {
+        "bbox": [
+          2918,
+          1415,
+          3064,
+          1458
+        ],
+        "text": "Hangar.",
+        "status": "matched",
+        "matched_id": "p1_right_l_05",
+        "iou": 0.244
+      },
+      {
+        "bbox": [
+          268,
+          1445,
+          1312,
+          1488
+        ],
+        "text": "place Progress cube. 7. Check for LSS advancement. 8. Add a",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.12
+      },
+      {
+        "bbox": [
+          1575,
+          1445,
+          2679,
+          1488
+        ],
+        "text": "2. Retrieve all of your Colonists from Working area and Orbit side",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.066
+      },
+      {
+        "bbox": [
+          3583,
+          1451,
+          3882,
+          1494
+        ],
+        "text": "size 2 or greater.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.1
+      },
+      {
+        "bbox": [
+          1574,
+          1488,
+          2649,
+          1525
+        ],
+        "text": "(lose any excess) 3. Move your Player marker to an empty Turn",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.055
+      },
+      {
+        "bbox": [
+          2918,
+          1512,
+          3333,
+          1555
+        ],
+        "text": "2 OP for each Advanced",
+        "status": "matched",
+        "matched_id": "p1_right_l_06",
+        "iou": 0.258
+      },
+      {
+        "bbox": [
+          3589,
+          1512,
+          3974,
+          1549
+        ],
+        "text": "Hire 1 Scientist card or",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.137
+      },
+      {
+        "bbox": [
+          1575,
+          1524,
+          2570,
+          1567
+        ],
+        "text": "Order space on the Orbit side, receiving any printed bonus.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.059
+      },
+      {
+        "bbox": [
+          2918,
+          1555,
+          3357,
+          1592
+        ],
+        "text": "Building marker you have",
+        "status": "matched",
+        "matched_id": "p1_right_l_06",
+        "iou": 0.244
+      },
+      {
+        "bbox": [
+          3583,
+          1555,
+          3961,
+          1592
+        ],
+        "text": "take 1 Earth Contract,",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.145
+      },
+      {
+        "bbox": [
+          268,
+          1573,
+          1300,
+          1610
+        ],
+        "text": "1. Choose matching Blueprint and Building within the Building",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.266
+      },
+      {
+        "bbox": [
+          1770,
+          1586,
+          2380,
+          1622
+        ],
+        "text": "LIFE SUPPORT SYSTEM (LSS)",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.086
+      },
+      {
+        "bbox": [
+          2917,
+          1590,
+          3070,
+          1630
+        ],
+        "text": "on Mars.",
+        "status": "matched",
+        "matched_id": "p1_right_l_06",
+        "iou": 0.207
+      },
+      {
+        "bbox": [
+          3583,
+          1592,
+          3943,
+          1629
+        ],
+        "text": "paying normal costs.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.138
+      },
+      {
+        "bbox": [
+          268,
+          1610,
+          1367,
+          1647
+        ],
+        "text": "zone of one of your Bots. 2. Pay 1 Mineral 3. Move your Advanced",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.281
+      },
+      {
+        "bbox": [
+          1422,
+          1634,
+          2679,
+          1671
+        ],
+        "text": "The Current Colony Level is the number shown just below the Colony level",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.181
+      },
+      {
+        "bbox": [
+          268,
+          1646,
+          1355,
+          1689
+        ],
+        "text": "Building from Blueprint to Building, displacing any other figures.",
+        "status": "matched",
+        "matched_id": "p1_left_08",
+        "iou": 0.325
+      },
+      {
+        "bbox": [
+          2918,
+          1665,
+          3363,
+          1708
+        ],
+        "text": "2 OP for each Mine where",
+        "status": "matched",
+        "matched_id": "p1_right_l_07",
+        "iou": 0.239
+      },
+      {
+        "bbox": [
+          1416,
+          1671,
+          2667,
+          1751
+        ],
+        "text": "marker. LSS Track markers should always indicate the current number of | buildin",
+        "status": "matched",
+        "matched_id": "p1_center_07",
+        "iou": 0.389
+      },
+      {
+        "bbox": [
+          2918,
+          1708,
+          3302,
+          1744
+        ],
+        "text": "you have a Colonist or",
+        "status": "matched",
+        "matched_id": "p1_right_l_07",
+        "iou": 0.26
+      },
+      {
+        "bbox": [
+          3589,
+          1708,
+          3998,
+          1744
+        ],
+        "text": "Take up to 2 Blueprints.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.055
+      },
+      {
+        "bbox": [
+          2918,
+          1744,
+          3381,
+          1787
+        ],
+        "text": "Advanced Building marker.",
+        "status": "matched",
+        "matched_id": "p1_right_l_07",
+        "iou": 0.219
+      },
+      {
+        "bbox": [
+          268,
+          1768,
+          1343,
+          1811
+        ],
+        "text": "1. Pay cost below Scientist or above Contract 2. Place card [and",
+        "status": "matched",
+        "matched_id": "p1_left_09",
+        "iou": 0.328
+      },
+      {
+        "bbox": [
+          3583,
+          1787,
+          4004,
+          1824
+        ],
+        "text": "Take up to 2 Resources/",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.057
+      },
+      {
+        "bbox": [
+          1416,
+          1793,
+          2600,
+          1836
+        ],
+        "text": "When an LSS Track marker was below the row where the Colony level",
+        "status": "matched",
+        "matched_id": "p1_center_08",
+        "iou": 0.239
+      },
+      {
+        "bbox": [
+          268,
+          1811,
+          1367,
+          1848
+        ],
+        "text": "Scientist] beside your Player board 3. Replace with a Contract of",
+        "status": "matched",
+        "matched_id": "p1_left_09",
+        "iou": 0.288
+      },
+      {
+        "bbox": [
+          3589,
+          1823,
+          3888,
+          1866
+        ],
+        "text": "Crystals from the",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.048
+      },
+      {
+        "bbox": [
+          1416,
+          1836,
+          2679,
+          1872
+        ],
+        "text": "marker is before it was moved, the player who advanced the marker gains",
+        "status": "matched",
+        "matched_id": "p1_center_08",
+        "iou": 0.234
+      },
+      {
+        "bbox": [
+          268,
+          1848,
+          726,
+          1885
+        ],
+        "text": "your choice from the deck.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.12
+      },
+      {
+        "bbox": [
+          2918,
+          1848,
+          3388,
+          1885
+        ],
+        "text": "2 OP for each Bot you have",
+        "status": "matched",
+        "matched_id": "p1_right_l_08",
+        "iou": 0.266
+      },
+      {
+        "bbox": [
+          3589,
+          1866,
+          3955,
+          1903
+        ],
+        "text": "Warehouse and place",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.05
+      },
+      {
+        "bbox": [
+          1416,
+          1872,
+          2728,
+          1909
+        ],
+        "text": "1. OP according to Reward tile at the top of the column. 2. One of the benefits",
+        "status": "matched",
+        "matched_id": "p1_center_08",
+        "iou": 0.248
+      },
+      {
+        "bbox": [
+          2918,
+          1885,
+          3070,
+          1921
+        ],
+        "text": "on Mars.",
+        "status": "matched",
+        "matched_id": "p1_right_l_08",
+        "iou": 0.228
+      },
+      {
+        "bbox": [
+          3583,
+          1896,
+          3968,
+          1939
+        ],
+        "text": "them in your Storage/",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.062
+      },
+      {
+        "bbox": [
+          1416,
+          1909,
+          2045,
+          1946
+        ],
+        "text": "shown to the left of the Reward tiles.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.116
+      },
+      {
+        "bbox": [
+          3583,
+          1939,
+          3705,
+          1976
+        ],
+        "text": "Depot.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.017
+      },
+      {
+        "bbox": [
+          268,
+          1952,
+          1239,
+          1988
+        ],
+        "text": "Use up to 2 Movement points for your Rover AND up to 2",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.136
+      },
+      {
+        "bbox": [
+          1886,
+          1982,
+          2258,
+          2025
+        ],
+        "text": "COLONY LEVEL UP",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.029
+      },
+      {
+        "bbox": [
+          268,
+          1988,
+          1343,
+          2025
+        ],
+        "text": "Movement points for your Bots. Rover: collects Crystals passed",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.155
+      },
+      {
+        "bbox": [
+          2917,
+          1994,
+          3333,
+          2038
+        ],
+        "text": "2 OP for each Discovery",
+        "status": "matched",
+        "matched_id": "p1_right_l_09",
+        "iou": 0.262
+      },
+      {
+        "bbox": [
+          3589,
+          2018,
+          3852,
+          2056
+        ],
+        "text": "Gain 3 Crystals",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.141
+      },
+      {
+        "bbox": [
+          268,
+          2025,
+          1361,
+          2061
+        ],
+        "text": "over, Collects Discovery or Research tiles if they end the turn on",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.154
+      },
+      {
+        "bbox": [
+          1440,
+          2037,
+          2374,
+          2074
+        ],
+        "text": "When the colony levels up, perform the following steps",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.072
+      },
+      {
+        "bbox": [
+          2918,
+          2037,
+          3247,
+          2074
+        ],
+        "text": "tile your Rover has",
+        "status": "matched",
+        "matched_id": "p1_right_l_09",
+        "iou": 0.247
+      },
+      {
+        "bbox": [
+          262,
+          2061,
+          1367,
+          2098
+        ],
+        "text": "them. Bots: destroys Crystals, Discovery or Research tiles if they",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.159
+      },
+      {
+        "bbox": [
+          1434,
+          2073,
+          2667,
+          2110
+        ],
+        "text": "[note: the Colony Status is updated at the end of your turn (after player(s) who",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.094
+      },
+      {
+        "bbox": [
+          2917,
+          2073,
+          3089,
+          2111
+        ],
+        "text": "collected.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.199
+      },
+      {
+        "bbox": [
+          1440,
+          2116,
+          2429,
+          2153
+        ],
+        "text": "Tech tiles were used have kept/spent the Oxygen they received)].",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.076
+      },
+      {
+        "bbox": [
+          268,
+          2135,
+          970,
+          2178
+        ],
+        "text": "Boost: use an additional Movement point.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.118
+      },
+      {
+        "bbox": [
+          3589,
+          2141,
+          3900,
+          2171
+        ],
+        "text": "Gain the indicated",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.1
+      },
+      {
+        "bbox": [
+          1434,
+          2146,
+          1953,
+          2190
+        ],
+        "text": "1. Move the colony marker up.",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.047
+      },
+      {
+        "bbox": [
+          2917,
+          2153,
+          3364,
+          2197
+        ],
+        "text": "2 OP for each Shelter you",
+        "status": "matched",
+        "matched_id": "p1_right_l_10",
+        "iou": 0.307
+      },
+      {
+        "bbox": [
+          3583,
+          2177,
+          3992,
+          2214
+        ],
+        "text": "number of the depicted",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.16
+      },
+      {
+        "bbox": [
+          1440,
+          2183,
+          2252,
+          2227
+        ],
+        "text": "2. Add Blueprint cards according to the display.",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.074
+      },
+      {
+        "bbox": [
+          2918,
+          2195,
+          3162,
+          2232
+        ],
+        "text": "have on Mars.",
+        "status": "matched",
+        "matched_id": "p1_right_l_10",
+        "iou": 0.349
+      },
+      {
+        "bbox": [
+          3589,
+          2213,
+          3779,
+          2252
+        ],
+        "text": "Resources.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.075
+      },
+      {
+        "bbox": [
+          268,
+          2226,
+          1343,
+          2263
+        ],
+        "text": "1. Check that total number of ships removed from your Depot is",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.164
+      },
+      {
+        "bbox": [
+          1440,
+          2226,
+          2368,
+          2299
+        ],
+        "text": "3. Refill the Tech Grid. (2P: Skip this step) | 4. Refill the Warehouse. (2P: On",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.141
+      },
+      {
+        "bbox": [
+          268,
+          2263,
+          1367,
+          2306
+        ],
+        "text": "currently LESS THAN the current Colony level. 2. Pay 1 Plant and",
+        "status": "matched",
+        "matched_id": "p1_left_11",
+        "iou": 0.221
+      },
+      {
+        "bbox": [
+          1440,
+          2299,
+          2222,
+          2336
+        ],
+        "text": "5. Score Progress cubes. (Levels 2 and 3 only)",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.06
+      },
+      {
+        "bbox": [
+          268,
+          2305,
+          1324,
+          2336
+        ],
+        "text": "1Water 3. Move 1 Ship from vour Depot to vour Hanaar. 4. Gain",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.154
+      },
+      {
+        "bbox": [
+          2911,
+          2312,
+          3339,
+          2342
+        ],
+        "text": "1OP for each Colonist in",
+        "status": "matched",
+        "matched_id": "p1_right_l_11",
+        "iou": 0.237
+      },
+      {
+        "bbox": [
+          3589,
+          2312,
+          3986,
+          2355
+        ],
+        "text": "Take 1 Tech tile, paying",
+        "status": "matched",
+        "matched_id": "p1_right_r_12",
+        "iou": 0.261
+      },
+      {
+        "bbox": [
+          268,
+          2336,
+          934,
+          2373
+        ],
+        "text": "either 1 Colonist and 1 Bot / 2 Colonists.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.116
+      },
+      {
+        "bbox": [
+          1446,
+          2336,
+          2447,
+          2373
+        ],
+        "text": "6. Move the Remaining Missions cube. (Levels 3 and 4 only)",
+        "status": "in_image",
+        "matched_id": null,
+        "iou": 0.077
+      },
+      {
+        "bbox": [
+          2918,
+          2348,
+          3284,
+          2385
+        ],
+        "text": "your Living Quarters.",
+        "status": "matched",
+        "matched_id": "p1_right_l_11",
+        "iou": 0.29
+      },
+      {
+        "bbox": [
+          3583,
+          2354,
+          3821,
+          2391
+        ],
+        "text": "normal costs.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.121
+      },
+      {
+        "bbox": [
+          268,
+          2379,
+          818,
+          2415
+        ],
+        "text": "Boost: Repeat this Action in full.",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.093
+      },
+      {
+        "bbox": [
+          4016,
+          2421,
+          4077,
+          2458
+        ],
+        "text": "v0T",
+        "status": "missing",
+        "matched_id": null,
+        "iou": 0.0
+      }
+    ],
+    "regions": [
+      {
+        "id": "p1_left_01",
+        "mask_bbox": [
+          452,
+          220,
+          1163,
+          277
+        ],
+        "text": "궤도 정거장 메인 액션",
+        "status": "matched",
+        "iou": 0.675
+      },
+      {
+        "id": "p1_left_02",
+        "mask_bbox": [
+          256,
+          305,
+          1289,
+          408
+        ],
+        "text": "콜로니로 이동. 셔틀 페이즈 규칙을 따르되 1단계 건너뜀. 자기 플레이어 마커를 눕혀 놓는",
+        "status": "matched",
+        "iou": 0.412
+      },
+      {
+        "id": "p1_left_03",
+        "mask_bbox": [
+          256,
+          426,
+          1308,
+          563
+        ],
+        "text": "디스플레이에서 청사진 1장. 표시된 자원을 획득. 청사진 위에 고급 건물 마커 1.\n부스트",
+        "status": "matched",
+        "iou": 0.266
+      },
+      {
+        "id": "p1_left_04",
+        "mask_bbox": [
+          256,
+          577,
+          1380,
+          848
+        ],
+        "text": "표시된 비용 지불 후 테크 그리드에서 테크 타일 1장. 자기 연구소 가장 왼쪽 열의 빈칸에",
+        "status": "no_ocr",
+        "iou": 0.157
+      },
+      {
+        "id": "p1_left_05",
+        "mask_bbox": [
+          250,
+          862,
+          1390,
+          990
+        ],
+        "text": "테크 타일 1장 두 번 또는 서로 다른 2장 한 번씩 발전. 각 칸의 비용 지불, 효과 획",
+        "status": "matched",
+        "iou": 0.284
+      },
+      {
+        "id": "p1_left_06",
+        "mask_bbox": [
+          494,
+          1078,
+          976,
+          1121
+        ],
+        "text": "창고에서 자원/크리스탈 1을 자기 저장고/디포로.\n부스트: 추가 1.",
+        "status": "matched",
+        "iou": 0.839
+      },
+      {
+        "id": "p1_left_07",
+        "mask_bbox": [
+          256,
+          1186,
+          1373,
+          1522
+        ],
+        "text": "콜로니 메인 액션\n1. 어떤 건물 선택. 2. 건설 비용 지불. 3. 자기 봇 1대 안에 ",
+        "status": "no_ocr",
+        "iou": 0.127
+      },
+      {
+        "id": "p1_left_08",
+        "mask_bbox": [
+          256,
+          1571,
+          1361,
+          1701
+        ],
+        "text": "1. 자기 봇 1대 안에서 일치하는 청사진과 건물 선택. 2. 광물 1 지불. 3. 고급 ",
+        "status": "matched",
+        "iou": 0.325
+      },
+      {
+        "id": "p1_left_09",
+        "mask_bbox": [
+          256,
+          1765,
+          1364,
+          1892
+        ],
+        "text": "1. 과학자 위/계약서 아래 비용 지불. 2. 카드(와 과학자)를 자기 보드 옆에 배치. ",
+        "status": "matched",
+        "iou": 0.328
+      },
+      {
+        "id": "p1_left_10",
+        "mask_bbox": [
+          250,
+          1950,
+          1364,
+          2180
+        ],
+        "text": "자기 로버 이동력 최대 2 + 봇들 이동력 최대 2. 로버: 지나간 크리스탈 수집, 턴 끝",
+        "status": "no_ocr",
+        "iou": 0.159
+      },
+      {
+        "id": "p1_left_11",
+        "mask_bbox": [
+          256,
+          2230,
+          1363,
+          2422
+        ],
+        "text": "1. 디포의 우주선 총 수가 현재 콜로니 레벨보다 적은지 확인. 2. 식물 1·물 1 지불",
+        "status": "matched",
+        "iou": 0.221
+      },
+      {
+        "id": "p1_center_01",
+        "mask_bbox": [
+          1420,
+          164,
+          2707,
+          358
+        ],
+        "text": "기본 액션 규칙\n자기 플레이어 마커가 위치한 보드 쪽의 액션을 수행. 자기 차례에 메인 액",
+        "status": "matched",
+        "iou": 0.252
+      },
+      {
+        "id": "p1_center_02",
+        "mask_bbox": [
+          1539,
+          377,
+          2348,
+          419
+        ],
+        "text": "[X] 비용 없이 액션 수행 가능.",
+        "status": "matched",
+        "iou": 0.937
+      },
+      {
+        "id": "p1_center_03",
+        "mask_bbox": [
+          1435,
+          434,
+          2724,
+          798
+        ],
+        "text": "[콜로니스트] 거주구역의 콜로니스트 1을 액션 칸에 놓는다. 이미 놓인 다른 색마다 크리스",
+        "status": "no_ocr",
+        "iou": 0.122
+      },
+      {
+        "id": "p1_center_04",
+        "mask_bbox": [
+          1526,
+          829,
+          2581,
+          890
+        ],
+        "text": "[작업장] 거주구역→작업장으로 콜로니스트 1+ 이동시켜 액션 부스트.",
+        "status": "matched",
+        "iou": 0.599
+      },
+      {
+        "id": "p1_center_05",
+        "mask_bbox": [
+          1539,
+          933,
+          2080,
+          975
+        ],
+        "text": "[크리스탈] 크리스탈 1+ 지불해 부스트.  [X] 부스트 불가.",
+        "status": "matched",
+        "iou": 0.476
+      },
+      {
+        "id": "p1_center_06",
+        "mask_bbox": [
+          1419,
+          1013,
+          2720,
+          1567
+        ],
+        "text": "셔틀 페이즈\n모든 플레이어 이동 가능. 셔틀이 자기 마커 쪽으로 가면 무료, 그렇지 않으면",
+        "status": "no_ocr",
+        "iou": 0.066
+      },
+      {
+        "id": "p1_center_07",
+        "mask_bbox": [
+          1420,
+          1586,
+          2676,
+          1790
+        ],
+        "text": "생명 유지 시스템 (LSS)\n현재 콜로니 레벨은 마커 바로 아래 숫자. LSS 트랙 마커는",
+        "status": "matched",
+        "iou": 0.389
+      },
+      {
+        "id": "p1_center_08",
+        "mask_bbox": [
+          1418,
+          1796,
+          2722,
+          1945
+        ],
+        "text": "어떤 LSS 트랙 마커가 콜로니 레벨 마커보다 한 줄 아래 → 그 위로 올라갈 때, 그 마",
+        "status": "matched",
+        "iou": 0.248
+      },
+      {
+        "id": "p1_center_09",
+        "mask_bbox": [
+          1440,
+          1988,
+          2664,
+          2380
+        ],
+        "text": "콜로니 레벨업\n콜로니 레벨이 오를 때 [참고: 그 라운드 마지막 플레이어(들)가 산소 받기",
+        "status": "no_ocr",
+        "iou": 0.141
+      },
+      {
+        "id": "p1_right_l_02",
+        "mask_bbox": [
+          2763,
+          609,
+          3157,
+          968
+        ],
+        "text": "LSS 보상\n이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임의 액션 칸에서 콜",
+        "status": "no_ocr",
+        "iou": 0.089
+      },
+      {
+        "id": "p1_right_l_04",
+        "mask_bbox": [
+          2813,
+          1204,
+          3149,
+          1318
+        ],
+        "text": "자기 최고 레벨 테크 타일과 같은 OP.",
+        "status": "no_ocr",
+        "iou": 0.192
+      },
+      {
+        "id": "p1_right_l_05",
+        "mask_bbox": [
+          2906,
+          1366,
+          3153,
+          1470
+        ],
+        "text": "격납고의 우주선 1대당 2 OP.",
+        "status": "matched",
+        "iou": 0.289
+      },
+      {
+        "id": "p1_right_l_06",
+        "mask_bbox": [
+          2905,
+          1515,
+          3156,
+          1629
+        ],
+        "text": "화성에 보유한 고급 건물 마커 1개당 2 OP.",
+        "status": "matched",
+        "iou": 0.258
+      },
+      {
+        "id": "p1_right_l_07",
+        "mask_bbox": [
+          2906,
+          1670,
+          3153,
+          1780
+        ],
+        "text": "콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.",
+        "status": "matched",
+        "iou": 0.26
+      },
+      {
+        "id": "p1_right_l_08",
+        "mask_bbox": [
+          2906,
+          1836,
+          3153,
+          1933
+        ],
+        "text": "화성의 자기 봇 1대당 2 OP.",
+        "status": "matched",
+        "iou": 0.266
+      },
+      {
+        "id": "p1_right_l_09",
+        "mask_bbox": [
+          2905,
+          1982,
+          3153,
+          2110
+        ],
+        "text": "자기 로버가 모은 발견 타일 1장당 2 OP.",
+        "status": "matched",
+        "iou": 0.262
+      },
+      {
+        "id": "p1_right_l_10",
+        "mask_bbox": [
+          2905,
+          2141,
+          3153,
+          2240
+        ],
+        "text": "화성에 보유한 자기 셸터 1개당 2 OP.",
+        "status": "matched",
+        "iou": 0.349
+      },
+      {
+        "id": "p1_right_l_11",
+        "mask_bbox": [
+          2899,
+          2300,
+          3150,
+          2398
+        ],
+        "text": "자기 거주구역의 콜로니스트 1명당 1 OP.",
+        "status": "matched",
+        "iou": 0.29
+      },
+      {
+        "id": "p1_right_r_02",
+        "mask_bbox": [
+          3173,
+          247,
+          4007,
+          552
+        ],
+        "text": "변위 규칙\n봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은",
+        "status": "no_ocr",
+        "iou": 0.124
+      },
+      {
+        "id": "p1_right_r_03",
+        "mask_bbox": [
+          3131,
+          609,
+          4022,
+          859
+        ],
+        "text": "발견 타일\n테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
+        "status": "no_ocr",
+        "iou": 0.073
+      },
+      {
+        "id": "p1_right_r_04",
+        "mask_bbox": [
+          3265,
+          878,
+          4021,
+          1010
+        ],
+        "text": "표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.",
+        "status": "no_ocr",
+        "iou": 0.181
+      },
+      {
+        "id": "p1_right_r_05",
+        "mask_bbox": [
+          3571,
+          1029,
+          3988,
+          1184
+        ],
+        "text": "건물 2개를 업그레이드(정상 비용).",
+        "status": "matched",
+        "iou": 0.265
+      },
+      {
+        "id": "p1_right_r_06",
+        "mask_bbox": [
+          3141,
+          1207,
+          4030,
+          1299
+        ],
+        "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.",
+        "status": "matched",
+        "iou": 0.202
+      },
+      {
+        "id": "p1_right_r_07",
+        "mask_bbox": [
+          3160,
+          1340,
+          3987,
+          1495
+        ],
+        "text": "과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).",
+        "status": "matched",
+        "iou": 0.258
+      },
+      {
+        "id": "p1_right_r_08",
+        "mask_bbox": [
+          3152,
+          1514,
+          3972,
+          1632
+        ],
+        "text": "청사진 최대 2장 가져오기.",
+        "status": "no_ocr",
+        "iou": 0.145
+      },
+      {
+        "id": "p1_right_r_09",
+        "mask_bbox": [
+          3137,
+          1670,
+          4000,
+          1981
+        ],
+        "text": "창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.",
+        "status": "no_ocr",
+        "iou": 0.062
+      },
+      {
+        "id": "p1_right_r_10",
+        "mask_bbox": [
+          3153,
+          1987,
+          3845,
+          2086
+        ],
+        "text": "크리스탈 3개 획득.",
+        "status": "no_ocr",
+        "iou": 0.141
+      },
+      {
+        "id": "p1_right_r_11",
+        "mask_bbox": [
+          3149,
+          2139,
+          3986,
+          2250
+        ],
+        "text": "표시된 종류·수량의 자원 획득.",
+        "status": "no_ocr",
+        "iou": 0.16
+      },
+      {
+        "id": "p1_right_r_12",
+        "mask_bbox": [
+          3148,
+          2310,
+          3980,
+          2387
+        ],
+        "text": "테크 타일 1장 획득(정상 비용).",
+        "status": "matched",
+        "iou": 0.261
+      }
+    ]
+  }
+}
