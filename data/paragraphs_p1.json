@@ -593,34 +593,34 @@
       "id": "p1_right_l_02",
       "mask_bbox": [
         2763,
-        609,
+        655,
         3157,
         968
       ],
       "text_bbox": [
         2767,
-        613,
+        655,
         3153,
         964
       ],
-      "text": "LSS 보상\n이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
-      "style": "section_red_with_body",
+      "text": "이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임의 액션 칸에서 콜로니스트 1 회수.",
+      "style": "body",
       "align": "left",
       "type": "text",
-      "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임'"
+      "note": "[DISPLACEMENT/LSS column] 한글: 'LSS 보상 이동력 최대 2로 봇 이동, 크리스탈로 부스트. 작업장의 임' [split: body, title moved]"
     },
     {
       "id": "p1_right_l_04",
       "mask_bbox": [
-        2813,
+        2916,
         1204,
-        3149,
+        3413,
         1318
       ],
       "text_bbox": [
-        2801,
+        2916,
         1208,
-        3145,
+        3413,
         1314
       ],
       "text": "자기 최고 레벨 테크 타일과 같은 OP.",
@@ -632,15 +632,15 @@
     {
       "id": "p1_right_l_05",
       "mask_bbox": [
-        2906,
+        2916,
         1366,
-        3153,
+        3413,
         1470
       ],
       "text_bbox": [
-        2807,
+        2817,
         1368,
-        3149,
+        3409,
         1474
       ],
       "text": "격납고의 우주선 1대당 2 OP.",
@@ -652,15 +652,15 @@
     {
       "id": "p1_right_l_06",
       "mask_bbox": [
-        2905,
+        2916,
         1515,
-        3156,
+        3413,
         1629
       ],
       "text_bbox": [
-        2793,
+        2916,
         1519,
-        3152,
+        3413,
         1625
       ],
       "text": "화성에 보유한 고급 건물 마커 1개당 2 OP.",
@@ -672,15 +672,15 @@
     {
       "id": "p1_right_l_07",
       "mask_bbox": [
-        2906,
+        2916,
         1670,
-        3153,
+        3413,
         1780
       ],
       "text_bbox": [
-        2778,
+        2916,
         1674,
-        3149,
+        3413,
         1776
       ],
       "text": "콜로니스트/고급 건물 마커가 있는 자기 광산 1개당 2 OP.",
@@ -692,15 +692,15 @@
     {
       "id": "p1_right_l_08",
       "mask_bbox": [
-        2906,
+        2916,
         1836,
-        3153,
+        3413,
         1933
       ],
       "text_bbox": [
-        2805,
+        2916,
         1830,
-        3149,
+        3413,
         1936
       ],
       "text": "화성의 자기 봇 1대당 2 OP.",
@@ -712,15 +712,15 @@
     {
       "id": "p1_right_l_09",
       "mask_bbox": [
-        2905,
+        2916,
         1982,
-        3153,
+        3413,
         2110
       ],
       "text_bbox": [
-        2803,
+        2916,
         1985,
-        3149,
+        3413,
         2106
       ],
       "text": "자기 로버가 모은 발견 타일 1장당 2 OP.",
@@ -732,15 +732,15 @@
     {
       "id": "p1_right_l_10",
       "mask_bbox": [
-        2905,
+        2916,
         2141,
-        3153,
+        3413,
         2240
       ],
       "text_bbox": [
-        2807,
+        2916,
         2145,
-        3149,
+        3413,
         2236
       ],
       "text": "화성에 보유한 자기 셸터 1개당 2 OP.",
@@ -752,15 +752,15 @@
     {
       "id": "p1_right_l_11",
       "mask_bbox": [
-        2899,
+        2916,
         2300,
-        3150,
+        3413,
         2398
       ],
       "text_bbox": [
-        2788,
+        2916,
         2296,
-        3146,
+        3413,
         2395
       ],
       "text": "자기 거주구역의 콜로니스트 1명당 1 OP.",
@@ -768,6 +768,26 @@
       "align": "left",
       "type": "text",
       "note": "[DISPLACEMENT/LSS column] 한글: '자기 거주구역의 콜로니스트 1명당 1 OP.'"
+    },
+    {
+      "id": "p1_right_r_02_title",
+      "type": "text",
+      "mask_bbox": [
+        3375,
+        194,
+        3809,
+        235
+      ],
+      "text_bbox": [
+        3375,
+        194,
+        3809,
+        235
+      ],
+      "text": "변위 규칙",
+      "style": "section_red",
+      "align": "center",
+      "note": "split: title (DISPLACEMENT RULE)"
     },
     {
       "id": "p1_right_r_02",
@@ -783,64 +803,84 @@
         4003,
         548
       ],
-      "text": "변위 규칙\n봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은 색 소유의 빈 건물로. 콜로니스트 위에 짓는 경우 그 콜로니스트를 자기 거주구역으로.",
-      "style": "section_red_with_body",
+      "text": "봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈 육각칸 또는 같은 색 소유의 빈 건물로. 콜로니스트 위에 짓는 경우 그 콜로니스트를 자기 거주구역으로.",
+      "style": "body",
       "align": "left",
       "type": "text",
-      "note": "[DISCOVERY TILES column] 한글: '변위 규칙 봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈'"
+      "note": "[DISCOVERY TILES column] 한글: '변위 규칙 봇·로버 위에 짓거나 업그레이드하려면 그 말은 가장 가까운 빈' [split: body, title moved to p1_right_r_02_title]"
     },
     {
       "id": "p1_right_r_03",
       "mask_bbox": [
-        3131,
-        609,
-        4022,
+        3731,
+        655,
+        4031,
         859
       ],
       "text_bbox": [
-        3135,
-        613,
-        4018,
+        3735,
+        655,
+        4031,
         867
       ],
-      "text": "발견 타일\n테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
-      "style": "section_red_with_body",
+      "text": "테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용 없이 발전.",
+      "style": "body",
       "align": "left",
       "type": "text",
-      "note": "[DISCOVERY TILES column] 한글: '발견 타일 테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용'"
+      "note": "[DISCOVERY TILES column] 한글: '발견 타일 테크 타일 1장을 두 번 또는 서로 다른 2장을 한 번씩 비용' [split: body, title moved]"
     },
     {
       "id": "p1_right_r_04",
       "mask_bbox": [
         3265,
         878,
-        4021,
+        3420,
         1010
       ],
       "text_bbox": [
-        3159,
-        881,
-        4017,
-        1006
+        3265,
+        878,
+        3420,
+        1010
+      ],
+      "text": "",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.' [split: left half (LSS reward label area)]"
+    },
+    {
+      "id": "p1_right_r_04b",
+      "type": "text",
+      "mask_bbox": [
+        3590,
+        878,
+        4031,
+        1010
+      ],
+      "text_bbox": [
+        3590,
+        878,
+        4031,
+        1010
       ],
       "text": "표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.",
       "style": "body_xs",
       "align": "left",
-      "type": "text",
-      "note": "[DISCOVERY TILES column] 한글: '표시된 종류의 건물 건설(정상 비용). 콤플렉스라면 테크 필요.'"
+      "note": "split: right half (Discovery tile body)"
     },
     {
       "id": "p1_right_r_05",
       "mask_bbox": [
-        3571,
+        3590,
         1029,
-        3988,
+        4031,
         1184
       ],
       "text_bbox": [
-        3157,
+        3590,
         1033,
-        3984,
+        4031,
         1180
       ],
       "text": "건물 2개를 업그레이드(정상 비용).",
@@ -852,15 +892,15 @@
     {
       "id": "p1_right_r_06",
       "mask_bbox": [
-        3141,
+        3590,
         1207,
-        4030,
+        4031,
         1299
       ],
       "text_bbox": [
-        3145,
+        3590,
         1211,
-        4026,
+        4031,
         1304
       ],
       "text": "임의 종류 건물 건설(정상 비용). 크기 2 이상이면 테크 필요.",
@@ -872,15 +912,15 @@
     {
       "id": "p1_right_r_07",
       "mask_bbox": [
-        3160,
+        3590,
         1340,
-        3987,
+        4031,
         1495
       ],
       "text_bbox": [
-        3164,
+        3590,
         1344,
-        3983,
+        4031,
         1491
       ],
       "text": "과학자 카드 1장 채용 또는 지구 계약 1개(정상 비용).",
@@ -892,15 +932,15 @@
     {
       "id": "p1_right_r_08",
       "mask_bbox": [
-        3152,
+        3590,
         1514,
-        3972,
+        4031,
         1632
       ],
       "text_bbox": [
-        3156,
+        3590,
         1518,
-        3968,
+        4031,
         1628
       ],
       "text": "청사진 최대 2장 가져오기.",
@@ -912,35 +952,55 @@
     {
       "id": "p1_right_r_09",
       "mask_bbox": [
-        3137,
+        3590,
         1670,
-        4000,
+        4031,
+        1770
+      ],
+      "text_bbox": [
+        3590,
+        1670,
+        4031,
+        1770
+      ],
+      "text": "",
+      "style": "body_xs",
+      "align": "left",
+      "type": "text",
+      "note": "[DISCOVERY TILES column] 한글: '창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.' [split: paragraph 1 - Blueprints area]"
+    },
+    {
+      "id": "p1_right_r_09b",
+      "type": "text",
+      "mask_bbox": [
+        3590,
+        1770,
+        4031,
         1981
       ],
       "text_bbox": [
-        3141,
-        1674,
-        3996,
-        1977
+        3590,
+        1770,
+        4031,
+        1981
       ],
       "text": "창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.",
       "style": "body_xs",
       "align": "left",
-      "type": "text",
-      "note": "[DISCOVERY TILES column] 한글: '창고에서 자원/크리스탈 최대 2개를 자기 저장고/디포로.'"
+      "note": "split: paragraph 2 - Warehouse Resources/Crystals"
     },
     {
       "id": "p1_right_r_10",
       "mask_bbox": [
-        3153,
+        3590,
         1987,
-        3845,
+        4031,
         2086
       ],
       "text_bbox": [
-        3139,
+        3590,
         1991,
-        3841,
+        4031,
         2087
       ],
       "text": "크리스탈 3개 획득.",
@@ -952,15 +1012,15 @@
     {
       "id": "p1_right_r_11",
       "mask_bbox": [
-        3149,
+        3590,
         2139,
-        3986,
+        4031,
         2250
       ],
       "text_bbox": [
-        3150,
+        3590,
         2143,
-        3982,
+        4031,
         2246
       ],
       "text": "표시된 종류·수량의 자원 획득.",
@@ -972,15 +1032,15 @@
     {
       "id": "p1_right_r_12",
       "mask_bbox": [
-        3148,
+        3590,
         2310,
-        3980,
+        4031,
         2387
       ],
       "text_bbox": [
-        3152,
+        3590,
         2314,
-        3976,
+        4031,
         2383
       ],
       "text": "테크 타일 1장 획득(정상 비용).",
@@ -1813,6 +1873,46 @@
         2430
       ],
       "note": "[DISCOVERY TILES column] image region"
+    },
+    {
+      "id": "p1_right_l_02_title",
+      "type": "text",
+      "mask_bbox": [
+        2960,
+        610,
+        3265,
+        646
+      ],
+      "text_bbox": [
+        2960,
+        610,
+        3265,
+        646
+      ],
+      "text": "LSS 보상",
+      "style": "section_red",
+      "align": "center",
+      "note": "LSS REWARDS title"
+    },
+    {
+      "id": "p1_right_r_03_title",
+      "type": "text",
+      "mask_bbox": [
+        3528,
+        603,
+        3900,
+        653
+      ],
+      "text_bbox": [
+        3528,
+        603,
+        3900,
+        653
+      ],
+      "text": "발견 타일",
+      "style": "section_red",
+      "align": "center",
+      "note": "DISCOVERY TILES title"
     }
   ]
 }
