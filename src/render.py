@@ -124,7 +124,8 @@ def wrap(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
 
 
 def fit_text(text: str, style: Style, w: int, h: int) -> tuple[ImageFont.FreeTypeFont, list[str], int]:
-    """Use declared size; wrap to box width only. Tight line spacing (1.0)."""
+    """Use declared size; wrap to width only. Tight line spacing (0.9).
+    Caller is responsible for expanding the box vertically if needed."""
     size = style.size_px
     font = load_font(style.font_path, size)
     lines = wrap(text, font, w)
@@ -154,8 +155,10 @@ def render_region(canvas: Image.Image, draw: ImageDraw.ImageDraw, region: dict, 
     box_w = tx1 - tx0
     box_h = ty1 - ty0
 
-    if style.first_line and "\n" in text:
+    if (style.first_line and "\n" in text
+            and style.first_line.size_px != style.size_px):
         # Render the first line in the heading style, the rest in the body style.
+        # Skip when first_line is only used as inline-bold style (same size as body).
         first, rest = text.split("\n", 1)
         first_font = load_font(style.first_line.font_path, style.first_line.size_px)
         fl_w, _ = measure(first, first_font)
@@ -185,11 +188,36 @@ def render_region(canvas: Image.Image, draw: ImageDraw.ImageDraw, region: dict, 
         return
 
     font, lines, line_h = fit_text(text, style, box_w, box_h)
-    # Inline mixed-weight: if style declares first_line_style, bold-render any
-    # of the listed keywords wherever they appear (any line).
+
+    # Compute total visual height; if it exceeds box, expand the box DOWN
+    # and paint background to cover any EN ink in the expansion area.
+    total_h_needed = line_h * len(lines)
+    if total_h_needed > box_h:
+        new_y1 = ty0 + total_h_needed + 4
+        # Sample bg color from row above the original box
+        try:
+            base_arr = np.array(canvas)
+            samples = []
+            if ty0 - 4 >= 0:
+                samples.append(base_arr[ty0-4:ty0, tx0:tx1].reshape(-1, 3))
+            if samples:
+                allpx = np.concatenate(samples, axis=0)
+                lum = allpx.sum(axis=1)
+                light = allpx[lum > 600]
+                bg = np.median(light if len(light) > 30 else allpx, axis=0).astype(np.uint8)
+            else:
+                bg = np.array([250, 246, 242], dtype=np.uint8)
+            base_arr[ty1:new_y1, tx0:tx1] = bg
+            canvas.paste(Image.fromarray(base_arr))
+            draw = ImageDraw.Draw(canvas)
+        except Exception:
+            pass
+        ty1 = new_y1
+        box_h = ty1 - ty0
+
     bold_font = (load_font(style.first_line.font_path, style.first_line.size_px)
                  if style.first_line else None)
-    BOLD_KEYWORDS = ["고급 건물 액션", "부스트마다", "비용"]
+    BOLD_KEYWORDS = ["고급 건물 액션", "부스트마다", "비용", "획득:", "용도:", "그 외:"]
     nonempty_lines = [ln for ln in lines if ln]
     if nonempty_lines:
         sample_bbox = draw.textbbox((0, 0), nonempty_lines[0], font=font)

@@ -141,7 +141,16 @@
         0,
         0,
         0
-      ]
+      ],
+      "first_line_style": {
+        "font": "extrabold",
+        "size_px": 30,
+        "color": [
+          0,
+          0,
+          0
+        ]
+      }
     },
     "section_red_with_body": {
       "font": "regular",
